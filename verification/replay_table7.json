@@ -1,0 +1,56 @@
+[
+  {
+    "domain": "D1",
+    "concealed_count": 19,
+    "concealed_n": 39,
+    "concealed_pct": 48.7,
+    "disclosed_count": 19,
+    "disclosed_n": 39,
+    "disclosed_pct": 48.7
+  },
+  {
+    "domain": "D2",
+    "concealed_count": 28,
+    "concealed_n": 39,
+    "concealed_pct": 71.8,
+    "disclosed_count": 20,
+    "disclosed_n": 39,
+    "disclosed_pct": 51.3
+  },
+  {
+    "domain": "D3",
+    "concealed_count": 30,
+    "concealed_n": 39,
+    "concealed_pct": 76.9,
+    "disclosed_count": 16,
+    "disclosed_n": 39,
+    "disclosed_pct": 41.0
+  },
+  {
+    "domain": "D4",
+    "concealed_count": 39,
+    "concealed_n": 39,
+    "concealed_pct": 100.0,
+    "disclosed_count": 22,
+    "disclosed_n": 39,
+    "disclosed_pct": 56.4
+  },
+  {
+    "domain": "D5",
+    "concealed_count": 3,
+    "concealed_n": 39,
+    "concealed_pct": 7.7,
+    "disclosed_count": 1,
+    "disclosed_n": 39,
+    "disclosed_pct": 2.6
+  },
+  {
+    "domain": "D6",
+    "concealed_count": 39,
+    "concealed_n": 39,
+    "concealed_pct": 100.0,
+    "disclosed_count": 39,
+    "disclosed_n": 39,
+    "disclosed_pct": 100.0
+  }
+]

@@ -1,0 +1,19 @@
+# Harness (CPU, no GPU) — corpus, sandbox, scoring, stats, reference policies
+numpy>=1.24
+scipy>=1.10
+# LLM confirmatory study (client side; talks to the vLLM OpenAI endpoint)
+openai>=1.30
+pyyaml>=6.0
+# Optional: GLMM for the size x quant interaction (H2). DiD bootstrap is the fallback.
+statsmodels>=0.14
+pandas>=2.0
+
+# --- GPU side (install on the RunPod pod, not needed for the harness) ---
+# vllm>=0.6.2        # OpenAI-compatible server with tool-calling
+# autoawq            # only if quantising checkpoints yourself
+
+# Additional dependencies omitted in original declaration
+matplotlib>=3.7
+pytest>=7
+# New offline verification scripts use Python standard library only.
+# openpyxl is not required for anonymous CSV replay.

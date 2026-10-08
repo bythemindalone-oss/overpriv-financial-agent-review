@@ -1,0 +1,58 @@
+{
+  "primary_glmm": {
+    "contrast": "small vs large (14B excluded)",
+    "reference": "large",
+    "coef_small_logodds": {
+      "mean": 2.519,
+      "sd": 0.1,
+      "ci90": [
+        2.354,
+        2.684
+      ]
+    },
+    "odds_ratio_small": {
+      "mean": 12.42,
+      "ci90": [
+        10.53,
+        14.65
+      ]
+    },
+    "empirical_rate_small": 17.3,
+    "empirical_rate_large": 4.5,
+    "random_effects": [
+      "task_id (216)",
+      "model_base (8)"
+    ],
+    "H1_supported_ci90_excludes_0": true
+  },
+  "sensitivity_continuous_glmm": {
+    "predictor": "z(log2 params)",
+    "coef_logodds": {
+      "mean": -1.417,
+      "sd": 0.079,
+      "ci90": [
+        -1.547,
+        -1.288
+      ]
+    },
+    "note": "negative => larger models less over-privileged"
+  },
+  "triangulation_mcnemar_fp16": [
+    {
+      "contrast": "Qwen2.5 7B vs 32B (fp16)",
+      "RD": 0.111,
+      "h": 0.382,
+      "p": 1.1920928955078125e-07,
+      "b": 24,
+      "c": 0
+    },
+    {
+      "contrast": "Qwen3 8B vs 32B (fp16)",
+      "RD": 0.097,
+      "h": 0.353,
+      "p": 9.5367431640625e-07,
+      "b": 21,
+      "c": 0
+    }
+  ]
+}

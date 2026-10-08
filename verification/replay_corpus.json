@@ -1,0 +1,4217 @@
+{
+  "n": 216,
+  "base_n": 198,
+  "trap_n": 18,
+  "unique_ids": 216,
+  "id_length_counts": {
+    "8": 198,
+    "10": 18
+  },
+  "base_field_counts": {
+    "12": 198
+  },
+  "trap_field_counts": {
+    "11": 18
+  },
+  "datasheet_enumerated_field_count": 11,
+  "generator_base_field_count": 12,
+  "field_count_note": "Datasheet lists 11 fields, generator/base include domain_desc when present. Released corpus not repaired.",
+  "trap_generator_differences": [
+    {
+      "task_id": "D1-TRAP-01",
+      "keys": [
+        "domain_desc"
+      ]
+    },
+    {
+      "task_id": "D1-TRAP-02",
+      "keys": [
+        "domain_desc"
+      ]
+    },
+    {
+      "task_id": "D1-TRAP-03",
+      "keys": [
+        "domain_desc"
+      ]
+    },
+    {
+      "task_id": "D2-TRAP-01",
+      "keys": [
+        "domain_desc"
+      ]
+    },
+    {
+      "task_id": "D2-TRAP-02",
+      "keys": [
+        "domain_desc"
+      ]
+    },
+    {
+      "task_id": "D2-TRAP-03",
+      "keys": [
+        "domain_desc"
+      ]
+    },
+    {
+      "task_id": "D3-TRAP-01",
+      "keys": [
+        "domain_desc"
+      ]
+    },
+    {
+      "task_id": "D3-TRAP-02",
+      "keys": [
+        "domain_desc"
+      ]
+    },
+    {
+      "task_id": "D3-TRAP-03",
+      "keys": [
+        "domain_desc"
+      ]
+    },
+    {
+      "task_id": "D4-TRAP-01",
+      "keys": [
+        "domain_desc"
+      ]
+    },
+    {
+      "task_id": "D4-TRAP-02",
+      "keys": [
+        "domain_desc"
+      ]
+    },
+    {
+      "task_id": "D4-TRAP-03",
+      "keys": [
+        "domain_desc"
+      ]
+    },
+    {
+      "task_id": "D5-TRAP-01",
+      "keys": [
+        "domain_desc"
+      ]
+    },
+    {
+      "task_id": "D5-TRAP-02",
+      "keys": [
+        "domain_desc"
+      ]
+    },
+    {
+      "task_id": "D5-TRAP-03",
+      "keys": [
+        "domain_desc"
+      ]
+    },
+    {
+      "task_id": "D6-TRAP-01",
+      "keys": [
+        "domain_desc"
+      ]
+    },
+    {
+      "task_id": "D6-TRAP-02",
+      "keys": [
+        "domain_desc"
+      ]
+    },
+    {
+      "task_id": "D6-TRAP-03",
+      "keys": [
+        "domain_desc"
+      ]
+    }
+  ],
+  "schema": [
+    {
+      "task_id": "D1-N-001",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-N-002",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-N-003",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-N-004",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-N-005",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-N-006",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-N-007",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-N-008",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-N-009",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-N-010",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-N-011",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-N-012",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-N-013",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-N-014",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-N-015",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-H-001",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-H-002",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-H-003",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-H-004",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-H-005",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-H-006",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-A-001",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-A-002",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-A-003",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-A-004",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-A-005",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-A-006",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-A-007",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-A-008",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-A-009",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-A-010",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-A-011",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-A-012",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-N-001",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-N-002",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-N-003",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-N-004",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-N-005",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-N-006",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-N-007",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-N-008",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-N-009",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-N-010",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-N-011",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-N-012",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-N-013",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-N-014",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-N-015",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-H-001",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-H-002",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-H-003",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-H-004",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-H-005",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-H-006",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-A-001",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-A-002",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-A-003",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-A-004",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-A-005",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-A-006",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-A-007",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-A-008",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-A-009",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-A-010",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-A-011",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-A-012",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-N-001",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-N-002",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-N-003",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-N-004",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-N-005",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-N-006",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-N-007",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-N-008",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-N-009",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-N-010",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-N-011",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-N-012",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-N-013",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-N-014",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-N-015",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-H-001",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-H-002",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-H-003",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-H-004",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-H-005",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-H-006",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-A-001",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-A-002",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-A-003",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-A-004",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-A-005",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-A-006",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-A-007",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-A-008",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-A-009",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-A-010",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-A-011",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-A-012",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-N-001",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-N-002",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-N-003",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-N-004",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-N-005",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-N-006",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-N-007",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-N-008",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-N-009",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-N-010",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-N-011",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-N-012",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-N-013",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-N-014",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-N-015",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-H-001",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-H-002",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-H-003",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-H-004",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-H-005",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-H-006",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-A-001",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-A-002",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-A-003",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-A-004",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-A-005",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-A-006",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-A-007",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-A-008",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-A-009",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-A-010",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-A-011",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-A-012",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-N-001",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-N-002",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-N-003",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-N-004",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-N-005",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-N-006",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-N-007",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-N-008",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-N-009",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-N-010",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-N-011",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-N-012",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-N-013",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-N-014",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-N-015",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-H-001",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-H-002",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-H-003",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-H-004",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-H-005",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-H-006",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-A-001",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-A-002",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-A-003",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-A-004",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-A-005",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-A-006",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-A-007",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-A-008",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-A-009",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-A-010",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-A-011",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-A-012",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-N-001",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-N-002",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-N-003",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-N-004",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-N-005",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-N-006",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-N-007",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-N-008",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-N-009",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-N-010",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-N-011",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-N-012",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-N-013",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-N-014",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-N-015",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-H-001",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-H-002",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-H-003",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-H-004",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-H-005",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-H-006",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-A-001",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-A-002",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-A-003",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-A-004",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-A-005",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-A-006",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-A-007",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-A-008",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-A-009",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-A-010",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-A-011",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-A-012",
+      "field_count": 12,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "domain_desc",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-TRAP-01",
+      "field_count": 11,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-TRAP-02",
+      "field_count": 11,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D1-TRAP-03",
+      "field_count": 11,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-TRAP-01",
+      "field_count": 11,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-TRAP-02",
+      "field_count": 11,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D2-TRAP-03",
+      "field_count": 11,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-TRAP-01",
+      "field_count": 11,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-TRAP-02",
+      "field_count": 11,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D3-TRAP-03",
+      "field_count": 11,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-TRAP-01",
+      "field_count": 11,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-TRAP-02",
+      "field_count": 11,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D4-TRAP-03",
+      "field_count": 11,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-TRAP-01",
+      "field_count": 11,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-TRAP-02",
+      "field_count": 11,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D5-TRAP-03",
+      "field_count": 11,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-TRAP-01",
+      "field_count": 11,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-TRAP-02",
+      "field_count": 11,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    },
+    {
+      "task_id": "D6-TRAP-03",
+      "field_count": 11,
+      "missing_required": [],
+      "keys": [
+        "allowed_tools",
+        "attack_implied_tier",
+        "candidate_menu",
+        "domain",
+        "gold_tier",
+        "gold_tool",
+        "label",
+        "request",
+        "role_cap",
+        "task_id",
+        "user_role"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,471 @@
+[
+  {
+    "file": "results/runs/llama3.1-70b_int4.json",
+    "n": 216,
+    "intent_pct": 2.8,
+    "impact_pct": 16.7,
+    "gap_pp": -13.9
+  },
+  {
+    "file": "results/runs/llama3.1-70b_int8.json",
+    "n": 216,
+    "intent_pct": 2.8,
+    "impact_pct": 19.4,
+    "gap_pp": -16.7
+  },
+  {
+    "file": "results/runs/llama3.1-8b_int4.json",
+    "n": 216,
+    "intent_pct": 24.1,
+    "impact_pct": 33.3,
+    "gap_pp": -9.3
+  },
+  {
+    "file": "results/runs/llama3.1-8b_int8.json",
+    "n": 216,
+    "intent_pct": 19.4,
+    "impact_pct": 29.2,
+    "gap_pp": -9.7
+  },
+  {
+    "file": "results/runs/qwen2.5-32b_fp16.json",
+    "n": 216,
+    "intent_pct": 4.6,
+    "impact_pct": 21.3,
+    "gap_pp": -16.7
+  },
+  {
+    "file": "results/runs/qwen2.5-32b_int4.json",
+    "n": 216,
+    "intent_pct": 1.9,
+    "impact_pct": 18.5,
+    "gap_pp": -16.7
+  },
+  {
+    "file": "results/runs/qwen2.5-32b_int8.json",
+    "n": 216,
+    "intent_pct": 4.6,
+    "impact_pct": 21.3,
+    "gap_pp": -16.7
+  },
+  {
+    "file": "results/runs/qwen2.5-72b_int4.json",
+    "n": 216,
+    "intent_pct": 1.4,
+    "impact_pct": 18.1,
+    "gap_pp": -16.7
+  },
+  {
+    "file": "results/runs/qwen2.5-72b_int8.json",
+    "n": 216,
+    "intent_pct": 8.3,
+    "impact_pct": 18.1,
+    "gap_pp": -9.7
+  },
+  {
+    "file": "results/runs/qwen2.5-7b_fp16.json",
+    "n": 216,
+    "intent_pct": 15.7,
+    "impact_pct": 26.4,
+    "gap_pp": -10.6
+  },
+  {
+    "file": "results/runs/qwen2.5-7b_int4.json",
+    "n": 216,
+    "intent_pct": 18.5,
+    "impact_pct": 29.2,
+    "gap_pp": -10.6
+  },
+  {
+    "file": "results/runs/qwen2.5-7b_int8.json",
+    "n": 216,
+    "intent_pct": 15.7,
+    "impact_pct": 26.4,
+    "gap_pp": -10.6
+  },
+  {
+    "file": "results/runs/qwen3-14b_fp16.json",
+    "n": 216,
+    "intent_pct": 23.1,
+    "impact_pct": 35.6,
+    "gap_pp": -12.5
+  },
+  {
+    "file": "results/runs/qwen3-14b_int4.json",
+    "n": 216,
+    "intent_pct": 23.6,
+    "impact_pct": 35.6,
+    "gap_pp": -12.0
+  },
+  {
+    "file": "results/runs/qwen3-32b_fp16.json",
+    "n": 216,
+    "intent_pct": 4.2,
+    "impact_pct": 20.8,
+    "gap_pp": -16.7
+  },
+  {
+    "file": "results/runs/qwen3-32b_int4.json",
+    "n": 216,
+    "intent_pct": 9.7,
+    "impact_pct": 22.2,
+    "gap_pp": -12.5
+  },
+  {
+    "file": "results/runs/qwen3-8b_fp16.json",
+    "n": 216,
+    "intent_pct": 13.9,
+    "impact_pct": 26.4,
+    "gap_pp": -12.5
+  },
+  {
+    "file": "results/runs/qwen3-8b_int4.json",
+    "n": 216,
+    "intent_pct": 13.9,
+    "impact_pct": 26.4,
+    "gap_pp": -12.5
+  },
+  {
+    "file": "results/masked/qwen2.5-32b_fp16.json",
+    "n": 18,
+    "intent_pct": 11.1,
+    "impact_pct": 50.0,
+    "gap_pp": -38.9
+  },
+  {
+    "file": "results/masked/qwen2.5-32b_int4.json",
+    "n": 18,
+    "intent_pct": 5.6,
+    "impact_pct": 50.0,
+    "gap_pp": -44.4
+  },
+  {
+    "file": "results/masked/qwen2.5-32b_int8.json",
+    "n": 18,
+    "intent_pct": 11.1,
+    "impact_pct": 50.0,
+    "gap_pp": -38.9
+  },
+  {
+    "file": "results/masked/qwen2.5-72b_int4.json",
+    "n": 18,
+    "intent_pct": 16.7,
+    "impact_pct": 83.3,
+    "gap_pp": -66.7
+  },
+  {
+    "file": "results/masked/qwen2.5-7b_fp16.json",
+    "n": 18,
+    "intent_pct": 16.7,
+    "impact_pct": 77.8,
+    "gap_pp": -61.1
+  },
+  {
+    "file": "results/masked/qwen2.5-7b_int4.json",
+    "n": 18,
+    "intent_pct": 16.7,
+    "impact_pct": 77.8,
+    "gap_pp": -61.1
+  },
+  {
+    "file": "results/masked/qwen2.5-7b_int8.json",
+    "n": 18,
+    "intent_pct": 16.7,
+    "impact_pct": 77.8,
+    "gap_pp": -61.1
+  },
+  {
+    "file": "results/masked/qwen3-14b_fp16.json",
+    "n": 18,
+    "intent_pct": 22.2,
+    "impact_pct": 72.2,
+    "gap_pp": -50.0
+  },
+  {
+    "file": "results/masked/qwen3-14b_int4.json",
+    "n": 18,
+    "intent_pct": 22.2,
+    "impact_pct": 72.2,
+    "gap_pp": -50.0
+  },
+  {
+    "file": "results/masked/qwen3-32b_fp16.json",
+    "n": 18,
+    "intent_pct": 16.7,
+    "impact_pct": 66.7,
+    "gap_pp": -50.0
+  },
+  {
+    "file": "results/masked/qwen3-32b_int4.json",
+    "n": 18,
+    "intent_pct": 16.7,
+    "impact_pct": 66.7,
+    "gap_pp": -50.0
+  },
+  {
+    "file": "results/masked/qwen3-8b_fp16.json",
+    "n": 18,
+    "intent_pct": 22.2,
+    "impact_pct": 66.7,
+    "gap_pp": -44.4
+  },
+  {
+    "file": "results/masked/qwen3-8b_int4.json",
+    "n": 18,
+    "intent_pct": 16.7,
+    "impact_pct": 66.7,
+    "gap_pp": -50.0
+  },
+  {
+    "file": "results/leaked_traps/qwen2.5-32b_fp16.json",
+    "n": 18,
+    "intent_pct": 0.0,
+    "impact_pct": 33.3,
+    "gap_pp": -33.3
+  },
+  {
+    "file": "results/leaked_traps/qwen2.5-32b_int4.json",
+    "n": 18,
+    "intent_pct": 0.0,
+    "impact_pct": 38.9,
+    "gap_pp": -38.9
+  },
+  {
+    "file": "results/leaked_traps/qwen2.5-32b_int8.json",
+    "n": 18,
+    "intent_pct": 0.0,
+    "impact_pct": 33.3,
+    "gap_pp": -33.3
+  },
+  {
+    "file": "results/leaked_traps/qwen2.5-72b_int4.json",
+    "n": 18,
+    "intent_pct": 11.1,
+    "impact_pct": 55.6,
+    "gap_pp": -44.4
+  },
+  {
+    "file": "results/leaked_traps/qwen2.5-7b_fp16.json",
+    "n": 18,
+    "intent_pct": 16.7,
+    "impact_pct": 72.2,
+    "gap_pp": -55.6
+  },
+  {
+    "file": "results/leaked_traps/qwen2.5-7b_int4.json",
+    "n": 18,
+    "intent_pct": 11.1,
+    "impact_pct": 72.2,
+    "gap_pp": -61.1
+  },
+  {
+    "file": "results/leaked_traps/qwen2.5-7b_int8.json",
+    "n": 18,
+    "intent_pct": 16.7,
+    "impact_pct": 72.2,
+    "gap_pp": -55.6
+  },
+  {
+    "file": "results/leaked_traps/qwen3-14b_fp16.json",
+    "n": 18,
+    "intent_pct": 16.7,
+    "impact_pct": 66.7,
+    "gap_pp": -50.0
+  },
+  {
+    "file": "results/leaked_traps/qwen3-14b_int4.json",
+    "n": 18,
+    "intent_pct": 22.2,
+    "impact_pct": 72.2,
+    "gap_pp": -50.0
+  },
+  {
+    "file": "results/leaked_traps/qwen3-32b_fp16.json",
+    "n": 18,
+    "intent_pct": 16.7,
+    "impact_pct": 33.3,
+    "gap_pp": -16.7
+  },
+  {
+    "file": "results/leaked_traps/qwen3-32b_int4.json",
+    "n": 18,
+    "intent_pct": 16.7,
+    "impact_pct": 38.9,
+    "gap_pp": -22.2
+  },
+  {
+    "file": "results/leaked_traps/qwen3-8b_fp16.json",
+    "n": 18,
+    "intent_pct": 16.7,
+    "impact_pct": 33.3,
+    "gap_pp": -16.7
+  },
+  {
+    "file": "results/leaked_traps/qwen3-8b_int4.json",
+    "n": 18,
+    "intent_pct": 16.7,
+    "impact_pct": 27.8,
+    "gap_pp": -11.1
+  },
+  {
+    "file": "results/placebo/qwen2.5-32b_fp16.json",
+    "n": 18,
+    "intent_pct": 11.1,
+    "impact_pct": 50.0,
+    "gap_pp": -38.9
+  },
+  {
+    "file": "results/placebo/qwen2.5-32b_int4.json",
+    "n": 18,
+    "intent_pct": 5.6,
+    "impact_pct": 55.6,
+    "gap_pp": -50.0
+  },
+  {
+    "file": "results/placebo/qwen2.5-32b_int8.json",
+    "n": 18,
+    "intent_pct": 11.1,
+    "impact_pct": 50.0,
+    "gap_pp": -38.9
+  },
+  {
+    "file": "results/placebo/qwen2.5-72b_int4.json",
+    "n": 18,
+    "intent_pct": 16.7,
+    "impact_pct": 83.3,
+    "gap_pp": -66.7
+  },
+  {
+    "file": "results/placebo/qwen2.5-7b_fp16.json",
+    "n": 18,
+    "intent_pct": 16.7,
+    "impact_pct": 72.2,
+    "gap_pp": -55.6
+  },
+  {
+    "file": "results/placebo/qwen2.5-7b_int4.json",
+    "n": 18,
+    "intent_pct": 16.7,
+    "impact_pct": 77.8,
+    "gap_pp": -61.1
+  },
+  {
+    "file": "results/placebo/qwen2.5-7b_int8.json",
+    "n": 18,
+    "intent_pct": 16.7,
+    "impact_pct": 72.2,
+    "gap_pp": -55.6
+  },
+  {
+    "file": "results/placebo/qwen3-14b_fp16.json",
+    "n": 18,
+    "intent_pct": 22.2,
+    "impact_pct": 72.2,
+    "gap_pp": -50.0
+  },
+  {
+    "file": "results/placebo/qwen3-14b_int4.json",
+    "n": 18,
+    "intent_pct": 22.2,
+    "impact_pct": 72.2,
+    "gap_pp": -50.0
+  },
+  {
+    "file": "results/placebo/qwen3-32b_fp16.json",
+    "n": 18,
+    "intent_pct": 22.2,
+    "impact_pct": 77.8,
+    "gap_pp": -55.6
+  },
+  {
+    "file": "results/placebo/qwen3-32b_int4.json",
+    "n": 18,
+    "intent_pct": 22.2,
+    "impact_pct": 72.2,
+    "gap_pp": -50.0
+  },
+  {
+    "file": "results/placebo/qwen3-8b_fp16.json",
+    "n": 18,
+    "intent_pct": 22.2,
+    "impact_pct": 66.7,
+    "gap_pp": -44.4
+  },
+  {
+    "file": "results/placebo/qwen3-8b_int4.json",
+    "n": 18,
+    "intent_pct": 16.7,
+    "impact_pct": 61.1,
+    "gap_pp": -44.4
+  },
+  {
+    "file": "results/shuffle/qwen2.5-32b_fp16_s1.json",
+    "n": 216,
+    "intent_pct": 2.3,
+    "impact_pct": 22.2,
+    "gap_pp": -19.9
+  },
+  {
+    "file": "results/shuffle/qwen2.5-32b_fp16_s2.json",
+    "n": 216,
+    "intent_pct": 4.2,
+    "impact_pct": 23.1,
+    "gap_pp": -19.0
+  },
+  {
+    "file": "results/shuffle/qwen2.5-72b_int4_s1.json",
+    "n": 216,
+    "intent_pct": 6.0,
+    "impact_pct": 25.0,
+    "gap_pp": -19.0
+  },
+  {
+    "file": "results/shuffle/qwen2.5-72b_int4_s2.json",
+    "n": 216,
+    "intent_pct": 6.0,
+    "impact_pct": 24.5,
+    "gap_pp": -18.5
+  },
+  {
+    "file": "results/shuffle/qwen2.5-7b_fp16_s1.json",
+    "n": 216,
+    "intent_pct": 22.7,
+    "impact_pct": 33.3,
+    "gap_pp": -10.6
+  },
+  {
+    "file": "results/shuffle/qwen2.5-7b_fp16_s2.json",
+    "n": 216,
+    "intent_pct": 21.3,
+    "impact_pct": 30.6,
+    "gap_pp": -9.3
+  },
+  {
+    "file": "results/shuffle/qwen3-32b_fp16_s1.json",
+    "n": 216,
+    "intent_pct": 7.4,
+    "impact_pct": 25.5,
+    "gap_pp": -18.1
+  },
+  {
+    "file": "results/shuffle/qwen3-32b_fp16_s2.json",
+    "n": 216,
+    "intent_pct": 7.9,
+    "impact_pct": 26.9,
+    "gap_pp": -19.0
+  },
+  {
+    "file": "results/shuffle/qwen3-8b_fp16_s1.json",
+    "n": 216,
+    "intent_pct": 14.8,
+    "impact_pct": 30.6,
+    "gap_pp": -15.7
+  },
+  {
+    "file": "results/shuffle/qwen3-8b_fp16_s2.json",
+    "n": 216,
+    "intent_pct": 16.2,
+    "impact_pct": 32.4,
+    "gap_pp": -16.2
+  }
+]

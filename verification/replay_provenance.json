@@ -1,0 +1,98 @@
+[
+  {
+    "file": "results/provenance/qwen2.5-32b_fp16.json",
+    "cell": "qwen2.5-32b_fp16",
+    "captured_utc": "2026-08-30T02:46:52Z",
+    "hf_revision": "5ede1c97bbab6ce5cda5812749b4c0bdf79b18dd",
+    "claimed_dtype_quant": "fp16",
+    "hash_checks": {
+      "corpus_sha256": {
+        "reported": "f6e141a37eb240a9245df2ba92bbe0d94af77113b843e7a127d53e0213ebbc6e",
+        "actual": "f6e141a37eb240a9245df2ba92bbe0d94af77113b843e7a127d53e0213ebbc6e",
+        "match": true
+      },
+      "corpus_traps_sha256": {
+        "reported": "a4178c0ad4f624ba671cd710e962bdd526c47735d5f238804834c13a17c98375",
+        "actual": "7834269d1fa6d1a5842435d9b005603faf039665739becc0e7f950ad5cc20232",
+        "match": false
+      },
+      "result_sha256": {
+        "reported": "bb2d4685785b610e1bf95de79019c6017f9443d27e5312b35da441f48f613597",
+        "actual": "bb2d4685785b610e1bf95de79019c6017f9443d27e5312b35da441f48f613597",
+        "match": true
+      }
+    }
+  },
+  {
+    "file": "results/provenance/qwen2.5-32b_int8.json",
+    "cell": "qwen2.5-32b_int8",
+    "captured_utc": "2026-08-30T02:52:04Z",
+    "hf_revision": "eddc13f573fd3648cc8a4741fdf1b70e8d6fc5c1",
+    "claimed_dtype_quant": "int8",
+    "hash_checks": {
+      "corpus_sha256": {
+        "reported": "f6e141a37eb240a9245df2ba92bbe0d94af77113b843e7a127d53e0213ebbc6e",
+        "actual": "f6e141a37eb240a9245df2ba92bbe0d94af77113b843e7a127d53e0213ebbc6e",
+        "match": true
+      },
+      "corpus_traps_sha256": {
+        "reported": "a4178c0ad4f624ba671cd710e962bdd526c47735d5f238804834c13a17c98375",
+        "actual": "7834269d1fa6d1a5842435d9b005603faf039665739becc0e7f950ad5cc20232",
+        "match": false
+      },
+      "result_sha256": {
+        "reported": "5c7762f4d290a233ef54b2327e82195d4133cbb836b1c8edb0f52845d30341a6",
+        "actual": "5c7762f4d290a233ef54b2327e82195d4133cbb836b1c8edb0f52845d30341a6",
+        "match": true
+      }
+    }
+  },
+  {
+    "file": "results/provenance/qwen2.5-7b_fp16.json",
+    "cell": "qwen2.5-7b_fp16",
+    "captured_utc": "2026-08-30T02:03:54Z",
+    "hf_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "claimed_dtype_quant": "fp16",
+    "hash_checks": {
+      "corpus_sha256": {
+        "reported": "f6e141a37eb240a9245df2ba92bbe0d94af77113b843e7a127d53e0213ebbc6e",
+        "actual": "f6e141a37eb240a9245df2ba92bbe0d94af77113b843e7a127d53e0213ebbc6e",
+        "match": true
+      },
+      "corpus_traps_sha256": {
+        "reported": "a4178c0ad4f624ba671cd710e962bdd526c47735d5f238804834c13a17c98375",
+        "actual": "7834269d1fa6d1a5842435d9b005603faf039665739becc0e7f950ad5cc20232",
+        "match": false
+      },
+      "result_sha256": {
+        "reported": "4cd831530425d19ce50fa6deee533eb034d3035dbf78085542226a99e246bf5c",
+        "actual": "4cd831530425d19ce50fa6deee533eb034d3035dbf78085542226a99e246bf5c",
+        "match": true
+      }
+    }
+  },
+  {
+    "file": "results/provenance/qwen2.5-7b_int8.json",
+    "cell": "qwen2.5-7b_int8",
+    "captured_utc": "2026-08-30T02:05:58Z",
+    "hf_revision": "6711f2b6fc95545efe6018c469eca6832e28cefd",
+    "claimed_dtype_quant": "int8",
+    "hash_checks": {
+      "corpus_sha256": {
+        "reported": "f6e141a37eb240a9245df2ba92bbe0d94af77113b843e7a127d53e0213ebbc6e",
+        "actual": "f6e141a37eb240a9245df2ba92bbe0d94af77113b843e7a127d53e0213ebbc6e",
+        "match": true
+      },
+      "corpus_traps_sha256": {
+        "reported": "a4178c0ad4f624ba671cd710e962bdd526c47735d5f238804834c13a17c98375",
+        "actual": "7834269d1fa6d1a5842435d9b005603faf039665739becc0e7f950ad5cc20232",
+        "match": false
+      },
+      "result_sha256": {
+        "reported": "16694f785b1bb0eac9ba21ba4413fcfb21081481fb25d877a5f1aae09a2653ba",
+        "actual": "16694f785b1bb0eac9ba21ba4413fcfb21081481fb25d877a5f1aae09a2653ba",
+        "match": true
+      }
+    }
+  }
+]

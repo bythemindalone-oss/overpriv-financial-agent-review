@@ -1,0 +1,722 @@
+[
+  {
+    "config": "llama3.1-70b_int4",
+    "condition": "before_pre_correction",
+    "n": 18,
+    "refusals": 18,
+    "missing_impact": 18,
+    "missing_intent": 18,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "llama3.1-70b_int4",
+    "condition": "after_concealed",
+    "n": null,
+    "refusals": null,
+    "missing_impact": null,
+    "missing_intent": null,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "llama3.1-70b_int4",
+    "condition": "after_disclosed",
+    "n": null,
+    "refusals": null,
+    "missing_impact": null,
+    "missing_intent": null,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "llama3.1-70b_int4",
+    "condition": "after_placebo",
+    "n": null,
+    "refusals": null,
+    "missing_impact": null,
+    "missing_intent": null,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "llama3.1-70b_int8",
+    "condition": "before_pre_correction",
+    "n": 18,
+    "refusals": 18,
+    "missing_impact": 18,
+    "missing_intent": 18,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "llama3.1-70b_int8",
+    "condition": "after_concealed",
+    "n": null,
+    "refusals": null,
+    "missing_impact": null,
+    "missing_intent": null,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "llama3.1-70b_int8",
+    "condition": "after_disclosed",
+    "n": null,
+    "refusals": null,
+    "missing_impact": null,
+    "missing_intent": null,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "llama3.1-70b_int8",
+    "condition": "after_placebo",
+    "n": null,
+    "refusals": null,
+    "missing_impact": null,
+    "missing_intent": null,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "llama3.1-8b_int4",
+    "condition": "before_pre_correction",
+    "n": 18,
+    "refusals": 18,
+    "missing_impact": 18,
+    "missing_intent": 18,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "llama3.1-8b_int4",
+    "condition": "after_concealed",
+    "n": null,
+    "refusals": null,
+    "missing_impact": null,
+    "missing_intent": null,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "llama3.1-8b_int4",
+    "condition": "after_disclosed",
+    "n": null,
+    "refusals": null,
+    "missing_impact": null,
+    "missing_intent": null,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "llama3.1-8b_int4",
+    "condition": "after_placebo",
+    "n": null,
+    "refusals": null,
+    "missing_impact": null,
+    "missing_intent": null,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "llama3.1-8b_int8",
+    "condition": "before_pre_correction",
+    "n": 18,
+    "refusals": 18,
+    "missing_impact": 18,
+    "missing_intent": 18,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "llama3.1-8b_int8",
+    "condition": "after_concealed",
+    "n": null,
+    "refusals": null,
+    "missing_impact": null,
+    "missing_intent": null,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "llama3.1-8b_int8",
+    "condition": "after_disclosed",
+    "n": null,
+    "refusals": null,
+    "missing_impact": null,
+    "missing_intent": null,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "llama3.1-8b_int8",
+    "condition": "after_placebo",
+    "n": null,
+    "refusals": null,
+    "missing_impact": null,
+    "missing_intent": null,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-32b_fp16",
+    "condition": "before_pre_correction",
+    "n": 18,
+    "refusals": 18,
+    "missing_impact": 18,
+    "missing_intent": 18,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-32b_fp16",
+    "condition": "after_concealed",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-32b_fp16",
+    "condition": "after_disclosed",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-32b_fp16",
+    "condition": "after_placebo",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-32b_int4",
+    "condition": "before_pre_correction",
+    "n": 18,
+    "refusals": 18,
+    "missing_impact": 18,
+    "missing_intent": 18,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-32b_int4",
+    "condition": "after_concealed",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-32b_int4",
+    "condition": "after_disclosed",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-32b_int4",
+    "condition": "after_placebo",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-32b_int8",
+    "condition": "before_pre_correction",
+    "n": 18,
+    "refusals": 18,
+    "missing_impact": 18,
+    "missing_intent": 18,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-32b_int8",
+    "condition": "after_concealed",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-32b_int8",
+    "condition": "after_disclosed",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-32b_int8",
+    "condition": "after_placebo",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-72b_int4",
+    "condition": "before_pre_correction",
+    "n": 18,
+    "refusals": 18,
+    "missing_impact": 18,
+    "missing_intent": 18,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-72b_int4",
+    "condition": "after_concealed",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-72b_int4",
+    "condition": "after_disclosed",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-72b_int4",
+    "condition": "after_placebo",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-72b_int8",
+    "condition": "before_pre_correction",
+    "n": 18,
+    "refusals": 18,
+    "missing_impact": 18,
+    "missing_intent": 18,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-72b_int8",
+    "condition": "after_concealed",
+    "n": null,
+    "refusals": null,
+    "missing_impact": null,
+    "missing_intent": null,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-72b_int8",
+    "condition": "after_disclosed",
+    "n": null,
+    "refusals": null,
+    "missing_impact": null,
+    "missing_intent": null,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-72b_int8",
+    "condition": "after_placebo",
+    "n": null,
+    "refusals": null,
+    "missing_impact": null,
+    "missing_intent": null,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-7b_fp16",
+    "condition": "before_pre_correction",
+    "n": 18,
+    "refusals": 18,
+    "missing_impact": 18,
+    "missing_intent": 18,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-7b_fp16",
+    "condition": "after_concealed",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-7b_fp16",
+    "condition": "after_disclosed",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-7b_fp16",
+    "condition": "after_placebo",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-7b_int4",
+    "condition": "before_pre_correction",
+    "n": 18,
+    "refusals": 18,
+    "missing_impact": 18,
+    "missing_intent": 18,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-7b_int4",
+    "condition": "after_concealed",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-7b_int4",
+    "condition": "after_disclosed",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-7b_int4",
+    "condition": "after_placebo",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-7b_int8",
+    "condition": "before_pre_correction",
+    "n": 18,
+    "refusals": 18,
+    "missing_impact": 18,
+    "missing_intent": 18,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-7b_int8",
+    "condition": "after_concealed",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-7b_int8",
+    "condition": "after_disclosed",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen2.5-7b_int8",
+    "condition": "after_placebo",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen3-14b_fp16",
+    "condition": "before_pre_correction",
+    "n": 18,
+    "refusals": 18,
+    "missing_impact": 18,
+    "missing_intent": 18,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen3-14b_fp16",
+    "condition": "after_concealed",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen3-14b_fp16",
+    "condition": "after_disclosed",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen3-14b_fp16",
+    "condition": "after_placebo",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen3-14b_int4",
+    "condition": "before_pre_correction",
+    "n": 18,
+    "refusals": 18,
+    "missing_impact": 18,
+    "missing_intent": 18,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen3-14b_int4",
+    "condition": "after_concealed",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen3-14b_int4",
+    "condition": "after_disclosed",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen3-14b_int4",
+    "condition": "after_placebo",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen3-32b_fp16",
+    "condition": "before_pre_correction",
+    "n": 18,
+    "refusals": 18,
+    "missing_impact": 18,
+    "missing_intent": 18,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen3-32b_fp16",
+    "condition": "after_concealed",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen3-32b_fp16",
+    "condition": "after_disclosed",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen3-32b_fp16",
+    "condition": "after_placebo",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen3-32b_int4",
+    "condition": "before_pre_correction",
+    "n": 18,
+    "refusals": 18,
+    "missing_impact": 18,
+    "missing_intent": 18,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen3-32b_int4",
+    "condition": "after_concealed",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen3-32b_int4",
+    "condition": "after_disclosed",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen3-32b_int4",
+    "condition": "after_placebo",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen3-8b_fp16",
+    "condition": "before_pre_correction",
+    "n": 18,
+    "refusals": 18,
+    "missing_impact": 18,
+    "missing_intent": 18,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen3-8b_fp16",
+    "condition": "after_concealed",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen3-8b_fp16",
+    "condition": "after_disclosed",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen3-8b_fp16",
+    "condition": "after_placebo",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen3-8b_int4",
+    "condition": "before_pre_correction",
+    "n": 18,
+    "refusals": 18,
+    "missing_impact": 18,
+    "missing_intent": 18,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen3-8b_int4",
+    "condition": "after_concealed",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen3-8b_int4",
+    "condition": "after_disclosed",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  },
+  {
+    "config": "qwen3-8b_int4",
+    "condition": "after_placebo",
+    "n": 18,
+    "refusals": 0,
+    "missing_impact": 0,
+    "missing_intent": 0,
+    "actual_exception_count": null,
+    "note": "Refusal/no-call/unknown tool/caught exceptions conflated; exception logs absent."
+  }
+]

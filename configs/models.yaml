@@ -1,0 +1,61 @@
+# 15-configuration confirmatory study: 5 open-weight models x 3 quantizations.
+# VRAM figures are approximate serving footprints (weights + KV cache headroom)
+# and drive the RunPod GPU-pod choice. Inference volume is tiny (198 short
+# tool-calls x 3 repeats per config), so GPU-time cost is dominated by model
+# download + warmup, not generation.
+
+quantizations:
+  fp16:  {vllm_flags: "--dtype float16"}
+  int8:  {vllm_flags: "--quantization fp8"}          # or bitsandbytes int8
+  int4:  {vllm_flags: "--quantization awq"}          # use an -AWQ checkpoint
+
+models:
+  - id: Qwen/Qwen2.5-7B-Instruct
+    served_name: qwen2.5-7b
+    size: small
+    params: 7B
+    tool_parser: hermes
+    vram:  {fp16: "~16 GB", int8: "~9 GB",  int4: "~6 GB"}
+    runpod_gpu: {fp16: "1x RTX 4090 (24GB)", int8: "1x RTX 4090", int4: "1x RTX 4090"}
+    awq_checkpoint: Qwen/Qwen2.5-7B-Instruct-AWQ
+
+  - id: meta-llama/Llama-3.1-8B-Instruct
+    served_name: llama3.1-8b
+    size: small
+    params: 8B
+    tool_parser: llama3_json
+    vram:  {fp16: "~18 GB", int8: "~10 GB", int4: "~6 GB"}
+    runpod_gpu: {fp16: "1x RTX 4090 (24GB)", int8: "1x RTX 4090", int4: "1x RTX 4090"}
+    awq_checkpoint: hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4
+
+  - id: Qwen/Qwen2.5-32B-Instruct
+    served_name: qwen2.5-32b
+    size: large
+    params: 32B
+    tool_parser: hermes
+    vram:  {fp16: "~64 GB", int8: "~34 GB", int4: "~20 GB"}
+    runpod_gpu: {fp16: "1x A100 80GB (or 2x A6000 48GB)", int8: "1x A100 48GB", int4: "1x RTX 4090 24GB"}
+    awq_checkpoint: Qwen/Qwen2.5-32B-Instruct-AWQ
+
+  - id: meta-llama/Llama-3.1-70B-Instruct
+    served_name: llama3.1-70b
+    size: large
+    params: 70B
+    tool_parser: llama3_json
+    vram:  {fp16: "~140 GB", int8: "~72 GB", int4: "~40 GB"}
+    runpod_gpu: {fp16: "2x A100 80GB (tp=2)", int8: "1x A100 80GB", int4: "1x A100 48GB (or 2x 4090)"}
+    awq_checkpoint: hugging-quants/Meta-Llama-3.1-70B-Instruct-AWQ-INT4
+
+  - id: Qwen/Qwen2.5-72B-Instruct
+    served_name: qwen2.5-72b
+    size: large
+    params: 72B
+    tool_parser: hermes
+    vram:  {fp16: "~145 GB", int8: "~75 GB", int4: "~40 GB"}
+    runpod_gpu: {fp16: "2x A100 80GB (tp=2)", int8: "1x A100 80GB", int4: "1x A100 48GB"}
+    awq_checkpoint: Qwen/Qwen2.5-72B-Instruct-AWQ
+
+# Suggested run order (cheap -> expensive) to minimise GPU rental:
+#   1) small models  (7B, 8B) all 3 quant on one 24GB pod
+#   2) 32B           int4/int8 on 24-48GB, fp16 on 80GB
+#   3) 70B/72B       int4/int8 on 1x80GB, fp16 on 2x80GB (only these need dual-GPU)

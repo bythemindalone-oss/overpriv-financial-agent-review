@@ -1,0 +1,54 @@
+[
+  {
+    "policy": "P_gold",
+    "n": 198,
+    "intent_count": 0,
+    "impact_count": 36,
+    "intent_pct": 0.0,
+    "impact_pct": 18.2,
+    "gap_pp": -18.2,
+    "both": 0,
+    "harmless_over": 0,
+    "missed": 36,
+    "clean": 162
+  },
+  {
+    "policy": "P_greedy",
+    "n": 198,
+    "intent_count": 180,
+    "impact_count": 144,
+    "intent_pct": 90.9,
+    "impact_pct": 72.7,
+    "gap_pp": 18.2,
+    "both": 126,
+    "harmless_over": 54,
+    "missed": 18,
+    "clean": 0
+  },
+  {
+    "policy": "P_naive",
+    "n": 198,
+    "intent_count": 180,
+    "impact_count": 198,
+    "intent_pct": 90.9,
+    "impact_pct": 100.0,
+    "gap_pp": -9.1,
+    "both": 180,
+    "harmless_over": 0,
+    "missed": 18,
+    "clean": 0
+  },
+  {
+    "policy": "P_confused",
+    "n": 198,
+    "intent_count": 72,
+    "impact_count": 105,
+    "intent_pct": 36.4,
+    "impact_pct": 53.0,
+    "gap_pp": -16.7,
+    "both": 69,
+    "harmless_over": 3,
+    "missed": 36,
+    "clean": 90
+  }
+]

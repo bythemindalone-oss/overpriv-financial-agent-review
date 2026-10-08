@@ -1,0 +1,5861 @@
+[
+  {
+    "name": "base n",
+    "actual": 198,
+    "expected": 198,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "trap n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "unique task ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "released base matches generator",
+    "actual": true,
+    "expected": true,
+    "pass": true,
+    "scope": "generator"
+  },
+  {
+    "name": "labels",
+    "actual": {
+      "normal": 90,
+      "legit_high": 36,
+      "attack": 72
+    },
+    "expected": {
+      "normal": 90,
+      "legit_high": 36,
+      "attack": 72
+    },
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "gold tiers",
+    "actual": {
+      "1": 54,
+      "2": 75,
+      "3": 33,
+      "4": 18,
+      "5": 18
+    },
+    "expected": {
+      "1": 54,
+      "2": 75,
+      "3": 33,
+      "4": 18,
+      "5": 18
+    },
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "Tables3/4 P_gold",
+    "actual": [
+      198,
+      0.0,
+      18.2,
+      -18.2
+    ],
+    "expected": [
+      198,
+      0.0,
+      18.2,
+      -18.2
+    ],
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Tables3/4 P_greedy",
+    "actual": [
+      198,
+      90.9,
+      72.7,
+      18.2
+    ],
+    "expected": [
+      198,
+      90.9,
+      72.7,
+      18.2
+    ],
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Tables3/4 P_naive",
+    "actual": [
+      198,
+      90.9,
+      100.0,
+      -9.1
+    ],
+    "expected": [
+      198,
+      90.9,
+      100.0,
+      -9.1
+    ],
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Tables3/4 P_confused",
+    "actual": [
+      198,
+      36.4,
+      53.0,
+      -16.7
+    ],
+    "expected": [
+      198,
+      36.4,
+      53.0,
+      -16.7
+    ],
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "results/runs/llama3.1-70b_int4.json rows",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-70b_int4.json unique ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-70b_int4.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-70b_int4.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-70b_int4.json reported n",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-70b_int4.json refusals",
+    "actual": 71,
+    "expected": 71,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-70b_int4.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-70b_int4.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-70b_int4.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-70b_int8.json rows",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-70b_int8.json unique ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-70b_int8.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-70b_int8.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-70b_int8.json reported n",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-70b_int8.json refusals",
+    "actual": 73,
+    "expected": 73,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-70b_int8.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-70b_int8.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-70b_int8.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-8b_int4.json rows",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-8b_int4.json unique ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-8b_int4.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-8b_int4.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-8b_int4.json reported n",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-8b_int4.json refusals",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-8b_int4.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-8b_int4.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-8b_int4.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-8b_int8.json rows",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-8b_int8.json unique ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-8b_int8.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-8b_int8.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-8b_int8.json reported n",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-8b_int8.json refusals",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-8b_int8.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-8b_int8.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/llama3.1-8b_int8.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-32b_fp16.json rows",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-32b_fp16.json unique ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-32b_fp16.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-32b_fp16.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-32b_fp16.json reported n",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-32b_fp16.json refusals",
+    "actual": 61,
+    "expected": 61,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-32b_fp16.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-32b_fp16.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-32b_fp16.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-32b_int4.json rows",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-32b_int4.json unique ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-32b_int4.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-32b_int4.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-32b_int4.json reported n",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-32b_int4.json refusals",
+    "actual": 69,
+    "expected": 69,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-32b_int4.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-32b_int4.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-32b_int4.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-32b_int8.json rows",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-32b_int8.json unique ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-32b_int8.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-32b_int8.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-32b_int8.json reported n",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-32b_int8.json refusals",
+    "actual": 61,
+    "expected": 61,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-32b_int8.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-32b_int8.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-32b_int8.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-72b_int4.json rows",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-72b_int4.json unique ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-72b_int4.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-72b_int4.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-72b_int4.json reported n",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-72b_int4.json refusals",
+    "actual": 76,
+    "expected": 76,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-72b_int4.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-72b_int4.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-72b_int4.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-72b_int8.json rows",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-72b_int8.json unique ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-72b_int8.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-72b_int8.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-72b_int8.json reported n",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-72b_int8.json refusals",
+    "actual": 67,
+    "expected": 67,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-72b_int8.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-72b_int8.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-72b_int8.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-7b_fp16.json rows",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-7b_fp16.json unique ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-7b_fp16.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-7b_fp16.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-7b_fp16.json reported n",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-7b_fp16.json refusals",
+    "actual": 21,
+    "expected": 21,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-7b_fp16.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-7b_fp16.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-7b_fp16.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-7b_int4.json rows",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-7b_int4.json unique ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-7b_int4.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-7b_int4.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-7b_int4.json reported n",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-7b_int4.json refusals",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-7b_int4.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-7b_int4.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-7b_int4.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-7b_int8.json rows",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-7b_int8.json unique ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-7b_int8.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-7b_int8.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-7b_int8.json reported n",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-7b_int8.json refusals",
+    "actual": 21,
+    "expected": 21,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-7b_int8.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-7b_int8.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen2.5-7b_int8.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-14b_fp16.json rows",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-14b_fp16.json unique ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-14b_fp16.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-14b_fp16.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-14b_fp16.json reported n",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-14b_fp16.json refusals",
+    "actual": 26,
+    "expected": 26,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-14b_fp16.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-14b_fp16.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-14b_fp16.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-14b_int4.json rows",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-14b_int4.json unique ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-14b_int4.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-14b_int4.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-14b_int4.json reported n",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-14b_int4.json refusals",
+    "actual": 24,
+    "expected": 24,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-14b_int4.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-14b_int4.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-14b_int4.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-32b_fp16.json rows",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-32b_fp16.json unique ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-32b_fp16.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-32b_fp16.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-32b_fp16.json reported n",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-32b_fp16.json refusals",
+    "actual": 67,
+    "expected": 67,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-32b_fp16.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-32b_fp16.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-32b_fp16.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-32b_int4.json rows",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-32b_int4.json unique ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-32b_int4.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-32b_int4.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-32b_int4.json reported n",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-32b_int4.json refusals",
+    "actual": 58,
+    "expected": 58,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-32b_int4.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-32b_int4.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-32b_int4.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-8b_fp16.json rows",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-8b_fp16.json unique ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-8b_fp16.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-8b_fp16.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-8b_fp16.json reported n",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-8b_fp16.json refusals",
+    "actual": 35,
+    "expected": 35,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-8b_fp16.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-8b_fp16.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-8b_fp16.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-8b_int4.json rows",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-8b_int4.json unique ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-8b_int4.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-8b_int4.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-8b_int4.json reported n",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-8b_int4.json refusals",
+    "actual": 35,
+    "expected": 35,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-8b_int4.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-8b_int4.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/runs/qwen3-8b_int4.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-32b_fp16.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-32b_fp16.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-32b_fp16.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-32b_fp16.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-32b_fp16.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-32b_fp16.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-32b_fp16.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-32b_fp16.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-32b_fp16.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-32b_int4.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-32b_int4.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-32b_int4.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-32b_int4.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-32b_int4.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-32b_int4.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-32b_int4.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-32b_int4.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-32b_int4.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-32b_int8.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-32b_int8.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-32b_int8.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-32b_int8.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-32b_int8.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-32b_int8.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-32b_int8.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-32b_int8.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-32b_int8.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-72b_int4.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-72b_int4.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-72b_int4.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-72b_int4.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-72b_int4.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-72b_int4.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-72b_int4.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-72b_int4.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-72b_int4.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-7b_fp16.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-7b_fp16.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-7b_fp16.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-7b_fp16.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-7b_fp16.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-7b_fp16.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-7b_fp16.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-7b_fp16.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-7b_fp16.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-7b_int4.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-7b_int4.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-7b_int4.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-7b_int4.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-7b_int4.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-7b_int4.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-7b_int4.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-7b_int4.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-7b_int4.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-7b_int8.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-7b_int8.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-7b_int8.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-7b_int8.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-7b_int8.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-7b_int8.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-7b_int8.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-7b_int8.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen2.5-7b_int8.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-14b_fp16.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-14b_fp16.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-14b_fp16.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-14b_fp16.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-14b_fp16.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-14b_fp16.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-14b_fp16.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-14b_fp16.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-14b_fp16.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-14b_int4.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-14b_int4.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-14b_int4.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-14b_int4.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-14b_int4.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-14b_int4.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-14b_int4.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-14b_int4.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-14b_int4.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-32b_fp16.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-32b_fp16.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-32b_fp16.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-32b_fp16.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-32b_fp16.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-32b_fp16.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-32b_fp16.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-32b_fp16.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-32b_fp16.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-32b_int4.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-32b_int4.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-32b_int4.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-32b_int4.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-32b_int4.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-32b_int4.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-32b_int4.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-32b_int4.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-32b_int4.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-8b_fp16.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-8b_fp16.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-8b_fp16.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-8b_fp16.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-8b_fp16.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-8b_fp16.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-8b_fp16.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-8b_fp16.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-8b_fp16.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-8b_int4.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-8b_int4.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-8b_int4.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-8b_int4.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-8b_int4.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-8b_int4.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-8b_int4.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-8b_int4.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/masked/qwen3-8b_int4.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-32b_fp16.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-32b_fp16.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-32b_fp16.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-32b_fp16.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-32b_fp16.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-32b_fp16.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-32b_fp16.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-32b_fp16.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-32b_fp16.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-32b_int4.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-32b_int4.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-32b_int4.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-32b_int4.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-32b_int4.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-32b_int4.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-32b_int4.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-32b_int4.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-32b_int4.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-32b_int8.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-32b_int8.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-32b_int8.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-32b_int8.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-32b_int8.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-32b_int8.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-32b_int8.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-32b_int8.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-32b_int8.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-72b_int4.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-72b_int4.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-72b_int4.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-72b_int4.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-72b_int4.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-72b_int4.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-72b_int4.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-72b_int4.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-72b_int4.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-7b_fp16.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-7b_fp16.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-7b_fp16.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-7b_fp16.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-7b_fp16.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-7b_fp16.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-7b_fp16.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-7b_fp16.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-7b_fp16.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-7b_int4.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-7b_int4.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-7b_int4.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-7b_int4.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-7b_int4.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-7b_int4.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-7b_int4.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-7b_int4.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-7b_int4.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-7b_int8.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-7b_int8.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-7b_int8.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-7b_int8.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-7b_int8.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-7b_int8.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-7b_int8.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-7b_int8.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen2.5-7b_int8.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-14b_fp16.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-14b_fp16.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-14b_fp16.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-14b_fp16.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-14b_fp16.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-14b_fp16.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-14b_fp16.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-14b_fp16.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-14b_fp16.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-14b_int4.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-14b_int4.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-14b_int4.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-14b_int4.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-14b_int4.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-14b_int4.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-14b_int4.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-14b_int4.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-14b_int4.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-32b_fp16.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-32b_fp16.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-32b_fp16.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-32b_fp16.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-32b_fp16.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-32b_fp16.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-32b_fp16.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-32b_fp16.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-32b_fp16.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-32b_int4.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-32b_int4.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-32b_int4.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-32b_int4.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-32b_int4.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-32b_int4.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-32b_int4.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-32b_int4.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-32b_int4.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-8b_fp16.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-8b_fp16.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-8b_fp16.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-8b_fp16.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-8b_fp16.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-8b_fp16.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-8b_fp16.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-8b_fp16.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-8b_fp16.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-8b_int4.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-8b_int4.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-8b_int4.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-8b_int4.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-8b_int4.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-8b_int4.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-8b_int4.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-8b_int4.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/leaked_traps/qwen3-8b_int4.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-32b_fp16.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-32b_fp16.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-32b_fp16.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-32b_fp16.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-32b_fp16.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-32b_fp16.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-32b_fp16.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-32b_fp16.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-32b_fp16.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-32b_int4.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-32b_int4.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-32b_int4.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-32b_int4.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-32b_int4.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-32b_int4.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-32b_int4.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-32b_int4.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-32b_int4.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-32b_int8.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-32b_int8.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-32b_int8.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-32b_int8.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-32b_int8.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-32b_int8.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-32b_int8.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-32b_int8.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-32b_int8.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-72b_int4.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-72b_int4.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-72b_int4.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-72b_int4.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-72b_int4.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-72b_int4.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-72b_int4.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-72b_int4.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-72b_int4.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-7b_fp16.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-7b_fp16.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-7b_fp16.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-7b_fp16.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-7b_fp16.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-7b_fp16.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-7b_fp16.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-7b_fp16.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-7b_fp16.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-7b_int4.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-7b_int4.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-7b_int4.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-7b_int4.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-7b_int4.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-7b_int4.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-7b_int4.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-7b_int4.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-7b_int4.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-7b_int8.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-7b_int8.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-7b_int8.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-7b_int8.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-7b_int8.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-7b_int8.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-7b_int8.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-7b_int8.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen2.5-7b_int8.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-14b_fp16.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-14b_fp16.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-14b_fp16.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-14b_fp16.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-14b_fp16.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-14b_fp16.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-14b_fp16.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-14b_fp16.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-14b_fp16.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-14b_int4.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-14b_int4.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-14b_int4.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-14b_int4.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-14b_int4.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-14b_int4.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-14b_int4.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-14b_int4.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-14b_int4.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-32b_fp16.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-32b_fp16.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-32b_fp16.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-32b_fp16.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-32b_fp16.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-32b_fp16.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-32b_fp16.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-32b_fp16.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-32b_fp16.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-32b_int4.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-32b_int4.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-32b_int4.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-32b_int4.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-32b_int4.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-32b_int4.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-32b_int4.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-32b_int4.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-32b_int4.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-8b_fp16.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-8b_fp16.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-8b_fp16.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-8b_fp16.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-8b_fp16.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-8b_fp16.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-8b_fp16.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-8b_fp16.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-8b_fp16.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-8b_int4.json rows",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-8b_int4.json unique ids",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-8b_int4.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-8b_int4.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-8b_int4.json reported n",
+    "actual": 18,
+    "expected": 18,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-8b_int4.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-8b_int4.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-8b_int4.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/placebo/qwen3-8b_int4.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-32b_fp16_s1.json rows",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-32b_fp16_s1.json unique ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-32b_fp16_s1.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-32b_fp16_s1.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-32b_fp16_s1.json reported n",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-32b_fp16_s1.json refusals",
+    "actual": 41,
+    "expected": 41,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-32b_fp16_s1.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-32b_fp16_s1.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-32b_fp16_s1.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-32b_fp16_s2.json rows",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-32b_fp16_s2.json unique ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-32b_fp16_s2.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-32b_fp16_s2.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-32b_fp16_s2.json reported n",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-32b_fp16_s2.json refusals",
+    "actual": 38,
+    "expected": 38,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-32b_fp16_s2.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-32b_fp16_s2.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-32b_fp16_s2.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-72b_int4_s1.json rows",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-72b_int4_s1.json unique ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-72b_int4_s1.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-72b_int4_s1.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-72b_int4_s1.json reported n",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-72b_int4_s1.json refusals",
+    "actual": 45,
+    "expected": 45,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-72b_int4_s1.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-72b_int4_s1.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-72b_int4_s1.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-72b_int4_s2.json rows",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-72b_int4_s2.json unique ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-72b_int4_s2.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-72b_int4_s2.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-72b_int4_s2.json reported n",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-72b_int4_s2.json refusals",
+    "actual": 48,
+    "expected": 48,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-72b_int4_s2.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-72b_int4_s2.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-72b_int4_s2.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-7b_fp16_s1.json rows",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-7b_fp16_s1.json unique ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-7b_fp16_s1.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-7b_fp16_s1.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-7b_fp16_s1.json reported n",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-7b_fp16_s1.json refusals",
+    "actual": 1,
+    "expected": 1,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-7b_fp16_s1.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-7b_fp16_s1.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-7b_fp16_s1.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-7b_fp16_s2.json rows",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-7b_fp16_s2.json unique ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-7b_fp16_s2.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-7b_fp16_s2.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-7b_fp16_s2.json reported n",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-7b_fp16_s2.json refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-7b_fp16_s2.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-7b_fp16_s2.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen2.5-7b_fp16_s2.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-32b_fp16_s1.json rows",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-32b_fp16_s1.json unique ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-32b_fp16_s1.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-32b_fp16_s1.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-32b_fp16_s1.json reported n",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-32b_fp16_s1.json refusals",
+    "actual": 44,
+    "expected": 44,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-32b_fp16_s1.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-32b_fp16_s1.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-32b_fp16_s1.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-32b_fp16_s2.json rows",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-32b_fp16_s2.json unique ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-32b_fp16_s2.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-32b_fp16_s2.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-32b_fp16_s2.json reported n",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-32b_fp16_s2.json refusals",
+    "actual": 43,
+    "expected": 43,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-32b_fp16_s2.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-32b_fp16_s2.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-32b_fp16_s2.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-8b_fp16_s1.json rows",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-8b_fp16_s1.json unique ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-8b_fp16_s1.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-8b_fp16_s1.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-8b_fp16_s1.json reported n",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-8b_fp16_s1.json refusals",
+    "actual": 16,
+    "expected": 16,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-8b_fp16_s1.json mean reproduction",
+    "actual": 1.0,
+    "expected": 1.0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-8b_fp16_s1.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-8b_fp16_s1.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-8b_fp16_s2.json rows",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-8b_fp16_s2.json unique ids",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-8b_fp16_s2.json coverage",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-8b_fp16_s2.json schema",
+    "actual": [],
+    "expected": [],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-8b_fp16_s2.json reported n",
+    "actual": 216,
+    "expected": 216,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-8b_fp16_s2.json refusals",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-8b_fp16_s2.json mean reproduction",
+    "actual": 0.998,
+    "expected": 0.998,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-8b_fp16_s2.json saved metrics",
+    "actual": {},
+    "expected": {},
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "results/shuffle/qwen3-8b_fp16_s2.json claimed three repeats",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "raw intent/impact mismatch count",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "Table6 corrected configs",
+    "actual": 13,
+    "expected": 13,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table6 7B FP16 OPUR count",
+    "actual": 37,
+    "expected": 37,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "n12 concealed qwen2.5-32b_fp16",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay concealed qwen2.5-32b_fp16",
+    "actual": 9,
+    "expected": 9,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 concealed qwen2.5-32b_int4",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay concealed qwen2.5-32b_int4",
+    "actual": 9,
+    "expected": 9,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 concealed qwen2.5-32b_int8",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay concealed qwen2.5-32b_int8",
+    "actual": 9,
+    "expected": 9,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 concealed qwen2.5-72b_int4",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay concealed qwen2.5-72b_int4",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 concealed qwen2.5-7b_fp16",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay concealed qwen2.5-7b_fp16",
+    "actual": 11,
+    "expected": 11,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 concealed qwen2.5-7b_int4",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay concealed qwen2.5-7b_int4",
+    "actual": 11,
+    "expected": 11,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 concealed qwen2.5-7b_int8",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay concealed qwen2.5-7b_int8",
+    "actual": 11,
+    "expected": 11,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 concealed qwen3-14b_fp16",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay concealed qwen3-14b_fp16",
+    "actual": 9,
+    "expected": 9,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 concealed qwen3-14b_int4",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay concealed qwen3-14b_int4",
+    "actual": 9,
+    "expected": 9,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 concealed qwen3-32b_fp16",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay concealed qwen3-32b_fp16",
+    "actual": 9,
+    "expected": 9,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 concealed qwen3-32b_int4",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay concealed qwen3-32b_int4",
+    "actual": 9,
+    "expected": 9,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 concealed qwen3-8b_fp16",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay concealed qwen3-8b_fp16",
+    "actual": 8,
+    "expected": 8,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 concealed qwen3-8b_int4",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay concealed qwen3-8b_int4",
+    "actual": 9,
+    "expected": 9,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary concealed",
+    "actual": 80.1,
+    "expected": 80.1,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "n12 disclosed qwen2.5-32b_fp16",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay disclosed qwen2.5-32b_fp16",
+    "actual": 6,
+    "expected": 6,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 disclosed qwen2.5-32b_int4",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay disclosed qwen2.5-32b_int4",
+    "actual": 7,
+    "expected": 7,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 disclosed qwen2.5-32b_int8",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay disclosed qwen2.5-32b_int8",
+    "actual": 6,
+    "expected": 6,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 disclosed qwen2.5-72b_int4",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay disclosed qwen2.5-72b_int4",
+    "actual": 9,
+    "expected": 9,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 disclosed qwen2.5-7b_fp16",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay disclosed qwen2.5-7b_fp16",
+    "actual": 10,
+    "expected": 10,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 disclosed qwen2.5-7b_int4",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay disclosed qwen2.5-7b_int4",
+    "actual": 11,
+    "expected": 11,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 disclosed qwen2.5-7b_int8",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay disclosed qwen2.5-7b_int8",
+    "actual": 10,
+    "expected": 10,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 disclosed qwen3-14b_fp16",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay disclosed qwen3-14b_fp16",
+    "actual": 9,
+    "expected": 9,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 disclosed qwen3-14b_int4",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay disclosed qwen3-14b_int4",
+    "actual": 9,
+    "expected": 9,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 disclosed qwen3-32b_fp16",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay disclosed qwen3-32b_fp16",
+    "actual": 6,
+    "expected": 6,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 disclosed qwen3-32b_int4",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay disclosed qwen3-32b_int4",
+    "actual": 6,
+    "expected": 6,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 disclosed qwen3-8b_fp16",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay disclosed qwen3-8b_fp16",
+    "actual": 6,
+    "expected": 6,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 disclosed qwen3-8b_int4",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay disclosed qwen3-8b_int4",
+    "actual": 5,
+    "expected": 5,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary disclosed",
+    "actual": 64.1,
+    "expected": 64.1,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "n12 placebo qwen2.5-32b_fp16",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay placebo qwen2.5-32b_fp16",
+    "actual": 9,
+    "expected": 9,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 placebo qwen2.5-32b_int4",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay placebo qwen2.5-32b_int4",
+    "actual": 9,
+    "expected": 9,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 placebo qwen2.5-32b_int8",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay placebo qwen2.5-32b_int8",
+    "actual": 9,
+    "expected": 9,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 placebo qwen2.5-72b_int4",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay placebo qwen2.5-72b_int4",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 placebo qwen2.5-7b_fp16",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay placebo qwen2.5-7b_fp16",
+    "actual": 10,
+    "expected": 10,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 placebo qwen2.5-7b_int4",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay placebo qwen2.5-7b_int4",
+    "actual": 11,
+    "expected": 11,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 placebo qwen2.5-7b_int8",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay placebo qwen2.5-7b_int8",
+    "actual": 10,
+    "expected": 10,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 placebo qwen3-14b_fp16",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay placebo qwen3-14b_fp16",
+    "actual": 9,
+    "expected": 9,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 placebo qwen3-14b_int4",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay placebo qwen3-14b_int4",
+    "actual": 9,
+    "expected": 9,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 placebo qwen3-32b_fp16",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay placebo qwen3-32b_fp16",
+    "actual": 10,
+    "expected": 10,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 placebo qwen3-32b_int4",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay placebo qwen3-32b_int4",
+    "actual": 9,
+    "expected": 9,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 placebo qwen3-8b_fp16",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay placebo qwen3-8b_fp16",
+    "actual": 8,
+    "expected": 8,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "n12 placebo qwen3-8b_int4",
+    "actual": 12,
+    "expected": 12,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary raw replay placebo qwen3-8b_int4",
+    "actual": 8,
+    "expected": 8,
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "primary placebo",
+    "actual": 78.8,
+    "expected": 78.8,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table7 D1",
+    "actual": [
+      48.7,
+      48.7
+    ],
+    "expected": [
+      48.7,
+      48.7
+    ],
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table7 D2",
+    "actual": [
+      71.8,
+      51.3
+    ],
+    "expected": [
+      71.8,
+      51.3
+    ],
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table7 D3",
+    "actual": [
+      76.9,
+      41.0
+    ],
+    "expected": [
+      76.9,
+      41.0
+    ],
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table7 D4",
+    "actual": [
+      100.0,
+      56.4
+    ],
+    "expected": [
+      100.0,
+      56.4
+    ],
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table7 D5",
+    "actual": [
+      7.7,
+      2.6
+    ],
+    "expected": [
+      7.7,
+      2.6
+    ],
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table7 D6",
+    "actual": [
+      100.0,
+      100.0
+    ],
+    "expected": [
+      100.0,
+      100.0
+    ],
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "sign positive",
+    "actual": 10,
+    "expected": 10,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "sign tie",
+    "actual": 3,
+    "expected": 3,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "sign two_sided_p",
+    "actual": 0.001953125,
+    "expected": 0.001953125,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 llama3.1-70b_int4 normal_n",
+    "actual": 90,
+    "expected": 90,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 llama3.1-70b_int4 legit_high_n",
+    "actual": 36,
+    "expected": 36,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 llama3.1-70b_int4 attack_n",
+    "actual": 72,
+    "expected": 72,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 llama3.1-70b_int4 normal_gold_pct",
+    "actual": 100.0,
+    "expected": 100.0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 llama3.1-70b_int4 normal_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 llama3.1-70b_int4 legit_high_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 llama3.1-70b_int8 normal_n",
+    "actual": 90,
+    "expected": 90,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 llama3.1-70b_int8 legit_high_n",
+    "actual": 36,
+    "expected": 36,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 llama3.1-70b_int8 attack_n",
+    "actual": 72,
+    "expected": 72,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 llama3.1-70b_int8 normal_gold_pct",
+    "actual": 100.0,
+    "expected": 100.0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 llama3.1-70b_int8 normal_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 llama3.1-70b_int8 legit_high_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 llama3.1-8b_int4 normal_n",
+    "actual": 90,
+    "expected": 90,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 llama3.1-8b_int4 legit_high_n",
+    "actual": 36,
+    "expected": 36,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 llama3.1-8b_int4 attack_n",
+    "actual": 72,
+    "expected": 72,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 llama3.1-8b_int4 normal_gold_pct",
+    "actual": 100.0,
+    "expected": 100.0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 llama3.1-8b_int4 normal_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 llama3.1-8b_int4 legit_high_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 llama3.1-8b_int8 normal_n",
+    "actual": 90,
+    "expected": 90,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 llama3.1-8b_int8 legit_high_n",
+    "actual": 36,
+    "expected": 36,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 llama3.1-8b_int8 attack_n",
+    "actual": 72,
+    "expected": 72,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 llama3.1-8b_int8 normal_gold_pct",
+    "actual": 100.0,
+    "expected": 100.0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 llama3.1-8b_int8 normal_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 llama3.1-8b_int8 legit_high_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-32b_fp16 normal_n",
+    "actual": 90,
+    "expected": 90,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-32b_fp16 legit_high_n",
+    "actual": 36,
+    "expected": 36,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-32b_fp16 attack_n",
+    "actual": 72,
+    "expected": 72,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-32b_fp16 normal_gold_pct",
+    "actual": 100.0,
+    "expected": 100.0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-32b_fp16 normal_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-32b_fp16 legit_high_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-32b_int4 normal_n",
+    "actual": 90,
+    "expected": 90,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-32b_int4 legit_high_n",
+    "actual": 36,
+    "expected": 36,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-32b_int4 attack_n",
+    "actual": 72,
+    "expected": 72,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-32b_int4 normal_gold_pct",
+    "actual": 100.0,
+    "expected": 100.0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-32b_int4 normal_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-32b_int4 legit_high_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-32b_int8 normal_n",
+    "actual": 90,
+    "expected": 90,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-32b_int8 legit_high_n",
+    "actual": 36,
+    "expected": 36,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-32b_int8 attack_n",
+    "actual": 72,
+    "expected": 72,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-32b_int8 normal_gold_pct",
+    "actual": 100.0,
+    "expected": 100.0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-32b_int8 normal_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-32b_int8 legit_high_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-72b_int4 normal_n",
+    "actual": 90,
+    "expected": 90,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-72b_int4 legit_high_n",
+    "actual": 36,
+    "expected": 36,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-72b_int4 attack_n",
+    "actual": 72,
+    "expected": 72,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-72b_int4 normal_gold_pct",
+    "actual": 100.0,
+    "expected": 100.0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-72b_int4 normal_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-72b_int4 legit_high_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-72b_int8 normal_n",
+    "actual": 90,
+    "expected": 90,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-72b_int8 legit_high_n",
+    "actual": 36,
+    "expected": 36,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-72b_int8 attack_n",
+    "actual": 72,
+    "expected": 72,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-72b_int8 normal_gold_pct",
+    "actual": 100.0,
+    "expected": 100.0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-72b_int8 normal_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-72b_int8 legit_high_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-7b_fp16 normal_n",
+    "actual": 90,
+    "expected": 90,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-7b_fp16 legit_high_n",
+    "actual": 36,
+    "expected": 36,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-7b_fp16 attack_n",
+    "actual": 72,
+    "expected": 72,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-7b_fp16 normal_gold_pct",
+    "actual": 100.0,
+    "expected": 100.0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-7b_fp16 normal_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-7b_fp16 legit_high_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-7b_int4 normal_n",
+    "actual": 90,
+    "expected": 90,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-7b_int4 legit_high_n",
+    "actual": 36,
+    "expected": 36,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-7b_int4 attack_n",
+    "actual": 72,
+    "expected": 72,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-7b_int4 normal_gold_pct",
+    "actual": 100.0,
+    "expected": 100.0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-7b_int4 normal_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-7b_int4 legit_high_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-7b_int8 normal_n",
+    "actual": 90,
+    "expected": 90,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-7b_int8 legit_high_n",
+    "actual": 36,
+    "expected": 36,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-7b_int8 attack_n",
+    "actual": 72,
+    "expected": 72,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-7b_int8 normal_gold_pct",
+    "actual": 100.0,
+    "expected": 100.0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-7b_int8 normal_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen2.5-7b_int8 legit_high_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-14b_fp16 normal_n",
+    "actual": 90,
+    "expected": 90,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-14b_fp16 legit_high_n",
+    "actual": 36,
+    "expected": 36,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-14b_fp16 attack_n",
+    "actual": 72,
+    "expected": 72,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-14b_fp16 normal_gold_pct",
+    "actual": 100.0,
+    "expected": 100.0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-14b_fp16 normal_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-14b_fp16 legit_high_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-14b_int4 normal_n",
+    "actual": 90,
+    "expected": 90,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-14b_int4 legit_high_n",
+    "actual": 36,
+    "expected": 36,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-14b_int4 attack_n",
+    "actual": 72,
+    "expected": 72,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-14b_int4 normal_gold_pct",
+    "actual": 100.0,
+    "expected": 100.0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-14b_int4 normal_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-14b_int4 legit_high_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-32b_fp16 normal_n",
+    "actual": 90,
+    "expected": 90,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-32b_fp16 legit_high_n",
+    "actual": 36,
+    "expected": 36,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-32b_fp16 attack_n",
+    "actual": 72,
+    "expected": 72,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-32b_fp16 normal_gold_pct",
+    "actual": 100.0,
+    "expected": 100.0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-32b_fp16 normal_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-32b_fp16 legit_high_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-32b_int4 normal_n",
+    "actual": 90,
+    "expected": 90,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-32b_int4 legit_high_n",
+    "actual": 36,
+    "expected": 36,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-32b_int4 attack_n",
+    "actual": 72,
+    "expected": 72,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-32b_int4 normal_gold_pct",
+    "actual": 100.0,
+    "expected": 100.0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-32b_int4 normal_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-32b_int4 legit_high_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-8b_fp16 normal_n",
+    "actual": 90,
+    "expected": 90,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-8b_fp16 legit_high_n",
+    "actual": 36,
+    "expected": 36,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-8b_fp16 attack_n",
+    "actual": 72,
+    "expected": 72,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-8b_fp16 normal_gold_pct",
+    "actual": 100.0,
+    "expected": 100.0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-8b_fp16 normal_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-8b_fp16 legit_high_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-8b_int4 normal_n",
+    "actual": 90,
+    "expected": 90,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-8b_int4 legit_high_n",
+    "actual": 36,
+    "expected": 36,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-8b_int4 attack_n",
+    "actual": 72,
+    "expected": 72,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-8b_int4 normal_gold_pct",
+    "actual": 100.0,
+    "expected": 100.0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-8b_int4 normal_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "Table9 qwen3-8b_int4 legit_high_refusals",
+    "actual": 0,
+    "expected": 0,
+    "pass": true,
+    "scope": "paper comparison"
+  },
+  {
+    "name": "shuffle two seeds qwen2.5-32b_fp16",
+    "actual": [
+      1,
+      2
+    ],
+    "expected": [
+      1,
+      2
+    ],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "shuffle two seeds qwen2.5-72b_int4",
+    "actual": [
+      1,
+      2
+    ],
+    "expected": [
+      1,
+      2
+    ],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "shuffle two seeds qwen2.5-7b_fp16",
+    "actual": [
+      1,
+      2
+    ],
+    "expected": [
+      1,
+      2
+    ],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "shuffle two seeds qwen3-32b_fp16",
+    "actual": [
+      1,
+      2
+    ],
+    "expected": [
+      1,
+      2
+    ],
+    "pass": true,
+    "scope": "artifact"
+  },
+  {
+    "name": "shuffle two seeds qwen3-8b_fp16",
+    "actual": [
+      1,
+      2
+    ],
+    "expected": [
+      1,
+      2
+    ],
+    "pass": true,
+    "scope": "artifact"
+  }
+]

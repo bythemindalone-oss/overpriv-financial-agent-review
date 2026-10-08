@@ -1,0 +1,173 @@
+{
+  "confirmatory_H3": "WITHDRAWN (confounded with gold-tier stratification)",
+  "confound": "negative III-Gap is produced by the 36 legit_high (gold 4/5) tasks; attacks exist only at gold {1,2,3}, so legit_high is an unmatched stratum",
+  "iii_gap_by_label_pp": {
+    "normal": 0.0,
+    "legit_high": -100.0,
+    "attack": 10.6,
+    "trap": 0.0
+  },
+  "original_confounded_contrast_pp": {
+    "attack": 10.6,
+    "non_attack_all": -25.0,
+    "diff": 35.6
+  },
+  "redefined_exploratory": {
+    "matched_support": "gold_tier in {1,2,3} (both attack and normal present)",
+    "excluded": "legit_high (gold 4/5), trap",
+    "pooled_diff_attack_minus_normal_pp": 10.6,
+    "cluster_bootstrap_ci90_pp": [
+      1.9,
+      24.2
+    ],
+    "n_attack_records": 1296,
+    "n_normal_records": 1620,
+    "status": "EXPLORATORY (not a confirmatory test)"
+  },
+  "per_config": [
+    {
+      "config": "llama3.1-70b_int4",
+      "iiigap_attack_S": 8.3,
+      "iiigap_normal_S": 0.0,
+      "diff": 8.3,
+      "intent_attack_S": 8.3,
+      "impact_attack_S": 0.0
+    },
+    {
+      "config": "llama3.1-70b_int8",
+      "iiigap_attack_S": 0.0,
+      "iiigap_normal_S": 0.0,
+      "diff": 0.0,
+      "intent_attack_S": 8.3,
+      "impact_attack_S": 8.3
+    },
+    {
+      "config": "llama3.1-8b_int4",
+      "iiigap_attack_S": 22.2,
+      "iiigap_normal_S": 0.0,
+      "diff": 22.2,
+      "intent_attack_S": 72.2,
+      "impact_attack_S": 50.0
+    },
+    {
+      "config": "llama3.1-8b_int8",
+      "iiigap_attack_S": 20.8,
+      "iiigap_normal_S": 0.0,
+      "diff": 20.8,
+      "intent_attack_S": 58.3,
+      "impact_attack_S": 37.5
+    },
+    {
+      "config": "qwen2.5-32b_fp16",
+      "iiigap_attack_S": 0.0,
+      "iiigap_normal_S": 0.0,
+      "diff": 0.0,
+      "intent_attack_S": 13.9,
+      "impact_attack_S": 13.9
+    },
+    {
+      "config": "qwen2.5-32b_int4",
+      "iiigap_attack_S": 0.0,
+      "iiigap_normal_S": 0.0,
+      "diff": 0.0,
+      "intent_attack_S": 5.6,
+      "impact_attack_S": 5.6
+    },
+    {
+      "config": "qwen2.5-32b_int8",
+      "iiigap_attack_S": 0.0,
+      "iiigap_normal_S": 0.0,
+      "diff": 0.0,
+      "intent_attack_S": 13.9,
+      "impact_attack_S": 13.9
+    },
+    {
+      "config": "qwen2.5-72b_int4",
+      "iiigap_attack_S": 0.0,
+      "iiigap_normal_S": 0.0,
+      "diff": 0.0,
+      "intent_attack_S": 4.2,
+      "impact_attack_S": 4.2
+    },
+    {
+      "config": "qwen2.5-72b_int8",
+      "iiigap_attack_S": 20.8,
+      "iiigap_normal_S": 0.0,
+      "diff": 20.8,
+      "intent_attack_S": 25.0,
+      "impact_attack_S": 4.2
+    },
+    {
+      "config": "qwen2.5-7b_fp16",
+      "iiigap_attack_S": 18.1,
+      "iiigap_normal_S": 0.0,
+      "diff": 18.1,
+      "intent_attack_S": 47.2,
+      "impact_attack_S": 29.2
+    },
+    {
+      "config": "qwen2.5-7b_int4",
+      "iiigap_attack_S": 18.1,
+      "iiigap_normal_S": 0.0,
+      "diff": 18.1,
+      "intent_attack_S": 55.6,
+      "impact_attack_S": 37.5
+    },
+    {
+      "config": "qwen2.5-7b_int8",
+      "iiigap_attack_S": 18.1,
+      "iiigap_normal_S": 0.0,
+      "diff": 18.1,
+      "intent_attack_S": 47.2,
+      "impact_attack_S": 29.2
+    },
+    {
+      "config": "qwen3-14b_fp16",
+      "iiigap_attack_S": 12.5,
+      "iiigap_normal_S": 0.0,
+      "diff": 12.5,
+      "intent_attack_S": 69.4,
+      "impact_attack_S": 56.9
+    },
+    {
+      "config": "qwen3-14b_int4",
+      "iiigap_attack_S": 13.9,
+      "iiigap_normal_S": 0.0,
+      "diff": 13.9,
+      "intent_attack_S": 70.8,
+      "impact_attack_S": 56.9
+    },
+    {
+      "config": "qwen3-32b_fp16",
+      "iiigap_attack_S": 0.0,
+      "iiigap_normal_S": 0.0,
+      "diff": 0.0,
+      "intent_attack_S": 12.5,
+      "impact_attack_S": 12.5
+    },
+    {
+      "config": "qwen3-32b_int4",
+      "iiigap_attack_S": 12.5,
+      "iiigap_normal_S": 0.0,
+      "diff": 12.5,
+      "intent_attack_S": 29.2,
+      "impact_attack_S": 16.7
+    },
+    {
+      "config": "qwen3-8b_fp16",
+      "iiigap_attack_S": 12.5,
+      "iiigap_normal_S": 0.0,
+      "diff": 12.5,
+      "intent_attack_S": 41.7,
+      "impact_attack_S": 29.2
+    },
+    {
+      "config": "qwen3-8b_int4",
+      "iiigap_attack_S": 12.5,
+      "iiigap_normal_S": 0.0,
+      "diff": 12.5,
+      "intent_attack_S": 41.7,
+      "impact_attack_S": 29.2
+    }
+  ]
+}

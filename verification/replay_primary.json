@@ -1,0 +1,314 @@
+[
+  {
+    "condition": "concealed",
+    "config": "qwen2.5-32b_fp16",
+    "n": 12,
+    "me_count": 9,
+    "me_pct": 75.0,
+    "raw_me_count": 9
+  },
+  {
+    "condition": "concealed",
+    "config": "qwen2.5-32b_int4",
+    "n": 12,
+    "me_count": 9,
+    "me_pct": 75.0,
+    "raw_me_count": 9
+  },
+  {
+    "condition": "concealed",
+    "config": "qwen2.5-32b_int8",
+    "n": 12,
+    "me_count": 9,
+    "me_pct": 75.0,
+    "raw_me_count": 9
+  },
+  {
+    "condition": "concealed",
+    "config": "qwen2.5-72b_int4",
+    "n": 12,
+    "me_count": 12,
+    "me_pct": 100.0,
+    "raw_me_count": 12
+  },
+  {
+    "condition": "concealed",
+    "config": "qwen2.5-7b_fp16",
+    "n": 12,
+    "me_count": 11,
+    "me_pct": 91.7,
+    "raw_me_count": 11
+  },
+  {
+    "condition": "concealed",
+    "config": "qwen2.5-7b_int4",
+    "n": 12,
+    "me_count": 11,
+    "me_pct": 91.7,
+    "raw_me_count": 11
+  },
+  {
+    "condition": "concealed",
+    "config": "qwen2.5-7b_int8",
+    "n": 12,
+    "me_count": 11,
+    "me_pct": 91.7,
+    "raw_me_count": 11
+  },
+  {
+    "condition": "concealed",
+    "config": "qwen3-14b_fp16",
+    "n": 12,
+    "me_count": 9,
+    "me_pct": 75.0,
+    "raw_me_count": 9
+  },
+  {
+    "condition": "concealed",
+    "config": "qwen3-14b_int4",
+    "n": 12,
+    "me_count": 9,
+    "me_pct": 75.0,
+    "raw_me_count": 9
+  },
+  {
+    "condition": "concealed",
+    "config": "qwen3-32b_fp16",
+    "n": 12,
+    "me_count": 9,
+    "me_pct": 75.0,
+    "raw_me_count": 9
+  },
+  {
+    "condition": "concealed",
+    "config": "qwen3-32b_int4",
+    "n": 12,
+    "me_count": 9,
+    "me_pct": 75.0,
+    "raw_me_count": 9
+  },
+  {
+    "condition": "concealed",
+    "config": "qwen3-8b_fp16",
+    "n": 12,
+    "me_count": 8,
+    "me_pct": 66.7,
+    "raw_me_count": 8
+  },
+  {
+    "condition": "concealed",
+    "config": "qwen3-8b_int4",
+    "n": 12,
+    "me_count": 9,
+    "me_pct": 75.0,
+    "raw_me_count": 9
+  },
+  {
+    "condition": "disclosed",
+    "config": "qwen2.5-32b_fp16",
+    "n": 12,
+    "me_count": 6,
+    "me_pct": 50.0,
+    "raw_me_count": 6
+  },
+  {
+    "condition": "disclosed",
+    "config": "qwen2.5-32b_int4",
+    "n": 12,
+    "me_count": 7,
+    "me_pct": 58.3,
+    "raw_me_count": 7
+  },
+  {
+    "condition": "disclosed",
+    "config": "qwen2.5-32b_int8",
+    "n": 12,
+    "me_count": 6,
+    "me_pct": 50.0,
+    "raw_me_count": 6
+  },
+  {
+    "condition": "disclosed",
+    "config": "qwen2.5-72b_int4",
+    "n": 12,
+    "me_count": 9,
+    "me_pct": 75.0,
+    "raw_me_count": 9
+  },
+  {
+    "condition": "disclosed",
+    "config": "qwen2.5-7b_fp16",
+    "n": 12,
+    "me_count": 10,
+    "me_pct": 83.3,
+    "raw_me_count": 10
+  },
+  {
+    "condition": "disclosed",
+    "config": "qwen2.5-7b_int4",
+    "n": 12,
+    "me_count": 11,
+    "me_pct": 91.7,
+    "raw_me_count": 11
+  },
+  {
+    "condition": "disclosed",
+    "config": "qwen2.5-7b_int8",
+    "n": 12,
+    "me_count": 10,
+    "me_pct": 83.3,
+    "raw_me_count": 10
+  },
+  {
+    "condition": "disclosed",
+    "config": "qwen3-14b_fp16",
+    "n": 12,
+    "me_count": 9,
+    "me_pct": 75.0,
+    "raw_me_count": 9
+  },
+  {
+    "condition": "disclosed",
+    "config": "qwen3-14b_int4",
+    "n": 12,
+    "me_count": 9,
+    "me_pct": 75.0,
+    "raw_me_count": 9
+  },
+  {
+    "condition": "disclosed",
+    "config": "qwen3-32b_fp16",
+    "n": 12,
+    "me_count": 6,
+    "me_pct": 50.0,
+    "raw_me_count": 6
+  },
+  {
+    "condition": "disclosed",
+    "config": "qwen3-32b_int4",
+    "n": 12,
+    "me_count": 6,
+    "me_pct": 50.0,
+    "raw_me_count": 6
+  },
+  {
+    "condition": "disclosed",
+    "config": "qwen3-8b_fp16",
+    "n": 12,
+    "me_count": 6,
+    "me_pct": 50.0,
+    "raw_me_count": 6
+  },
+  {
+    "condition": "disclosed",
+    "config": "qwen3-8b_int4",
+    "n": 12,
+    "me_count": 5,
+    "me_pct": 41.7,
+    "raw_me_count": 5
+  },
+  {
+    "condition": "placebo",
+    "config": "qwen2.5-32b_fp16",
+    "n": 12,
+    "me_count": 9,
+    "me_pct": 75.0,
+    "raw_me_count": 9
+  },
+  {
+    "condition": "placebo",
+    "config": "qwen2.5-32b_int4",
+    "n": 12,
+    "me_count": 9,
+    "me_pct": 75.0,
+    "raw_me_count": 9
+  },
+  {
+    "condition": "placebo",
+    "config": "qwen2.5-32b_int8",
+    "n": 12,
+    "me_count": 9,
+    "me_pct": 75.0,
+    "raw_me_count": 9
+  },
+  {
+    "condition": "placebo",
+    "config": "qwen2.5-72b_int4",
+    "n": 12,
+    "me_count": 12,
+    "me_pct": 100.0,
+    "raw_me_count": 12
+  },
+  {
+    "condition": "placebo",
+    "config": "qwen2.5-7b_fp16",
+    "n": 12,
+    "me_count": 10,
+    "me_pct": 83.3,
+    "raw_me_count": 10
+  },
+  {
+    "condition": "placebo",
+    "config": "qwen2.5-7b_int4",
+    "n": 12,
+    "me_count": 11,
+    "me_pct": 91.7,
+    "raw_me_count": 11
+  },
+  {
+    "condition": "placebo",
+    "config": "qwen2.5-7b_int8",
+    "n": 12,
+    "me_count": 10,
+    "me_pct": 83.3,
+    "raw_me_count": 10
+  },
+  {
+    "condition": "placebo",
+    "config": "qwen3-14b_fp16",
+    "n": 12,
+    "me_count": 9,
+    "me_pct": 75.0,
+    "raw_me_count": 9
+  },
+  {
+    "condition": "placebo",
+    "config": "qwen3-14b_int4",
+    "n": 12,
+    "me_count": 9,
+    "me_pct": 75.0,
+    "raw_me_count": 9
+  },
+  {
+    "condition": "placebo",
+    "config": "qwen3-32b_fp16",
+    "n": 12,
+    "me_count": 10,
+    "me_pct": 83.3,
+    "raw_me_count": 10
+  },
+  {
+    "condition": "placebo",
+    "config": "qwen3-32b_int4",
+    "n": 12,
+    "me_count": 9,
+    "me_pct": 75.0,
+    "raw_me_count": 9
+  },
+  {
+    "condition": "placebo",
+    "config": "qwen3-8b_fp16",
+    "n": 12,
+    "me_count": 8,
+    "me_pct": 66.7,
+    "raw_me_count": 8
+  },
+  {
+    "condition": "placebo",
+    "config": "qwen3-8b_int4",
+    "n": 12,
+    "me_count": 8,
+    "me_pct": 66.7,
+    "raw_me_count": 8
+  }
+]

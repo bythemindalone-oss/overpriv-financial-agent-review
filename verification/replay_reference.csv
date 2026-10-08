@@ -1,0 +1,5 @@
+policy,n,intent_count,impact_count,intent_pct,impact_pct,gap_pp,both,harmless_over,missed,clean
+P_gold,198,0,36,0.0,18.2,-18.2,0,0,36,162
+P_greedy,198,180,144,90.9,72.7,18.2,126,54,18,0
+P_naive,198,180,198,90.9,100.0,-9.1,180,0,18,0
+P_confused,198,72,105,36.4,53.0,-16.7,69,3,36,90

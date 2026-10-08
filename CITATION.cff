@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "Artifact-evaluation preparation: Measuring What Selection Logs Miss"
+message: "Private preparation, pending author approval. Cite only the frozen approved version after release."
+type: software
+version: "review-prep-2026-10-08"
+authors:
+  - family-names: Lee
+    given-names: Hyung-Chul
+  - family-names: Kim
+    given-names: Bo-Young
+repository-code: "https://github.com/bythemindalone-oss/overpriv-financial-agent-review"
+license: MIT
