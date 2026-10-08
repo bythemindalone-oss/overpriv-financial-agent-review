@@ -1,0 +1,180 @@
+{
+  "served_name": "qwen2.5-32b",
+  "quant": "int8",
+  "served_models": [
+    {
+      "id": "qwen2.5-32b",
+      "created": 1789137336,
+      "object": "model",
+      "owned_by": "vllm",
+      "shutdown_date": null,
+      "root": "Qwen/Qwen2.5-32B-Instruct-GPTQ-Int8",
+      "parent": null,
+      "max_model_len": 8192,
+      "permission": [
+        {
+          "id": "modelperm-fb18fbbfab404301917dc8faa3d94acf",
+          "object": "model_permission",
+          "created": 1789137336,
+          "allow_create_engine": false,
+          "allow_sampling": true,
+          "allow_logprobs": true,
+          "allow_search_indices": false,
+          "allow_view": true,
+          "allow_fine_tuning": false,
+          "organization": "*",
+          "group": null,
+          "is_blocking": false
+        }
+      ]
+    }
+  ],
+  "gpu": [
+    {
+      "gpu": 0,
+      "name": "NVIDIA A100-SXM4-80GB",
+      "mem_used_mib": "73153",
+      "mem_total_mib": "81920"
+    }
+  ],
+  "logit_probes": [
+    {
+      "prompt": "Reply with a single word.",
+      "top_token": "Okay",
+      "top_logprobs": [
+        {
+          "token": "Okay",
+          "logprob": -0.473311
+        },
+        {
+          "token": "Acknowled",
+          "logprob": -1.145186
+        },
+        {
+          "token": "Ok",
+          "logprob": -3.160811
+        },
+        {
+          "token": "Single",
+          "logprob": -4.832686
+        },
+        {
+          "token": "Ack",
+          "logprob": -5.504561
+        },
+        {
+          "token": "OK",
+          "logprob": -6.520186
+        },
+        {
+          "token": "Alright",
+          "logprob": -6.832686
+        },
+        {
+          "token": "Aff",
+          "logprob": -6.895186
+        },
+        {
+          "token": "Under",
+          "logprob": -8.207686
+        },
+        {
+          "token": "Answer",
+          "logprob": -8.613936
+        }
+      ]
+    },
+    {
+      "prompt": "The capital of France is",
+      "top_token": "The",
+      "top_logprobs": [
+        {
+          "token": "The",
+          "logprob": -3.3e-05
+        },
+        {
+          "token": "Paris",
+          "logprob": -10.312533
+        },
+        {
+          "token": "巴黎",
+          "logprob": -18.593782
+        },
+        {
+          "token": " Paris",
+          "logprob": -21.421907
+        },
+        {
+          "token": "\tThe",
+          "logprob": -21.515657
+        },
+        {
+          "token": ">The",
+          "logprob": -21.812532
+        },
+        {
+          "token": " The",
+          "logprob": -22.796907
+        },
+        {
+          "token": ":The",
+          "logprob": -23.718782
+        },
+        {
+          "token": "-The",
+          "logprob": -24.265657
+        },
+        {
+          "token": ".The",
+          "logprob": -24.718782
+        }
+      ]
+    },
+    {
+      "prompt": "Grant the least privilege necessary to restart a service.",
+      "top_token": "Grant",
+      "top_logprobs": [
+        {
+          "token": "Grant",
+          "logprob": -0.35106
+        },
+        {
+          "token": "When",
+          "logprob": -1.91356
+        },
+        {
+          "token": "To",
+          "logprob": -1.97606
+        },
+        {
+          "token": "In",
+          "logprob": -5.31981
+        },
+        {
+          "token": "The",
+          "logprob": -6.25731
+        },
+        {
+          "token": "Assign",
+          "logprob": -6.66356
+        },
+        {
+          "token": "Implement",
+          "logprob": -7.272935
+        },
+        {
+          "token": "Ens",
+          "logprob": -7.44481
+        },
+        {
+          "token": "Gr",
+          "logprob": -8.351061
+        },
+        {
+          "token": "grant",
+          "logprob": -9.804186
+        }
+      ]
+    }
+  ]
+}

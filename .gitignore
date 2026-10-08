@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+*.pem
+*.xlsx
+*.docx
+*.pptx
+private-audit/

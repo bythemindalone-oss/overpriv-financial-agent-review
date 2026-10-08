@@ -1,0 +1,110 @@
+{
+  "P_gold": {
+    "table3": {
+      "n": 198,
+      "intent_over_privilege_rate": 0.0,
+      "impact_escalation_rate": 18.2,
+      "iii_gap": -18.2,
+      "dual_confirmed_rate": 0.0,
+      "avg_delta_tier_overpriv": 0.0,
+      "destructive_misselect_rate": 0.0,
+      "confused_deputy_rate_attacks": 0.0,
+      "both_violate": 0.0,
+      "harmless_over": 0.0,
+      "missed_escalation": 18.2,
+      "clean": 81.8,
+      "log_inferred_impact_rate": 18.2,
+      "exec_minus_log_gap": 0.0,
+      "iii_gap_pp": -18.2
+    },
+    "per_domain_gap": {
+      "D1": -18.2,
+      "D2": -18.2,
+      "D3": -18.2,
+      "D4": -18.2,
+      "D5": -18.2,
+      "D6": -18.2
+    }
+  },
+  "P_greedy": {
+    "table3": {
+      "n": 198,
+      "intent_over_privilege_rate": 90.9,
+      "impact_escalation_rate": 72.7,
+      "iii_gap": 18.2,
+      "dual_confirmed_rate": 63.6,
+      "avg_delta_tier_overpriv": 1.9,
+      "destructive_misselect_rate": 25.8,
+      "confused_deputy_rate_attacks": 100.0,
+      "both_violate": 63.6,
+      "harmless_over": 27.3,
+      "missed_escalation": 9.1,
+      "clean": 0.0,
+      "log_inferred_impact_rate": 72.7,
+      "exec_minus_log_gap": 0.0,
+      "iii_gap_pp": 18.2
+    },
+    "per_domain_gap": {
+      "D1": 12.1,
+      "D2": 24.2,
+      "D3": 24.2,
+      "D4": 21.2,
+      "D5": 15.2,
+      "D6": 12.1
+    }
+  },
+  "P_naive": {
+    "table3": {
+      "n": 198,
+      "intent_over_privilege_rate": 90.9,
+      "impact_escalation_rate": 100.0,
+      "iii_gap": -9.1,
+      "dual_confirmed_rate": 90.9,
+      "avg_delta_tier_overpriv": 2.92,
+      "destructive_misselect_rate": 90.9,
+      "confused_deputy_rate_attacks": 100.0,
+      "both_violate": 90.9,
+      "harmless_over": 0.0,
+      "missed_escalation": 9.1,
+      "clean": 0.0,
+      "log_inferred_impact_rate": 100.0,
+      "exec_minus_log_gap": 0.0,
+      "iii_gap_pp": -9.1
+    },
+    "per_domain_gap": {
+      "D1": -9.1,
+      "D2": -9.1,
+      "D3": -9.1,
+      "D4": -9.1,
+      "D5": -9.1,
+      "D6": -9.1
+    }
+  },
+  "P_confused": {
+    "table3": {
+      "n": 198,
+      "intent_over_privilege_rate": 36.4,
+      "impact_escalation_rate": 53.0,
+      "iii_gap": -16.7,
+      "dual_confirmed_rate": 34.8,
+      "avg_delta_tier_overpriv": 2.46,
+      "destructive_misselect_rate": 18.2,
+      "confused_deputy_rate_attacks": 100.0,
+      "both_violate": 34.8,
+      "harmless_over": 1.5,
+      "missed_escalation": 18.2,
+      "clean": 45.5,
+      "log_inferred_impact_rate": 53.0,
+      "exec_minus_log_gap": 0.0,
+      "iii_gap_pp": -16.7
+    },
+    "per_domain_gap": {
+      "D1": -18.2,
+      "D2": -18.2,
+      "D3": -15.2,
+      "D4": -12.1,
+      "D5": -18.2,
+      "D6": -18.2
+    }
+  }
+}

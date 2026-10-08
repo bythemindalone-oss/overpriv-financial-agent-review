@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "ratings_schema": [
+    "task_id",
+    "min_tier",
+    "correct_behavior"
+  ],
+  "anonymous_ids": "random stable UUID-based IDs; no source ordering or role encoding",
+  "annotators": [
+    {
+      "anonymous_id": "r_344ebd92fa3c47d4892320bf5532674e",
+      "file": "r_344ebd92fa3c47d4892320bf5532674e.csv",
+      "records": 198,
+      "sha256": "08c35a14fbeb9e3bceb0cf9155a7777f1a4fe2ed8ea14d350387ecff3c81e8d5"
+    },
+    {
+      "anonymous_id": "r_4b16750811d446b19407cf3599185079",
+      "file": "r_4b16750811d446b19407cf3599185079.csv",
+      "records": 198,
+      "sha256": "30d1eeed3e651232ce79260ba8253244c2e7c3c057f9ce2b584a835af90d2e30"
+    },
+    {
+      "anonymous_id": "r_644691cbe9534e508b87aea92ab51009",
+      "file": "r_644691cbe9534e508b87aea92ab51009.csv",
+      "records": 198,
+      "sha256": "96b0068f22c3f195d5e1e6fc00a5e0707133c3688de0e03fbdb22364c71a3fed"
+    },
+    {
+      "anonymous_id": "r_993ba093e5a04e3fb5d1fd7b0e895aec",
+      "file": "r_993ba093e5a04e3fb5d1fd7b0e895aec.csv",
+      "records": 198,
+      "sha256": "7cbae9b3f7df951a526dbf85b7c76f1212222d55c144ad85e3d4d4919f1446d7"
+    }
+  ],
+  "verification": {
+    "all_export_values_and_row_order_match_source": true,
+    "integrated_labels_match_four_individual_sources": true,
+    "all_sources_have_198_unique_complete_ratings": true,
+    "private_pairing_map_not_in_package": true
+  }
+}

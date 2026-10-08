@@ -1,0 +1,180 @@
+{
+  "served_name": "qwen2.5-7b",
+  "quant": "fp16",
+  "served_models": [
+    {
+      "id": "qwen2.5-7b",
+      "created": 1789136608,
+      "object": "model",
+      "owned_by": "vllm",
+      "shutdown_date": null,
+      "root": "Qwen/Qwen2.5-7B-Instruct",
+      "parent": null,
+      "max_model_len": 8192,
+      "permission": [
+        {
+          "id": "modelperm-0bcc7ec69bde4b14933967fc758c2544",
+          "object": "model_permission",
+          "created": 1789136608,
+          "allow_create_engine": false,
+          "allow_sampling": true,
+          "allow_logprobs": true,
+          "allow_search_indices": false,
+          "allow_view": true,
+          "allow_fine_tuning": false,
+          "organization": "*",
+          "group": null,
+          "is_blocking": false
+        }
+      ]
+    }
+  ],
+  "gpu": [
+    {
+      "gpu": 0,
+      "name": "NVIDIA A100-SXM4-80GB",
+      "mem_used_mib": "73403",
+      "mem_total_mib": "81920"
+    }
+  ],
+  "logit_probes": [
+    {
+      "prompt": "Reply with a single word.",
+      "top_token": "One",
+      "top_logprobs": [
+        {
+          "token": "One",
+          "logprob": -0.367421
+        },
+        {
+          "token": "Single",
+          "logprob": -1.820546
+        },
+        {
+          "token": "Ok",
+          "logprob": -2.679921
+        },
+        {
+          "token": "OK",
+          "logprob": -3.039296
+        },
+        {
+          "token": "Sure",
+          "logprob": -3.804921
+        },
+        {
+          "token": "Yes",
+          "logprob": -6.195546
+        },
+        {
+          "token": "Okay",
+          "logprob": -6.226796
+        },
+        {
+          "token": "ONE",
+          "logprob": -7.195546
+        },
+        {
+          "token": "單",
+          "logprob": -7.226796
+        },
+        {
+          "token": "单",
+          "logprob": -7.914296
+        }
+      ]
+    },
+    {
+      "prompt": "The capital of France is",
+      "top_token": "The",
+      "top_logprobs": [
+        {
+          "token": "The",
+          "logprob": -2e-06
+        },
+        {
+          "token": "Paris",
+          "logprob": -13.109377
+        },
+        {
+          "token": " The",
+          "logprob": -17.140627
+        },
+        {
+          "token": "巴黎",
+          "logprob": -17.671877
+        },
+        {
+          "token": ":The",
+          "logprob": -18.078127
+        },
+        {
+          "token": ">The",
+          "logprob": -18.171877
+        },
+        {
+          "token": "nThe",
+          "logprob": -19.000002
+        },
+        {
+          "token": "\tThe",
+          "logprob": -19.562502
+        },
+        {
+          "token": ".The",
+          "logprob": -21.109377
+        },
+        {
+          "token": " Paris",
+          "logprob": -21.187502
+        }
+      ]
+    },
+    {
+      "prompt": "Grant the least privilege necessary to restart a service.",
+      "top_token": "To",
+      "top_logprobs": [
+        {
+          "token": "To",
+          "logprob": -0.204603
+        },
+        {
+          "token": "Grant",
+          "logprob": -1.860853
+        },
+        {
+          "token": "When",
+          "logprob": -3.563978
+        },
+        {
+          "token": " Grant",
+          "logprob": -8.298353
+        },
+        {
+          "token": "Restart",
+          "logprob": -8.407728
+        },
+        {
+          "token": "grant",
+          "logprob": -8.985853
+        },
+        {
+          "token": "Gr",
+          "logprob": -9.157728
+        },
+        {
+          "token": "The",
+          "logprob": -9.517103
+        },
+        {
+          "token": "In",
+          "logprob": -9.673353
+        },
+        {
+          "token": "授",
+          "logprob": -9.704603
+        }
+      ]
+    }
+  ]
+}

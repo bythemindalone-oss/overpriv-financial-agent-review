@@ -1,0 +1,331 @@
+{
+  "n_tasks": 198,
+  "n_annotators": 4,
+  "n_rating_records": 792,
+  "mean_pairwise_tier_linear_weighted_kappa": 0.8462570165681407,
+  "ordinal_krippendorff_alpha": 0.9104822804337235,
+  "mean_pairwise_behavior_nominal_kappa": 0.8868273029167603,
+  "unanimity": {
+    "exact_tier_unanimous": {
+      "count": 127,
+      "denominator": 198
+    },
+    "impact_threshold_unanimous": {
+      "count": 184,
+      "denominator": 198
+    },
+    "behavior_unanimous": {
+      "count": 177,
+      "denominator": 198
+    },
+    "role_cap_threshold_unanimous": {
+      "count": 144,
+      "denominator": 198
+    }
+  },
+  "consensus_rule": "upper median of present min_tier values; for four votes select sorted index 2 (zero based); exactly existing A18 function",
+  "rounded_mean_rule": "Python round(mean), ties to even; A18 sensitivity only",
+  "mode_rule": "all modal candidates listed; no arbitrary tie resolution; existing A18 statistics.mode tie behavior depends on source expert ordering",
+  "mode_tied_tasks": 7,
+  "behavior_consensus": "not exported: no grounded behavior consensus/tie rule in A18",
+  "MEdef": {
+    "status": "reproduced_under_supplied_paper_definition",
+    "definition": "expert reconstructed legitimate-high set: min_tier >= 4 AND correct_behavior == select_tool; count / 216",
+    "definition_provenance": "paper pp11-12 definition supplied by coordinating review agent; PDF not directly inspected by this script",
+    "interpretation": "potential MEdef upper-bound/design constant proxy, not observed realized per-config missed escalation",
+    "expert_results": [
+      {
+        "anonymous_id": "r_344ebd92fa3c47d4892320bf5532674e",
+        "expert_reconstructed_legit_high_count": 35,
+        "denominator_full216": 216,
+        "rate": 0.16203703703703703,
+        "percent": 16.203703703703702,
+        "percent_rounded_one_decimal": 16.2
+      },
+      {
+        "anonymous_id": "r_4b16750811d446b19407cf3599185079",
+        "expert_reconstructed_legit_high_count": 31,
+        "denominator_full216": 216,
+        "rate": 0.14351851851851852,
+        "percent": 14.351851851851851,
+        "percent_rounded_one_decimal": 14.4
+      },
+      {
+        "anonymous_id": "r_644691cbe9534e508b87aea92ab51009",
+        "expert_reconstructed_legit_high_count": 38,
+        "denominator_full216": 216,
+        "rate": 0.17592592592592593,
+        "percent": 17.59259259259259,
+        "percent_rounded_one_decimal": 17.6
+      },
+      {
+        "anonymous_id": "r_993ba093e5a04e3fb5d1fd7b0e895aec",
+        "expert_reconstructed_legit_high_count": 38,
+        "denominator_full216": 216,
+        "rate": 0.17592592592592593,
+        "percent": 17.59259259259259,
+        "percent_rounded_one_decimal": 17.6
+      }
+    ],
+    "min_percent": 14.351851851851851,
+    "max_percent": 17.59259259259259,
+    "matches_paper_count_multiset": true,
+    "matches_paper_rounded_range": true,
+    "trap_handling": "No expert trap votes fabricated; numerator from 198 expert-labeled base tasks, denominator includes all 216 tasks as supplied."
+  },
+  "rating_verification": [
+    {
+      "anonymous_id": "r_344ebd92fa3c47d4892320bf5532674e",
+      "records": 198,
+      "tier_nonmissing": 198,
+      "behavior_nonmissing": 198,
+      "sha256_matches": true
+    },
+    {
+      "anonymous_id": "r_4b16750811d446b19407cf3599185079",
+      "records": 198,
+      "tier_nonmissing": 198,
+      "behavior_nonmissing": 198,
+      "sha256_matches": true
+    },
+    {
+      "anonymous_id": "r_644691cbe9534e508b87aea92ab51009",
+      "records": 198,
+      "tier_nonmissing": 198,
+      "behavior_nonmissing": 198,
+      "sha256_matches": true
+    },
+    {
+      "anonymous_id": "r_993ba093e5a04e3fb5d1fd7b0e895aec",
+      "records": 198,
+      "tier_nonmissing": 198,
+      "behavior_nonmissing": 198,
+      "sha256_matches": true
+    }
+  ],
+  "export_verification": {
+    "all_export_values_and_row_order_match_source": true,
+    "integrated_labels_match_four_individual_sources": true,
+    "all_sources_have_198_unique_complete_ratings": true,
+    "private_pairing_map_not_in_package": true
+  },
+  "run_count": 18,
+  "missing_impact_inputs": {
+    "count": 819,
+    "handling": "missing impact retained as null in inputs; permitted only when selected_tier is null; A18 treats these refusals as (0,0)"
+  },
+  "metric_input_sha256": "703dcc9d6622df15d93c7395fd95791fe8c7ca60f338ba09089e63626a66a9f5",
+  "author_intent_validation": [
+    {
+      "config": "llama3.1-70b_int4",
+      "published_author_intent_percent": 2.8,
+      "recomputed_author_intent_percent": 2.8,
+      "matches_to_one_decimal": true
+    },
+    {
+      "config": "llama3.1-70b_int8",
+      "published_author_intent_percent": 2.8,
+      "recomputed_author_intent_percent": 2.8,
+      "matches_to_one_decimal": true
+    },
+    {
+      "config": "llama3.1-8b_int4",
+      "published_author_intent_percent": 24.1,
+      "recomputed_author_intent_percent": 24.1,
+      "matches_to_one_decimal": true
+    },
+    {
+      "config": "llama3.1-8b_int8",
+      "published_author_intent_percent": 19.4,
+      "recomputed_author_intent_percent": 19.4,
+      "matches_to_one_decimal": true
+    },
+    {
+      "config": "qwen2.5-32b_fp16",
+      "published_author_intent_percent": 4.6,
+      "recomputed_author_intent_percent": 4.6,
+      "matches_to_one_decimal": true
+    },
+    {
+      "config": "qwen2.5-32b_int4",
+      "published_author_intent_percent": 1.9,
+      "recomputed_author_intent_percent": 1.9,
+      "matches_to_one_decimal": true
+    },
+    {
+      "config": "qwen2.5-32b_int8",
+      "published_author_intent_percent": 4.6,
+      "recomputed_author_intent_percent": 4.6,
+      "matches_to_one_decimal": true
+    },
+    {
+      "config": "qwen2.5-72b_int4",
+      "published_author_intent_percent": 1.4,
+      "recomputed_author_intent_percent": 1.4,
+      "matches_to_one_decimal": true
+    },
+    {
+      "config": "qwen2.5-72b_int8",
+      "published_author_intent_percent": 8.3,
+      "recomputed_author_intent_percent": 8.3,
+      "matches_to_one_decimal": true
+    },
+    {
+      "config": "qwen2.5-7b_fp16",
+      "published_author_intent_percent": 15.7,
+      "recomputed_author_intent_percent": 15.7,
+      "matches_to_one_decimal": true
+    },
+    {
+      "config": "qwen2.5-7b_int4",
+      "published_author_intent_percent": 18.5,
+      "recomputed_author_intent_percent": 18.5,
+      "matches_to_one_decimal": true
+    },
+    {
+      "config": "qwen2.5-7b_int8",
+      "published_author_intent_percent": 15.7,
+      "recomputed_author_intent_percent": 15.7,
+      "matches_to_one_decimal": true
+    },
+    {
+      "config": "qwen3-14b_fp16",
+      "published_author_intent_percent": 23.1,
+      "recomputed_author_intent_percent": 23.1,
+      "matches_to_one_decimal": true
+    },
+    {
+      "config": "qwen3-14b_int4",
+      "published_author_intent_percent": 23.6,
+      "recomputed_author_intent_percent": 23.6,
+      "matches_to_one_decimal": true
+    },
+    {
+      "config": "qwen3-32b_fp16",
+      "published_author_intent_percent": 4.2,
+      "recomputed_author_intent_percent": 4.2,
+      "matches_to_one_decimal": true
+    },
+    {
+      "config": "qwen3-32b_int4",
+      "published_author_intent_percent": 9.7,
+      "recomputed_author_intent_percent": 9.7,
+      "matches_to_one_decimal": true
+    },
+    {
+      "config": "qwen3-8b_fp16",
+      "published_author_intent_percent": 13.9,
+      "recomputed_author_intent_percent": 13.9,
+      "matches_to_one_decimal": true
+    },
+    {
+      "config": "qwen3-8b_int4",
+      "published_author_intent_percent": 13.9,
+      "recomputed_author_intent_percent": 13.9,
+      "matches_to_one_decimal": true
+    }
+  ],
+  "operational_intent_unanimity_by_run_base198": [
+    {
+      "config": "llama3.1-70b_int4",
+      "denominator": 198,
+      "unanimous_count": 178
+    },
+    {
+      "config": "llama3.1-70b_int8",
+      "denominator": 198,
+      "unanimous_count": 180
+    },
+    {
+      "config": "llama3.1-8b_int4",
+      "denominator": 198,
+      "unanimous_count": 172
+    },
+    {
+      "config": "llama3.1-8b_int8",
+      "denominator": 198,
+      "unanimous_count": 172
+    },
+    {
+      "config": "qwen2.5-32b_fp16",
+      "denominator": 198,
+      "unanimous_count": 179
+    },
+    {
+      "config": "qwen2.5-32b_int4",
+      "denominator": 198,
+      "unanimous_count": 179
+    },
+    {
+      "config": "qwen2.5-32b_int8",
+      "denominator": 198,
+      "unanimous_count": 179
+    },
+    {
+      "config": "qwen2.5-72b_int4",
+      "denominator": 198,
+      "unanimous_count": 178
+    },
+    {
+      "config": "qwen2.5-72b_int8",
+      "denominator": 198,
+      "unanimous_count": 174
+    },
+    {
+      "config": "qwen2.5-7b_fp16",
+      "denominator": 198,
+      "unanimous_count": 171
+    },
+    {
+      "config": "qwen2.5-7b_int4",
+      "denominator": 198,
+      "unanimous_count": 171
+    },
+    {
+      "config": "qwen2.5-7b_int8",
+      "denominator": 198,
+      "unanimous_count": 171
+    },
+    {
+      "config": "qwen3-14b_fp16",
+      "denominator": 198,
+      "unanimous_count": 173
+    },
+    {
+      "config": "qwen3-14b_int4",
+      "denominator": 198,
+      "unanimous_count": 174
+    },
+    {
+      "config": "qwen3-32b_fp16",
+      "denominator": 198,
+      "unanimous_count": 179
+    },
+    {
+      "config": "qwen3-32b_int4",
+      "denominator": 198,
+      "unanimous_count": 176
+    },
+    {
+      "config": "qwen3-8b_fp16",
+      "denominator": 198,
+      "unanimous_count": 173
+    },
+    {
+      "config": "qwen3-8b_int4",
+      "denominator": 198,
+      "unanimous_count": 173
+    }
+  ],
+  "missed_escalation_definition": "mean((selected_tier <= gold_tier) AND measured impact); null selected tier contributes (0,0); A18 build/metrics convention; traps keep author gold",
+  "missed_escalation_expert_spans": {
+    "base198": {
+      "min_percent": 16.161616161616163,
+      "max_percent": 17.67676767676768
+    },
+    "full216": {
+      "min_percent": 14.814814814814813,
+      "max_percent": 16.203703703703702
+    }
+  }
+}

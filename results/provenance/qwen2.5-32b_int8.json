@@ -1,0 +1,42 @@
+{
+  "cell": "qwen2.5-32b_int8",
+  "served_name": "qwen2.5-32b",
+  "quant": "int8",
+  "hf_model": "Qwen/Qwen2.5-32B-Instruct-GPTQ-Int8",
+  "hf_revision": "eddc13f573fd3648cc8a4741fdf1b70e8d6fc5c1",
+  "tensor_parallel": 1,
+  "captured_utc": "2026-08-30T02:52:04Z",
+  "environment": {
+    "gpu": "0, NVIDIA A100-SXM4-80GB, 81920 MiB, 580.126.16",
+    "gpu_mem_used_MiB_while_served": "73395",
+    "cuda_driver": "580.126.16",
+    "python": "3.11.10",
+    "os": "Linux [host-redacted] 6.17.0-14-generic #14~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Jan 15 15:52:10 UTC 2 x86_64 x86_64 x86_64 GNU/Linux",
+    "pip_versions": {
+      "vllm": "0.6.3.post1",
+      "torch": "2.4.0",
+      "transformers": "4.45.2",
+      "numpy": "1.26.4",
+      "scipy": "1.17.1",
+      "outlines": "0.0.46",
+      "openai": "3.6.0",
+      "statsmodels": "NA"
+    },
+    "runpod_pod_id": "NA"
+  },
+  "serving_flags": {
+    "dtype/quant": "int8",
+    "tensor_parallel_size": 1,
+    "max_model_len": 8192,
+    "gpu_memory_utilization": 0.92
+  },
+  "inputs": {
+    "corpus_sha256": "f6e141a37eb240a9245df2ba92bbe0d94af77113b843e7a127d53e0213ebbc6e",
+    "corpus_traps_sha256": "a4178c0ad4f624ba671cd710e962bdd526c47735d5f238804834c13a17c98375"
+  },
+  "output": {
+    "result_json": "results/masked/qwen2.5-32b_int8.json",
+    "result_sha256": "5c7762f4d290a233ef54b2327e82195d4133cbb836b1c8edb0f52845d30341a6"
+  },
+  "note": "Weights are FP16 of the same model family; INT8/INT4 comparison cells carry quant flags in serving_flags. GPU mem-used captured while served is the A-04 quantization-applied evidence."
+}
