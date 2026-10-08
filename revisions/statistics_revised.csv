@@ -1,0 +1,35 @@
+section,cohort,contrast,n,b,c,point_pp,p,p_exact,holm2_p,status,intent_count,impact_count,lo_approx95_pp,hi_approx95_pp,ties
+H1,audit_revised_decision_family,qwen2.5-7b_fp16 minus qwen2.5-32b_fp16,198,24,0,12.121212121212121,1.1920928955078125e-07,1/8388608,2.0174964276975516e-07,audit_revised_decision_family,,,,,
+H1,audit_revised_decision_family,llama3.1-8b_int8 minus llama3.1-70b_int8,198,42,6,18.181818181818183,1.0087482138487758e-07,14196869/140737488355328,2.0174964276975516e-07,audit_revised_decision_family,,,,,
+H1,separate_exploratory,qwen3-8b_fp16 minus qwen3-32b_fp16,198,21,0,10.606060606060606,9.5367431640625e-07,1/1048576,,separate_exploratory,,,,,
+H3,original12,normal90,1080,,,0.0,,,,descriptive,0,0,,,
+H3,original12,nonattack144_legacy_diagnostic,1728,,,-25.0,,,,descriptive,0,432,,,
+H3,original12,attack72,864,,,10.532407407407407,,,,descriptive,259,168,,,
+H3,original12,matched attack minus normal gold1-3,1944,,,10.532407407407407,,,,six-domain descriptive exploratory,,,2.8935185185185186,20.25462962962963,
+H3,full18,normal90,1620,,,0.0,,,,descriptive,0,0,,,
+H3,full18,nonattack144_legacy_diagnostic,2592,,,-25.0,,,,descriptive,0,648,,,
+H3,full18,attack72,1296,,,10.570987654320987,,,,descriptive,450,313,,,
+H3,full18,matched attack minus normal gold1-3,2916,,,10.570987654320987,,,,six-domain descriptive exploratory,,,1.9290123456790123,24.151234567901234,
+H2,legacy original12 full216,pooled impact DiD,,,,8.410493827160492,,,,withdrawn/nonidentified empirical inference; arithmetic only,,,,,
+primary,available13,concealed,156,,,80.1,,,,unchanged descriptive ME percent,,125,,,
+primary,available13,disclosed,156,,,64.1,,,,unchanged descriptive ME percent,,100,,,
+primary,available13,placebo,156,,,78.8,,,,unchanged descriptive ME percent,,123,,,
+sign_sensitivity,config13_illustrative,concealed_minus_disclosed,13,10,0,,0.001953125,1/512,,illustrative not validity substitute,,,,,3
+sign_sensitivity,checkpoint6_illustrative,concealed_minus_disclosed,6,5,0,,0.0625,1/16,,illustrative not validity substitute,,,,,1
+sign_sensitivity,config13_illustrative,concealed_minus_placebo,13,3,1,,0.625,5/8,,illustrative not validity substitute,,,,,9
+sign_sensitivity,checkpoint6_illustrative,concealed_minus_placebo,6,2,1,,1.0,1,,illustrative not validity substitute,,,,,3
+sign_sensitivity,config13_illustrative,placebo_minus_disclosed,13,8,0,,0.0078125,1/128,,illustrative not validity substitute,,,,,5
+sign_sensitivity,checkpoint6_illustrative,placebo_minus_disclosed,6,4,0,,0.125,1/8,,illustrative not validity substitute,,,,,2
+III_Gap_excl,qwen2.5-32b_fp16,corrected excluding legit_high,180,,,-3.888888888888889,,,,co-primary descriptive not inferential,12,19,,,
+III_Gap_excl,qwen2.5-32b_int4,corrected excluding legit_high,180,,,-4.444444444444445,,,,co-primary descriptive not inferential,5,13,,,
+III_Gap_excl,qwen2.5-32b_int8,corrected excluding legit_high,180,,,-3.888888888888889,,,,co-primary descriptive not inferential,12,19,,,
+III_Gap_excl,qwen2.5-72b_int4,corrected excluding legit_high,180,,,-6.666666666666667,,,,co-primary descriptive not inferential,6,18,,,
+III_Gap_excl,qwen2.5-7b_fp16,corrected excluding legit_high,180,,,1.1111111111111112,,,,co-primary descriptive not inferential,37,35,,,
+III_Gap_excl,qwen2.5-7b_int4,corrected excluding legit_high,180,,,1.1111111111111112,,,,co-primary descriptive not inferential,43,41,,,
+III_Gap_excl,qwen2.5-7b_int8,corrected excluding legit_high,180,,,1.1111111111111112,,,,co-primary descriptive not inferential,37,35,,,
+III_Gap_excl,qwen3-14b_fp16,corrected excluding legit_high,180,,,0.0,,,,co-primary descriptive not inferential,54,54,,,
+III_Gap_excl,qwen3-14b_int4,corrected excluding legit_high,180,,,0.5555555555555556,,,,co-primary descriptive not inferential,55,54,,,
+III_Gap_excl,qwen3-32b_fp16,corrected excluding legit_high,180,,,-5.0,,,,co-primary descriptive not inferential,12,21,,,
+III_Gap_excl,qwen3-32b_int4,corrected excluding legit_high,180,,,0.0,,,,co-primary descriptive not inferential,24,24,,,
+III_Gap_excl,qwen3-8b_fp16,corrected excluding legit_high,180,,,0.5555555555555556,,,,co-primary descriptive not inferential,34,33,,,
+III_Gap_excl,qwen3-8b_int4,corrected excluding legit_high,180,,,0.0,,,,co-primary descriptive not inferential,33,33,,,

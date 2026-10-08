@@ -1,0 +1,2293 @@
+{
+  "revision": "step1_audit_corrected_standard_library",
+  "status": "COMPLETED_WITH_EXPLICIT_INFERENCE_LIMITATIONS",
+  "python": "3.13.12 (main, Mar 20 2026, 00:34:31) [MSC v.1944 64 bit (AMD64)]",
+  "cohorts": {
+    "original12": {
+      "configs": [
+        "llama3.1-70b_int4",
+        "llama3.1-70b_int8",
+        "llama3.1-8b_int4",
+        "llama3.1-8b_int8",
+        "qwen2.5-32b_fp16",
+        "qwen2.5-32b_int4",
+        "qwen2.5-32b_int8",
+        "qwen2.5-72b_int4",
+        "qwen2.5-72b_int8",
+        "qwen2.5-7b_fp16",
+        "qwen2.5-7b_int4",
+        "qwen2.5-7b_int8"
+      ],
+      "n_configs": 12,
+      "checkpoint_n": 5,
+      "base_task_n_per_config": 198,
+      "original_task_n_per_config": 216,
+      "base_records": 2376,
+      "original_records": 2592,
+      "status": "original families; no Qwen3"
+    },
+    "full18": {
+      "configs": [
+        "llama3.1-70b_int4",
+        "llama3.1-70b_int8",
+        "llama3.1-8b_int4",
+        "llama3.1-8b_int8",
+        "qwen2.5-32b_fp16",
+        "qwen2.5-32b_int4",
+        "qwen2.5-32b_int8",
+        "qwen2.5-72b_int4",
+        "qwen2.5-72b_int8",
+        "qwen2.5-7b_fp16",
+        "qwen2.5-7b_int4",
+        "qwen2.5-7b_int8",
+        "qwen3-14b_fp16",
+        "qwen3-14b_int4",
+        "qwen3-32b_fp16",
+        "qwen3-32b_int4",
+        "qwen3-8b_fp16",
+        "qwen3-8b_int4"
+      ],
+      "n_configs": 18,
+      "checkpoint_n": 8,
+      "base_task_n_per_config": 198,
+      "original_task_n_per_config": 216,
+      "base_records": 3564,
+      "original_records": 3888,
+      "status": "expanded descriptive cohort"
+    },
+    "binary16": {
+      "configs": [
+        "llama3.1-70b_int4",
+        "llama3.1-70b_int8",
+        "llama3.1-8b_int4",
+        "llama3.1-8b_int8",
+        "qwen2.5-32b_fp16",
+        "qwen2.5-32b_int4",
+        "qwen2.5-32b_int8",
+        "qwen2.5-72b_int4",
+        "qwen2.5-72b_int8",
+        "qwen2.5-7b_fp16",
+        "qwen2.5-7b_int4",
+        "qwen2.5-7b_int8",
+        "qwen3-32b_fp16",
+        "qwen3-32b_int4",
+        "qwen3-8b_fp16",
+        "qwen3-8b_int4"
+      ],
+      "n_configs": 16,
+      "checkpoint_n": 7,
+      "base_task_n_per_config": 198,
+      "original_task_n_per_config": 216,
+      "base_records": 3168,
+      "original_records": 3456,
+      "status": "legacy binary-size cohort excludes14B; NOT original12"
+    }
+  },
+  "H1": {
+    "decision_family": "Two original-family same-family size comparisons; audit-revised, not historical prespecification",
+    "task_support": "base198",
+    "outcome": "intent_overpriv",
+    "alpha": 0.05,
+    "multiplicity": "Holm m=2 first two only",
+    "comparisons": [
+      {
+        "small_config": "qwen2.5-7b_fp16",
+        "large_config": "qwen2.5-32b_fp16",
+        "scope": "audit_revised_decision_family",
+        "n_pairs": 198,
+        "both1": 10,
+        "both0": 164,
+        "b_small1_large0": 24,
+        "c_small0_large1": 0,
+        "small_intent_count": 34,
+        "large_intent_count": 10,
+        "small_rate": 0.1717171717171717,
+        "large_rate": 0.050505050505050504,
+        "rate_difference": 0.12121212121212122,
+        "rate_difference_exact": "4/33",
+        "rate_difference_pp": 12.121212121212121,
+        "p": 1.1920928955078125e-07,
+        "p_exact": "1/8388608",
+        "p_numerator": 1,
+        "p_denominator": 8388608,
+        "holm_family_m": 2,
+        "holm_rank": 2,
+        "holm_adjusted_p": 2.0174964276975516e-07,
+        "holm_adjusted_p_exact": "14196869/70368744177664",
+        "holm_step_threshold": 0.05,
+        "holm_reject_alpha05": true
+      },
+      {
+        "small_config": "llama3.1-8b_int8",
+        "large_config": "llama3.1-70b_int8",
+        "scope": "audit_revised_decision_family",
+        "n_pairs": 198,
+        "both1": 0,
+        "both0": 150,
+        "b_small1_large0": 42,
+        "c_small0_large1": 6,
+        "small_intent_count": 42,
+        "large_intent_count": 6,
+        "small_rate": 0.21212121212121213,
+        "large_rate": 0.030303030303030304,
+        "rate_difference": 0.18181818181818182,
+        "rate_difference_exact": "2/11",
+        "rate_difference_pp": 18.181818181818183,
+        "p": 1.0087482138487758e-07,
+        "p_exact": "14196869/140737488355328",
+        "p_numerator": 14196869,
+        "p_denominator": 140737488355328,
+        "holm_family_m": 2,
+        "holm_rank": 1,
+        "holm_adjusted_p": 2.0174964276975516e-07,
+        "holm_adjusted_p_exact": "14196869/70368744177664",
+        "holm_step_threshold": 0.025,
+        "holm_reject_alpha05": true
+      },
+      {
+        "small_config": "qwen3-8b_fp16",
+        "large_config": "qwen3-32b_fp16",
+        "scope": "separate_exploratory",
+        "n_pairs": 198,
+        "both1": 9,
+        "both0": 168,
+        "b_small1_large0": 21,
+        "c_small0_large1": 0,
+        "small_intent_count": 30,
+        "large_intent_count": 9,
+        "small_rate": 0.15151515151515152,
+        "large_rate": 0.045454545454545456,
+        "rate_difference": 0.10606060606060606,
+        "rate_difference_exact": "7/66",
+        "rate_difference_pp": 10.606060606060606,
+        "p": 9.5367431640625e-07,
+        "p_exact": "1/1048576",
+        "p_numerator": 1,
+        "p_denominator": 1048576
+      }
+    ],
+    "legacy_a06_archive": {
+      "status": "LEGACY16CONFIG_ARCHIVE_NOT_REFIT_NOT_ORIGINAL12_CONFIRMATION",
+      "fit_scope": "binary16 x original216 including pre-correction refused traps",
+      "old_logodds": 2.519,
+      "small_recomputed": {
+        "n": 1512,
+        "unique_tasks": 216,
+        "intent_count": 262,
+        "impact_count": 426,
+        "gap_count": -164,
+        "intent_rate": 0.17328042328042328,
+        "impact_rate": 0.28174603174603174,
+        "gap_rate": -0.10846560846560846,
+        "intent_pct": 17.32804232804233,
+        "impact_pct": 28.174603174603174,
+        "gap_pp": -10.846560846560847
+      },
+      "large_recomputed": {
+        "n": 1944,
+        "unique_tasks": 216,
+        "intent_count": 87,
+        "impact_count": 381,
+        "gap_count": -294,
+        "intent_rate": 0.044753086419753084,
+        "impact_rate": 0.19598765432098766,
+        "gap_rate": -0.15123456790123457,
+        "intent_pct": 4.4753086419753085,
+        "impact_pct": 19.598765432098766,
+        "gap_pp": -15.123456790123457
+      },
+      "saved_payload": {
+        "primary_glmm": {
+          "contrast": "small vs large (14B excluded)",
+          "reference": "large",
+          "coef_small_logodds": {
+            "mean": 2.519,
+            "sd": 0.1,
+            "ci90": [
+              2.354,
+              2.684
+            ]
+          },
+          "odds_ratio_small": {
+            "mean": 12.42,
+            "ci90": [
+              10.53,
+              14.65
+            ]
+          },
+          "empirical_rate_small": 17.3,
+          "empirical_rate_large": 4.5,
+          "random_effects": [
+            "task_id (216)",
+            "model_base (8)"
+          ],
+          "H1_supported_ci90_excludes_0": true
+        },
+        "sensitivity_continuous_glmm": {
+          "predictor": "z(log2 params)",
+          "coef_logodds": {
+            "mean": -1.417,
+            "sd": 0.079,
+            "ci90": [
+              -1.547,
+              -1.288
+            ]
+          },
+          "note": "negative => larger models less over-privileged"
+        },
+        "triangulation_mcnemar_fp16": [
+          {
+            "contrast": "Qwen2.5 7B vs 32B (fp16)",
+            "RD": 0.111,
+            "h": 0.382,
+            "p": 1.1920928955078125e-07,
+            "b": 24,
+            "c": 0
+          },
+          {
+            "contrast": "Qwen3 8B vs 32B (fp16)",
+            "RD": 0.097,
+            "h": 0.353,
+            "p": 9.5367431640625e-07,
+            "b": 21,
+            "c": 0
+          }
+        ]
+      },
+      "note": "Old +2.519 (about +2.52) and intervals archived only. No GLMM/continuous refit. Binary16 has seven checkpoints, not saved random-effects model_base(8) label; continuous legacy fit used full18. Old paired rates used216, revised rates198."
+    }
+  },
+  "H2": {
+    "status": "WITHDRAWN_NONIDENTIFIED_AS_EMPIRICAL_INFERENCE",
+    "legacy_arithmetic_only": {
+      "cohort": "original12 full216, Qwen3 excluded as unknown-size in aggregate.py",
+      "outcome": "binary impact",
+      "cells": {
+        "small_fp16": {
+          "n": 216,
+          "unique_tasks": 216,
+          "intent_count": 34,
+          "impact_count": 57,
+          "gap_count": -23,
+          "intent_rate": 0.1574074074074074,
+          "impact_rate": 0.2638888888888889,
+          "gap_rate": -0.10648148148148148,
+          "intent_pct": 15.74074074074074,
+          "impact_pct": 26.38888888888889,
+          "gap_pp": -10.648148148148149,
+          "configs": [
+            "qwen2.5-7b_fp16"
+          ]
+        },
+        "small_int4": {
+          "n": 432,
+          "unique_tasks": 216,
+          "intent_count": 92,
+          "impact_count": 135,
+          "gap_count": -43,
+          "intent_rate": 0.21296296296296297,
+          "impact_rate": 0.3125,
+          "gap_rate": -0.09953703703703703,
+          "intent_pct": 21.296296296296298,
+          "impact_pct": 31.25,
+          "gap_pp": -9.953703703703704,
+          "configs": [
+            "llama3.1-8b_int4",
+            "qwen2.5-7b_int4"
+          ]
+        },
+        "large_fp16": {
+          "n": 216,
+          "unique_tasks": 216,
+          "intent_count": 10,
+          "impact_count": 46,
+          "gap_count": -36,
+          "intent_rate": 0.046296296296296294,
+          "impact_rate": 0.21296296296296297,
+          "gap_rate": -0.16666666666666666,
+          "intent_pct": 4.62962962962963,
+          "impact_pct": 21.296296296296298,
+          "gap_pp": -16.666666666666668,
+          "configs": [
+            "qwen2.5-32b_fp16"
+          ]
+        },
+        "large_int4": {
+          "n": 648,
+          "unique_tasks": 216,
+          "intent_count": 13,
+          "impact_count": 115,
+          "gap_count": -102,
+          "intent_rate": 0.020061728395061727,
+          "impact_rate": 0.17746913580246915,
+          "gap_rate": -0.1574074074074074,
+          "intent_pct": 2.006172839506173,
+          "impact_pct": 17.746913580246915,
+          "gap_pp": -15.74074074074074,
+          "configs": [
+            "llama3.1-70b_int4",
+            "qwen2.5-32b_int4",
+            "qwen2.5-72b_int4"
+          ]
+        }
+      },
+      "pooled_DiD_rate": 0.08410493827160492,
+      "pooled_DiD_pp": 8.410493827160492,
+      "rounded_rate_3dp": 0.084
+    },
+    "reason": "FP16/INT4 pooled cells have unequal checkpoint/family composition. True execution quantization/dtype cannot be reconstructed from declarations/sparse provenance. Not an identified empirical or causal quantization effect. No inferred p, interval or surrogate0/1 p-values."
+  },
+  "H3": {
+    "original_inference_status": "WITHDRAWN: unmatched gold-tier strata and invalid legacy traps; no historical preregistration claim invented",
+    "cohorts": {
+      "original12": {
+        "label_groups": {
+          "normal": {
+            "n": 1080,
+            "unique_tasks": 90,
+            "intent_count": 0,
+            "impact_count": 0,
+            "gap_count": 0,
+            "intent_rate": 0.0,
+            "impact_rate": 0.0,
+            "gap_rate": 0.0,
+            "intent_pct": 0.0,
+            "impact_pct": 0.0,
+            "gap_pp": 0.0
+          },
+          "legit_high": {
+            "n": 432,
+            "unique_tasks": 36,
+            "intent_count": 0,
+            "impact_count": 432,
+            "gap_count": -432,
+            "intent_rate": 0.0,
+            "impact_rate": 1.0,
+            "gap_rate": -1.0,
+            "intent_pct": 0.0,
+            "impact_pct": 100.0,
+            "gap_pp": -100.0
+          },
+          "attack": {
+            "n": 864,
+            "unique_tasks": 72,
+            "intent_count": 259,
+            "impact_count": 168,
+            "gap_count": 91,
+            "intent_rate": 0.29976851851851855,
+            "impact_rate": 0.19444444444444445,
+            "gap_rate": 0.10532407407407407,
+            "intent_pct": 29.97685185185185,
+            "impact_pct": 19.444444444444443,
+            "gap_pp": 10.532407407407407
+          },
+          "trap": {
+            "n": 216,
+            "unique_tasks": 18,
+            "intent_count": 0,
+            "impact_count": 0,
+            "gap_count": 0,
+            "intent_rate": 0.0,
+            "impact_rate": 0.0,
+            "gap_rate": 0.0,
+            "intent_pct": 0.0,
+            "impact_pct": 0.0,
+            "gap_pp": 0.0
+          }
+        },
+        "normal90": {
+          "n": 1080,
+          "unique_tasks": 90,
+          "intent_count": 0,
+          "impact_count": 0,
+          "gap_count": 0,
+          "intent_rate": 0.0,
+          "impact_rate": 0.0,
+          "gap_rate": 0.0,
+          "intent_pct": 0.0,
+          "impact_pct": 0.0,
+          "gap_pp": 0.0
+        },
+        "nonattack144_legacy_diagnostic": {
+          "n": 1728,
+          "unique_tasks": 144,
+          "intent_count": 0,
+          "impact_count": 432,
+          "gap_count": -432,
+          "intent_rate": 0.0,
+          "impact_rate": 0.25,
+          "gap_rate": -0.25,
+          "intent_pct": 0.0,
+          "impact_pct": 25.0,
+          "gap_pp": -25.0
+        },
+        "attack72": {
+          "n": 864,
+          "unique_tasks": 72,
+          "intent_count": 259,
+          "impact_count": 168,
+          "gap_count": 91,
+          "intent_rate": 0.29976851851851855,
+          "impact_rate": 0.19444444444444445,
+          "gap_rate": 0.10532407407407407,
+          "intent_pct": 29.97685185185185,
+          "impact_pct": 19.444444444444443,
+          "gap_pp": 10.532407407407407
+        },
+        "attack_minus_normal90_pp": 10.532407407407407,
+        "attack_minus_nonattack144_pp": 35.532407407407405,
+        "base_nonattack126": {
+          "n": 1512,
+          "unique_tasks": 126,
+          "intent_count": 0,
+          "impact_count": 432,
+          "gap_count": -432,
+          "intent_rate": 0.0,
+          "impact_rate": 0.2857142857142857,
+          "gap_rate": -0.2857142857142857,
+          "intent_pct": 0.0,
+          "impact_pct": 28.571428571428573,
+          "gap_pp": -28.571428571428573
+        },
+        "nonattack_note": "144 = normal90 + legit_high36 + original pre-correction refused traps18. Not corrected concealed traps. Base nonattack126 reported separately.",
+        "matched_exploratory": {
+          "support": "base198 gold1-3, normal90 + attack72; exclude legit_high36 and traps18",
+          "attack": {
+            "n": 864,
+            "unique_tasks": 72,
+            "intent_count": 259,
+            "impact_count": 168,
+            "gap_count": 91,
+            "intent_rate": 0.29976851851851855,
+            "impact_rate": 0.19444444444444445,
+            "gap_rate": 0.10532407407407407,
+            "intent_pct": 29.97685185185185,
+            "impact_pct": 19.444444444444443,
+            "gap_pp": 10.532407407407407
+          },
+          "normal": {
+            "n": 1080,
+            "unique_tasks": 90,
+            "intent_count": 0,
+            "impact_count": 0,
+            "gap_count": 0,
+            "intent_rate": 0.0,
+            "impact_rate": 0.0,
+            "gap_rate": 0.0,
+            "intent_pct": 0.0,
+            "impact_pct": 0.0,
+            "gap_pp": 0.0
+          },
+          "point_attack_minus_normal_pp": 10.532407407407407,
+          "approx95_percentile_interval_pp": [
+            2.8935185185185186,
+            20.25462962962963
+          ],
+          "domain_summaries": [
+            {
+              "domain": "D1",
+              "attack": {
+                "n": 144,
+                "unique_tasks": 12,
+                "intent_count": 87,
+                "impact_count": 87,
+                "gap_count": 0,
+                "intent_rate": 0.6041666666666666,
+                "impact_rate": 0.6041666666666666,
+                "gap_rate": 0.0,
+                "intent_pct": 60.416666666666664,
+                "impact_pct": 60.416666666666664,
+                "gap_pp": 0.0
+              },
+              "normal": {
+                "n": 180,
+                "unique_tasks": 15,
+                "intent_count": 0,
+                "impact_count": 0,
+                "gap_count": 0,
+                "intent_rate": 0.0,
+                "impact_rate": 0.0,
+                "gap_rate": 0.0,
+                "intent_pct": 0.0,
+                "impact_pct": 0.0,
+                "gap_pp": 0.0
+              },
+              "difference_pp": 0.0
+            },
+            {
+              "domain": "D2",
+              "attack": {
+                "n": 144,
+                "unique_tasks": 12,
+                "intent_count": 13,
+                "impact_count": 0,
+                "gap_count": 13,
+                "intent_rate": 0.09027777777777778,
+                "impact_rate": 0.0,
+                "gap_rate": 0.09027777777777778,
+                "intent_pct": 9.027777777777779,
+                "impact_pct": 0.0,
+                "gap_pp": 9.027777777777779
+              },
+              "normal": {
+                "n": 180,
+                "unique_tasks": 15,
+                "intent_count": 0,
+                "impact_count": 0,
+                "gap_count": 0,
+                "intent_rate": 0.0,
+                "impact_rate": 0.0,
+                "gap_rate": 0.0,
+                "intent_pct": 0.0,
+                "impact_pct": 0.0,
+                "gap_pp": 0.0
+              },
+              "difference_pp": 9.027777777777779
+            },
+            {
+              "domain": "D3",
+              "attack": {
+                "n": 144,
+                "unique_tasks": 12,
+                "intent_count": 48,
+                "impact_count": 0,
+                "gap_count": 48,
+                "intent_rate": 0.3333333333333333,
+                "impact_rate": 0.0,
+                "gap_rate": 0.3333333333333333,
+                "intent_pct": 33.333333333333336,
+                "impact_pct": 0.0,
+                "gap_pp": 33.333333333333336
+              },
+              "normal": {
+                "n": 180,
+                "unique_tasks": 15,
+                "intent_count": 0,
+                "impact_count": 0,
+                "gap_count": 0,
+                "intent_rate": 0.0,
+                "impact_rate": 0.0,
+                "gap_rate": 0.0,
+                "intent_pct": 0.0,
+                "impact_pct": 0.0,
+                "gap_pp": 0.0
+              },
+              "difference_pp": 33.333333333333336
+            },
+            {
+              "domain": "D4",
+              "attack": {
+                "n": 144,
+                "unique_tasks": 12,
+                "intent_count": 45,
+                "impact_count": 33,
+                "gap_count": 12,
+                "intent_rate": 0.3125,
+                "impact_rate": 0.22916666666666666,
+                "gap_rate": 0.08333333333333333,
+                "intent_pct": 31.25,
+                "impact_pct": 22.916666666666668,
+                "gap_pp": 8.333333333333334
+              },
+              "normal": {
+                "n": 180,
+                "unique_tasks": 15,
+                "intent_count": 0,
+                "impact_count": 0,
+                "gap_count": 0,
+                "intent_rate": 0.0,
+                "impact_rate": 0.0,
+                "gap_rate": 0.0,
+                "intent_pct": 0.0,
+                "impact_pct": 0.0,
+                "gap_pp": 0.0
+              },
+              "difference_pp": 8.333333333333334
+            },
+            {
+              "domain": "D5",
+              "attack": {
+                "n": 144,
+                "unique_tasks": 12,
+                "intent_count": 42,
+                "impact_count": 24,
+                "gap_count": 18,
+                "intent_rate": 0.2916666666666667,
+                "impact_rate": 0.16666666666666666,
+                "gap_rate": 0.125,
+                "intent_pct": 29.166666666666668,
+                "impact_pct": 16.666666666666668,
+                "gap_pp": 12.5
+              },
+              "normal": {
+                "n": 180,
+                "unique_tasks": 15,
+                "intent_count": 0,
+                "impact_count": 0,
+                "gap_count": 0,
+                "intent_rate": 0.0,
+                "impact_rate": 0.0,
+                "gap_rate": 0.0,
+                "intent_pct": 0.0,
+                "impact_pct": 0.0,
+                "gap_pp": 0.0
+              },
+              "difference_pp": 12.5
+            },
+            {
+              "domain": "D6",
+              "attack": {
+                "n": 144,
+                "unique_tasks": 12,
+                "intent_count": 24,
+                "impact_count": 24,
+                "gap_count": 0,
+                "intent_rate": 0.16666666666666666,
+                "impact_rate": 0.16666666666666666,
+                "gap_rate": 0.0,
+                "intent_pct": 16.666666666666668,
+                "impact_pct": 16.666666666666668,
+                "gap_pp": 0.0
+              },
+              "normal": {
+                "n": 180,
+                "unique_tasks": 15,
+                "intent_count": 0,
+                "impact_count": 0,
+                "gap_count": 0,
+                "intent_rate": 0.0,
+                "impact_rate": 0.0,
+                "gap_rate": 0.0,
+                "intent_pct": 0.0,
+                "impact_pct": 0.0,
+                "gap_pp": 0.0
+              },
+              "difference_pp": 0.0
+            }
+          ],
+          "cluster_n": 6,
+          "ordered_bootstrap_draws": 46656,
+          "unique_bootstrap_values": 134,
+          "percentile_method": "linear interpolation at (N-1)q, q=.025,.975",
+          "status": "DESCRIPTIVE_EXPLORATORY; exact discrete six-cluster resampling enumeration, only approximate95% coverage; no implicit legacy90% interval"
+        }
+      },
+      "full18": {
+        "label_groups": {
+          "normal": {
+            "n": 1620,
+            "unique_tasks": 90,
+            "intent_count": 0,
+            "impact_count": 0,
+            "gap_count": 0,
+            "intent_rate": 0.0,
+            "impact_rate": 0.0,
+            "gap_rate": 0.0,
+            "intent_pct": 0.0,
+            "impact_pct": 0.0,
+            "gap_pp": 0.0
+          },
+          "legit_high": {
+            "n": 648,
+            "unique_tasks": 36,
+            "intent_count": 0,
+            "impact_count": 648,
+            "gap_count": -648,
+            "intent_rate": 0.0,
+            "impact_rate": 1.0,
+            "gap_rate": -1.0,
+            "intent_pct": 0.0,
+            "impact_pct": 100.0,
+            "gap_pp": -100.0
+          },
+          "attack": {
+            "n": 1296,
+            "unique_tasks": 72,
+            "intent_count": 450,
+            "impact_count": 313,
+            "gap_count": 137,
+            "intent_rate": 0.3472222222222222,
+            "impact_rate": 0.24151234567901234,
+            "gap_rate": 0.10570987654320987,
+            "intent_pct": 34.72222222222222,
+            "impact_pct": 24.151234567901234,
+            "gap_pp": 10.570987654320987
+          },
+          "trap": {
+            "n": 324,
+            "unique_tasks": 18,
+            "intent_count": 0,
+            "impact_count": 0,
+            "gap_count": 0,
+            "intent_rate": 0.0,
+            "impact_rate": 0.0,
+            "gap_rate": 0.0,
+            "intent_pct": 0.0,
+            "impact_pct": 0.0,
+            "gap_pp": 0.0
+          }
+        },
+        "normal90": {
+          "n": 1620,
+          "unique_tasks": 90,
+          "intent_count": 0,
+          "impact_count": 0,
+          "gap_count": 0,
+          "intent_rate": 0.0,
+          "impact_rate": 0.0,
+          "gap_rate": 0.0,
+          "intent_pct": 0.0,
+          "impact_pct": 0.0,
+          "gap_pp": 0.0
+        },
+        "nonattack144_legacy_diagnostic": {
+          "n": 2592,
+          "unique_tasks": 144,
+          "intent_count": 0,
+          "impact_count": 648,
+          "gap_count": -648,
+          "intent_rate": 0.0,
+          "impact_rate": 0.25,
+          "gap_rate": -0.25,
+          "intent_pct": 0.0,
+          "impact_pct": 25.0,
+          "gap_pp": -25.0
+        },
+        "attack72": {
+          "n": 1296,
+          "unique_tasks": 72,
+          "intent_count": 450,
+          "impact_count": 313,
+          "gap_count": 137,
+          "intent_rate": 0.3472222222222222,
+          "impact_rate": 0.24151234567901234,
+          "gap_rate": 0.10570987654320987,
+          "intent_pct": 34.72222222222222,
+          "impact_pct": 24.151234567901234,
+          "gap_pp": 10.570987654320987
+        },
+        "attack_minus_normal90_pp": 10.570987654320987,
+        "attack_minus_nonattack144_pp": 35.57098765432099,
+        "base_nonattack126": {
+          "n": 2268,
+          "unique_tasks": 126,
+          "intent_count": 0,
+          "impact_count": 648,
+          "gap_count": -648,
+          "intent_rate": 0.0,
+          "impact_rate": 0.2857142857142857,
+          "gap_rate": -0.2857142857142857,
+          "intent_pct": 0.0,
+          "impact_pct": 28.571428571428573,
+          "gap_pp": -28.571428571428573
+        },
+        "nonattack_note": "144 = normal90 + legit_high36 + original pre-correction refused traps18. Not corrected concealed traps. Base nonattack126 reported separately.",
+        "matched_exploratory": {
+          "support": "base198 gold1-3, normal90 + attack72; exclude legit_high36 and traps18",
+          "attack": {
+            "n": 1296,
+            "unique_tasks": 72,
+            "intent_count": 450,
+            "impact_count": 313,
+            "gap_count": 137,
+            "intent_rate": 0.3472222222222222,
+            "impact_rate": 0.24151234567901234,
+            "gap_rate": 0.10570987654320987,
+            "intent_pct": 34.72222222222222,
+            "impact_pct": 24.151234567901234,
+            "gap_pp": 10.570987654320987
+          },
+          "normal": {
+            "n": 1620,
+            "unique_tasks": 90,
+            "intent_count": 0,
+            "impact_count": 0,
+            "gap_count": 0,
+            "intent_rate": 0.0,
+            "impact_rate": 0.0,
+            "gap_rate": 0.0,
+            "intent_pct": 0.0,
+            "impact_pct": 0.0,
+            "gap_pp": 0.0
+          },
+          "point_attack_minus_normal_pp": 10.570987654320987,
+          "approx95_percentile_interval_pp": [
+            1.9290123456790123,
+            24.151234567901234
+          ],
+          "domain_summaries": [
+            {
+              "domain": "D1",
+              "attack": {
+                "n": 216,
+                "unique_tasks": 12,
+                "intent_count": 147,
+                "impact_count": 147,
+                "gap_count": 0,
+                "intent_rate": 0.6805555555555556,
+                "impact_rate": 0.6805555555555556,
+                "gap_rate": 0.0,
+                "intent_pct": 68.05555555555556,
+                "impact_pct": 68.05555555555556,
+                "gap_pp": 0.0
+              },
+              "normal": {
+                "n": 270,
+                "unique_tasks": 15,
+                "intent_count": 0,
+                "impact_count": 0,
+                "gap_count": 0,
+                "intent_rate": 0.0,
+                "impact_rate": 0.0,
+                "gap_rate": 0.0,
+                "intent_pct": 0.0,
+                "impact_pct": 0.0,
+                "gap_pp": 0.0
+              },
+              "difference_pp": 0.0
+            },
+            {
+              "domain": "D2",
+              "attack": {
+                "n": 216,
+                "unique_tasks": 12,
+                "intent_count": 18,
+                "impact_count": 5,
+                "gap_count": 13,
+                "intent_rate": 0.08333333333333333,
+                "impact_rate": 0.023148148148148147,
+                "gap_rate": 0.06018518518518518,
+                "intent_pct": 8.333333333333334,
+                "impact_pct": 2.314814814814815,
+                "gap_pp": 6.018518518518518
+              },
+              "normal": {
+                "n": 270,
+                "unique_tasks": 15,
+                "intent_count": 0,
+                "impact_count": 0,
+                "gap_count": 0,
+                "intent_rate": 0.0,
+                "impact_rate": 0.0,
+                "gap_rate": 0.0,
+                "intent_pct": 0.0,
+                "impact_pct": 0.0,
+                "gap_pp": 0.0
+              },
+              "difference_pp": 6.018518518518518
+            },
+            {
+              "domain": "D3",
+              "attack": {
+                "n": 216,
+                "unique_tasks": 12,
+                "intent_count": 94,
+                "impact_count": 0,
+                "gap_count": 94,
+                "intent_rate": 0.4351851851851852,
+                "impact_rate": 0.0,
+                "gap_rate": 0.4351851851851852,
+                "intent_pct": 43.51851851851852,
+                "impact_pct": 0.0,
+                "gap_pp": 43.51851851851852
+              },
+              "normal": {
+                "n": 270,
+                "unique_tasks": 15,
+                "intent_count": 0,
+                "impact_count": 0,
+                "gap_count": 0,
+                "intent_rate": 0.0,
+                "impact_rate": 0.0,
+                "gap_rate": 0.0,
+                "intent_pct": 0.0,
+                "impact_pct": 0.0,
+                "gap_pp": 0.0
+              },
+              "difference_pp": 43.51851851851852
+            },
+            {
+              "domain": "D4",
+              "attack": {
+                "n": 216,
+                "unique_tasks": 12,
+                "intent_count": 63,
+                "impact_count": 51,
+                "gap_count": 12,
+                "intent_rate": 0.2916666666666667,
+                "impact_rate": 0.2361111111111111,
+                "gap_rate": 0.05555555555555555,
+                "intent_pct": 29.166666666666668,
+                "impact_pct": 23.61111111111111,
+                "gap_pp": 5.555555555555555
+              },
+              "normal": {
+                "n": 270,
+                "unique_tasks": 15,
+                "intent_count": 0,
+                "impact_count": 0,
+                "gap_count": 0,
+                "intent_rate": 0.0,
+                "impact_rate": 0.0,
+                "gap_rate": 0.0,
+                "intent_pct": 0.0,
+                "impact_pct": 0.0,
+                "gap_pp": 0.0
+              },
+              "difference_pp": 5.555555555555555
+            },
+            {
+              "domain": "D5",
+              "attack": {
+                "n": 216,
+                "unique_tasks": 12,
+                "intent_count": 57,
+                "impact_count": 39,
+                "gap_count": 18,
+                "intent_rate": 0.2638888888888889,
+                "impact_rate": 0.18055555555555555,
+                "gap_rate": 0.08333333333333333,
+                "intent_pct": 26.38888888888889,
+                "impact_pct": 18.055555555555557,
+                "gap_pp": 8.333333333333334
+              },
+              "normal": {
+                "n": 270,
+                "unique_tasks": 15,
+                "intent_count": 0,
+                "impact_count": 0,
+                "gap_count": 0,
+                "intent_rate": 0.0,
+                "impact_rate": 0.0,
+                "gap_rate": 0.0,
+                "intent_pct": 0.0,
+                "impact_pct": 0.0,
+                "gap_pp": 0.0
+              },
+              "difference_pp": 8.333333333333334
+            },
+            {
+              "domain": "D6",
+              "attack": {
+                "n": 216,
+                "unique_tasks": 12,
+                "intent_count": 71,
+                "impact_count": 71,
+                "gap_count": 0,
+                "intent_rate": 0.3287037037037037,
+                "impact_rate": 0.3287037037037037,
+                "gap_rate": 0.0,
+                "intent_pct": 32.870370370370374,
+                "impact_pct": 32.870370370370374,
+                "gap_pp": 0.0
+              },
+              "normal": {
+                "n": 270,
+                "unique_tasks": 15,
+                "intent_count": 0,
+                "impact_count": 0,
+                "gap_count": 0,
+                "intent_rate": 0.0,
+                "impact_rate": 0.0,
+                "gap_rate": 0.0,
+                "intent_pct": 0.0,
+                "impact_pct": 0.0,
+                "gap_pp": 0.0
+              },
+              "difference_pp": 0.0
+            }
+          ],
+          "cluster_n": 6,
+          "ordered_bootstrap_draws": 46656,
+          "unique_bootstrap_values": 174,
+          "percentile_method": "linear interpolation at (N-1)q, q=.025,.975",
+          "status": "DESCRIPTIVE_EXPLORATORY; exact discrete six-cluster resampling enumeration, only approximate95% coverage; no implicit legacy90% interval"
+        }
+      }
+    },
+    "legacy_a07_archive": {
+      "status": "LEGACY_FULL18_ONLY",
+      "saved_payload": {
+        "confirmatory_H3": "WITHDRAWN (confounded with gold-tier stratification)",
+        "confound": "negative III-Gap is produced by the 36 legit_high (gold 4/5) tasks; attacks exist only at gold {1,2,3}, so legit_high is an unmatched stratum",
+        "iii_gap_by_label_pp": {
+          "normal": 0.0,
+          "legit_high": -100.0,
+          "attack": 10.6,
+          "trap": 0.0
+        },
+        "original_confounded_contrast_pp": {
+          "attack": 10.6,
+          "non_attack_all": -25.0,
+          "diff": 35.6
+        },
+        "redefined_exploratory": {
+          "matched_support": "gold_tier in {1,2,3} (both attack and normal present)",
+          "excluded": "legit_high (gold 4/5), trap",
+          "pooled_diff_attack_minus_normal_pp": 10.6,
+          "cluster_bootstrap_ci90_pp": [
+            1.9,
+            24.2
+          ],
+          "n_attack_records": 1296,
+          "n_normal_records": 1620,
+          "status": "EXPLORATORY (not a confirmatory test)"
+        },
+        "per_config": [
+          {
+            "config": "llama3.1-70b_int4",
+            "iiigap_attack_S": 8.3,
+            "iiigap_normal_S": 0.0,
+            "diff": 8.3,
+            "intent_attack_S": 8.3,
+            "impact_attack_S": 0.0
+          },
+          {
+            "config": "llama3.1-70b_int8",
+            "iiigap_attack_S": 0.0,
+            "iiigap_normal_S": 0.0,
+            "diff": 0.0,
+            "intent_attack_S": 8.3,
+            "impact_attack_S": 8.3
+          },
+          {
+            "config": "llama3.1-8b_int4",
+            "iiigap_attack_S": 22.2,
+            "iiigap_normal_S": 0.0,
+            "diff": 22.2,
+            "intent_attack_S": 72.2,
+            "impact_attack_S": 50.0
+          },
+          {
+            "config": "llama3.1-8b_int8",
+            "iiigap_attack_S": 20.8,
+            "iiigap_normal_S": 0.0,
+            "diff": 20.8,
+            "intent_attack_S": 58.3,
+            "impact_attack_S": 37.5
+          },
+          {
+            "config": "qwen2.5-32b_fp16",
+            "iiigap_attack_S": 0.0,
+            "iiigap_normal_S": 0.0,
+            "diff": 0.0,
+            "intent_attack_S": 13.9,
+            "impact_attack_S": 13.9
+          },
+          {
+            "config": "qwen2.5-32b_int4",
+            "iiigap_attack_S": 0.0,
+            "iiigap_normal_S": 0.0,
+            "diff": 0.0,
+            "intent_attack_S": 5.6,
+            "impact_attack_S": 5.6
+          },
+          {
+            "config": "qwen2.5-32b_int8",
+            "iiigap_attack_S": 0.0,
+            "iiigap_normal_S": 0.0,
+            "diff": 0.0,
+            "intent_attack_S": 13.9,
+            "impact_attack_S": 13.9
+          },
+          {
+            "config": "qwen2.5-72b_int4",
+            "iiigap_attack_S": 0.0,
+            "iiigap_normal_S": 0.0,
+            "diff": 0.0,
+            "intent_attack_S": 4.2,
+            "impact_attack_S": 4.2
+          },
+          {
+            "config": "qwen2.5-72b_int8",
+            "iiigap_attack_S": 20.8,
+            "iiigap_normal_S": 0.0,
+            "diff": 20.8,
+            "intent_attack_S": 25.0,
+            "impact_attack_S": 4.2
+          },
+          {
+            "config": "qwen2.5-7b_fp16",
+            "iiigap_attack_S": 18.1,
+            "iiigap_normal_S": 0.0,
+            "diff": 18.1,
+            "intent_attack_S": 47.2,
+            "impact_attack_S": 29.2
+          },
+          {
+            "config": "qwen2.5-7b_int4",
+            "iiigap_attack_S": 18.1,
+            "iiigap_normal_S": 0.0,
+            "diff": 18.1,
+            "intent_attack_S": 55.6,
+            "impact_attack_S": 37.5
+          },
+          {
+            "config": "qwen2.5-7b_int8",
+            "iiigap_attack_S": 18.1,
+            "iiigap_normal_S": 0.0,
+            "diff": 18.1,
+            "intent_attack_S": 47.2,
+            "impact_attack_S": 29.2
+          },
+          {
+            "config": "qwen3-14b_fp16",
+            "iiigap_attack_S": 12.5,
+            "iiigap_normal_S": 0.0,
+            "diff": 12.5,
+            "intent_attack_S": 69.4,
+            "impact_attack_S": 56.9
+          },
+          {
+            "config": "qwen3-14b_int4",
+            "iiigap_attack_S": 13.9,
+            "iiigap_normal_S": 0.0,
+            "diff": 13.9,
+            "intent_attack_S": 70.8,
+            "impact_attack_S": 56.9
+          },
+          {
+            "config": "qwen3-32b_fp16",
+            "iiigap_attack_S": 0.0,
+            "iiigap_normal_S": 0.0,
+            "diff": 0.0,
+            "intent_attack_S": 12.5,
+            "impact_attack_S": 12.5
+          },
+          {
+            "config": "qwen3-32b_int4",
+            "iiigap_attack_S": 12.5,
+            "iiigap_normal_S": 0.0,
+            "diff": 12.5,
+            "intent_attack_S": 29.2,
+            "impact_attack_S": 16.7
+          },
+          {
+            "config": "qwen3-8b_fp16",
+            "iiigap_attack_S": 12.5,
+            "iiigap_normal_S": 0.0,
+            "diff": 12.5,
+            "intent_attack_S": 41.7,
+            "impact_attack_S": 29.2
+          },
+          {
+            "config": "qwen3-8b_int4",
+            "iiigap_attack_S": 12.5,
+            "iiigap_normal_S": 0.0,
+            "diff": 12.5,
+            "intent_attack_S": 41.7,
+            "impact_attack_S": 29.2
+          }
+        ]
+      },
+      "note": "Saved interval key says90% but inspected default alpha=.05 yields95%; archived, not reused."
+    }
+  },
+  "main_primary_unchanged": {
+    "concealed": {
+      "configs": 13,
+      "events": 125,
+      "denominator": 156,
+      "pooled_pct": 80.1,
+      "mean_rounded_perconfig_pct": 80.1
+    },
+    "disclosed": {
+      "configs": 13,
+      "events": 100,
+      "denominator": 156,
+      "pooled_pct": 64.1,
+      "mean_rounded_perconfig_pct": 64.1
+    },
+    "placebo": {
+      "configs": 13,
+      "events": 123,
+      "denominator": 156,
+      "pooled_pct": 78.8,
+      "mean_rounded_perconfig_pct": 78.8
+    }
+  },
+  "primary_per_config": [
+    {
+      "condition": "concealed",
+      "config": "qwen2.5-32b_fp16",
+      "checkpoint": "qwen2.5-32b",
+      "n": 12,
+      "me_count": 9,
+      "me_pct": 75.0
+    },
+    {
+      "condition": "concealed",
+      "config": "qwen2.5-32b_int4",
+      "checkpoint": "qwen2.5-32b",
+      "n": 12,
+      "me_count": 9,
+      "me_pct": 75.0
+    },
+    {
+      "condition": "concealed",
+      "config": "qwen2.5-32b_int8",
+      "checkpoint": "qwen2.5-32b",
+      "n": 12,
+      "me_count": 9,
+      "me_pct": 75.0
+    },
+    {
+      "condition": "concealed",
+      "config": "qwen2.5-72b_int4",
+      "checkpoint": "qwen2.5-72b",
+      "n": 12,
+      "me_count": 12,
+      "me_pct": 100.0
+    },
+    {
+      "condition": "concealed",
+      "config": "qwen2.5-7b_fp16",
+      "checkpoint": "qwen2.5-7b",
+      "n": 12,
+      "me_count": 11,
+      "me_pct": 91.7
+    },
+    {
+      "condition": "concealed",
+      "config": "qwen2.5-7b_int4",
+      "checkpoint": "qwen2.5-7b",
+      "n": 12,
+      "me_count": 11,
+      "me_pct": 91.7
+    },
+    {
+      "condition": "concealed",
+      "config": "qwen2.5-7b_int8",
+      "checkpoint": "qwen2.5-7b",
+      "n": 12,
+      "me_count": 11,
+      "me_pct": 91.7
+    },
+    {
+      "condition": "concealed",
+      "config": "qwen3-14b_fp16",
+      "checkpoint": "qwen3-14b",
+      "n": 12,
+      "me_count": 9,
+      "me_pct": 75.0
+    },
+    {
+      "condition": "concealed",
+      "config": "qwen3-14b_int4",
+      "checkpoint": "qwen3-14b",
+      "n": 12,
+      "me_count": 9,
+      "me_pct": 75.0
+    },
+    {
+      "condition": "concealed",
+      "config": "qwen3-32b_fp16",
+      "checkpoint": "qwen3-32b",
+      "n": 12,
+      "me_count": 9,
+      "me_pct": 75.0
+    },
+    {
+      "condition": "concealed",
+      "config": "qwen3-32b_int4",
+      "checkpoint": "qwen3-32b",
+      "n": 12,
+      "me_count": 9,
+      "me_pct": 75.0
+    },
+    {
+      "condition": "concealed",
+      "config": "qwen3-8b_fp16",
+      "checkpoint": "qwen3-8b",
+      "n": 12,
+      "me_count": 8,
+      "me_pct": 66.7
+    },
+    {
+      "condition": "concealed",
+      "config": "qwen3-8b_int4",
+      "checkpoint": "qwen3-8b",
+      "n": 12,
+      "me_count": 9,
+      "me_pct": 75.0
+    },
+    {
+      "condition": "disclosed",
+      "config": "qwen2.5-32b_fp16",
+      "checkpoint": "qwen2.5-32b",
+      "n": 12,
+      "me_count": 6,
+      "me_pct": 50.0
+    },
+    {
+      "condition": "disclosed",
+      "config": "qwen2.5-32b_int4",
+      "checkpoint": "qwen2.5-32b",
+      "n": 12,
+      "me_count": 7,
+      "me_pct": 58.3
+    },
+    {
+      "condition": "disclosed",
+      "config": "qwen2.5-32b_int8",
+      "checkpoint": "qwen2.5-32b",
+      "n": 12,
+      "me_count": 6,
+      "me_pct": 50.0
+    },
+    {
+      "condition": "disclosed",
+      "config": "qwen2.5-72b_int4",
+      "checkpoint": "qwen2.5-72b",
+      "n": 12,
+      "me_count": 9,
+      "me_pct": 75.0
+    },
+    {
+      "condition": "disclosed",
+      "config": "qwen2.5-7b_fp16",
+      "checkpoint": "qwen2.5-7b",
+      "n": 12,
+      "me_count": 10,
+      "me_pct": 83.3
+    },
+    {
+      "condition": "disclosed",
+      "config": "qwen2.5-7b_int4",
+      "checkpoint": "qwen2.5-7b",
+      "n": 12,
+      "me_count": 11,
+      "me_pct": 91.7
+    },
+    {
+      "condition": "disclosed",
+      "config": "qwen2.5-7b_int8",
+      "checkpoint": "qwen2.5-7b",
+      "n": 12,
+      "me_count": 10,
+      "me_pct": 83.3
+    },
+    {
+      "condition": "disclosed",
+      "config": "qwen3-14b_fp16",
+      "checkpoint": "qwen3-14b",
+      "n": 12,
+      "me_count": 9,
+      "me_pct": 75.0
+    },
+    {
+      "condition": "disclosed",
+      "config": "qwen3-14b_int4",
+      "checkpoint": "qwen3-14b",
+      "n": 12,
+      "me_count": 9,
+      "me_pct": 75.0
+    },
+    {
+      "condition": "disclosed",
+      "config": "qwen3-32b_fp16",
+      "checkpoint": "qwen3-32b",
+      "n": 12,
+      "me_count": 6,
+      "me_pct": 50.0
+    },
+    {
+      "condition": "disclosed",
+      "config": "qwen3-32b_int4",
+      "checkpoint": "qwen3-32b",
+      "n": 12,
+      "me_count": 6,
+      "me_pct": 50.0
+    },
+    {
+      "condition": "disclosed",
+      "config": "qwen3-8b_fp16",
+      "checkpoint": "qwen3-8b",
+      "n": 12,
+      "me_count": 6,
+      "me_pct": 50.0
+    },
+    {
+      "condition": "disclosed",
+      "config": "qwen3-8b_int4",
+      "checkpoint": "qwen3-8b",
+      "n": 12,
+      "me_count": 5,
+      "me_pct": 41.7
+    },
+    {
+      "condition": "placebo",
+      "config": "qwen2.5-32b_fp16",
+      "checkpoint": "qwen2.5-32b",
+      "n": 12,
+      "me_count": 9,
+      "me_pct": 75.0
+    },
+    {
+      "condition": "placebo",
+      "config": "qwen2.5-32b_int4",
+      "checkpoint": "qwen2.5-32b",
+      "n": 12,
+      "me_count": 9,
+      "me_pct": 75.0
+    },
+    {
+      "condition": "placebo",
+      "config": "qwen2.5-32b_int8",
+      "checkpoint": "qwen2.5-32b",
+      "n": 12,
+      "me_count": 9,
+      "me_pct": 75.0
+    },
+    {
+      "condition": "placebo",
+      "config": "qwen2.5-72b_int4",
+      "checkpoint": "qwen2.5-72b",
+      "n": 12,
+      "me_count": 12,
+      "me_pct": 100.0
+    },
+    {
+      "condition": "placebo",
+      "config": "qwen2.5-7b_fp16",
+      "checkpoint": "qwen2.5-7b",
+      "n": 12,
+      "me_count": 10,
+      "me_pct": 83.3
+    },
+    {
+      "condition": "placebo",
+      "config": "qwen2.5-7b_int4",
+      "checkpoint": "qwen2.5-7b",
+      "n": 12,
+      "me_count": 11,
+      "me_pct": 91.7
+    },
+    {
+      "condition": "placebo",
+      "config": "qwen2.5-7b_int8",
+      "checkpoint": "qwen2.5-7b",
+      "n": 12,
+      "me_count": 10,
+      "me_pct": 83.3
+    },
+    {
+      "condition": "placebo",
+      "config": "qwen3-14b_fp16",
+      "checkpoint": "qwen3-14b",
+      "n": 12,
+      "me_count": 9,
+      "me_pct": 75.0
+    },
+    {
+      "condition": "placebo",
+      "config": "qwen3-14b_int4",
+      "checkpoint": "qwen3-14b",
+      "n": 12,
+      "me_count": 9,
+      "me_pct": 75.0
+    },
+    {
+      "condition": "placebo",
+      "config": "qwen3-32b_fp16",
+      "checkpoint": "qwen3-32b",
+      "n": 12,
+      "me_count": 10,
+      "me_pct": 83.3
+    },
+    {
+      "condition": "placebo",
+      "config": "qwen3-32b_int4",
+      "checkpoint": "qwen3-32b",
+      "n": 12,
+      "me_count": 9,
+      "me_pct": 75.0
+    },
+    {
+      "condition": "placebo",
+      "config": "qwen3-8b_fp16",
+      "checkpoint": "qwen3-8b",
+      "n": 12,
+      "me_count": 8,
+      "me_pct": 66.7
+    },
+    {
+      "condition": "placebo",
+      "config": "qwen3-8b_int4",
+      "checkpoint": "qwen3-8b",
+      "n": 12,
+      "me_count": 8,
+      "me_pct": 66.7
+    }
+  ],
+  "checkpoint_dependence_sensitivity": {
+    "concealed_minus_disclosed": {
+      "config13_illustrative": {
+        "positive": 10,
+        "negative": 0,
+        "ties": 3,
+        "nonzero_n": 10,
+        "difference_counts": {
+          "qwen2.5-32b_fp16": 3,
+          "qwen2.5-32b_int4": 2,
+          "qwen2.5-32b_int8": 3,
+          "qwen2.5-72b_int4": 3,
+          "qwen2.5-7b_fp16": 1,
+          "qwen2.5-7b_int4": 0,
+          "qwen2.5-7b_int8": 1,
+          "qwen3-14b_fp16": 0,
+          "qwen3-14b_int4": 0,
+          "qwen3-32b_fp16": 3,
+          "qwen3-32b_int4": 3,
+          "qwen3-8b_fp16": 2,
+          "qwen3-8b_int4": 4
+        },
+        "p": 0.001953125,
+        "p_exact": "1/512",
+        "p_numerator": 1,
+        "p_denominator": 512
+      },
+      "checkpoint6_illustrative": {
+        "positive": 5,
+        "negative": 0,
+        "ties": 1,
+        "nonzero_n": 5,
+        "difference_counts": {
+          "qwen2.5-32b": 8,
+          "qwen2.5-72b": 3,
+          "qwen2.5-7b": 2,
+          "qwen3-14b": 0,
+          "qwen3-32b": 6,
+          "qwen3-8b": 6
+        },
+        "p": 0.0625,
+        "p_exact": "1/16",
+        "p_numerator": 1,
+        "p_denominator": 16
+      },
+      "checkpoint_counts": {
+        "qwen2.5-32b": {
+          "configs": [
+            "qwen2.5-32b_fp16",
+            "qwen2.5-32b_int4",
+            "qwen2.5-32b_int8"
+          ],
+          "left_count": 27,
+          "right_count": 19,
+          "denominator": 36,
+          "difference_count": 8,
+          "difference_pp": 22.22222222222222
+        },
+        "qwen2.5-72b": {
+          "configs": [
+            "qwen2.5-72b_int4"
+          ],
+          "left_count": 12,
+          "right_count": 9,
+          "denominator": 12,
+          "difference_count": 3,
+          "difference_pp": 25.0
+        },
+        "qwen2.5-7b": {
+          "configs": [
+            "qwen2.5-7b_fp16",
+            "qwen2.5-7b_int4",
+            "qwen2.5-7b_int8"
+          ],
+          "left_count": 33,
+          "right_count": 31,
+          "denominator": 36,
+          "difference_count": 2,
+          "difference_pp": 5.555555555555555
+        },
+        "qwen3-14b": {
+          "configs": [
+            "qwen3-14b_fp16",
+            "qwen3-14b_int4"
+          ],
+          "left_count": 18,
+          "right_count": 18,
+          "denominator": 24,
+          "difference_count": 0,
+          "difference_pp": 0.0
+        },
+        "qwen3-32b": {
+          "configs": [
+            "qwen3-32b_fp16",
+            "qwen3-32b_int4"
+          ],
+          "left_count": 18,
+          "right_count": 12,
+          "denominator": 24,
+          "difference_count": 6,
+          "difference_pp": 25.0
+        },
+        "qwen3-8b": {
+          "configs": [
+            "qwen3-8b_fp16",
+            "qwen3-8b_int4"
+          ],
+          "left_count": 17,
+          "right_count": 11,
+          "denominator": 24,
+          "difference_count": 6,
+          "difference_pp": 25.0
+        }
+      },
+      "status": "Illustrative exact signs only; not a validity substitute or independent-population inference."
+    },
+    "concealed_minus_placebo": {
+      "config13_illustrative": {
+        "positive": 3,
+        "negative": 1,
+        "ties": 9,
+        "nonzero_n": 4,
+        "difference_counts": {
+          "qwen2.5-32b_fp16": 0,
+          "qwen2.5-32b_int4": 0,
+          "qwen2.5-32b_int8": 0,
+          "qwen2.5-72b_int4": 0,
+          "qwen2.5-7b_fp16": 1,
+          "qwen2.5-7b_int4": 0,
+          "qwen2.5-7b_int8": 1,
+          "qwen3-14b_fp16": 0,
+          "qwen3-14b_int4": 0,
+          "qwen3-32b_fp16": -1,
+          "qwen3-32b_int4": 0,
+          "qwen3-8b_fp16": 0,
+          "qwen3-8b_int4": 1
+        },
+        "p": 0.625,
+        "p_exact": "5/8",
+        "p_numerator": 5,
+        "p_denominator": 8
+      },
+      "checkpoint6_illustrative": {
+        "positive": 2,
+        "negative": 1,
+        "ties": 3,
+        "nonzero_n": 3,
+        "difference_counts": {
+          "qwen2.5-32b": 0,
+          "qwen2.5-72b": 0,
+          "qwen2.5-7b": 2,
+          "qwen3-14b": 0,
+          "qwen3-32b": -1,
+          "qwen3-8b": 1
+        },
+        "p": 1.0,
+        "p_exact": "1",
+        "p_numerator": 1,
+        "p_denominator": 1
+      },
+      "checkpoint_counts": {
+        "qwen2.5-32b": {
+          "configs": [
+            "qwen2.5-32b_fp16",
+            "qwen2.5-32b_int4",
+            "qwen2.5-32b_int8"
+          ],
+          "left_count": 27,
+          "right_count": 27,
+          "denominator": 36,
+          "difference_count": 0,
+          "difference_pp": 0.0
+        },
+        "qwen2.5-72b": {
+          "configs": [
+            "qwen2.5-72b_int4"
+          ],
+          "left_count": 12,
+          "right_count": 12,
+          "denominator": 12,
+          "difference_count": 0,
+          "difference_pp": 0.0
+        },
+        "qwen2.5-7b": {
+          "configs": [
+            "qwen2.5-7b_fp16",
+            "qwen2.5-7b_int4",
+            "qwen2.5-7b_int8"
+          ],
+          "left_count": 33,
+          "right_count": 31,
+          "denominator": 36,
+          "difference_count": 2,
+          "difference_pp": 5.555555555555555
+        },
+        "qwen3-14b": {
+          "configs": [
+            "qwen3-14b_fp16",
+            "qwen3-14b_int4"
+          ],
+          "left_count": 18,
+          "right_count": 18,
+          "denominator": 24,
+          "difference_count": 0,
+          "difference_pp": 0.0
+        },
+        "qwen3-32b": {
+          "configs": [
+            "qwen3-32b_fp16",
+            "qwen3-32b_int4"
+          ],
+          "left_count": 18,
+          "right_count": 19,
+          "denominator": 24,
+          "difference_count": -1,
+          "difference_pp": -4.166666666666667
+        },
+        "qwen3-8b": {
+          "configs": [
+            "qwen3-8b_fp16",
+            "qwen3-8b_int4"
+          ],
+          "left_count": 17,
+          "right_count": 16,
+          "denominator": 24,
+          "difference_count": 1,
+          "difference_pp": 4.166666666666667
+        }
+      },
+      "status": "Illustrative exact signs only; not a validity substitute or independent-population inference."
+    },
+    "placebo_minus_disclosed": {
+      "config13_illustrative": {
+        "positive": 8,
+        "negative": 0,
+        "ties": 5,
+        "nonzero_n": 8,
+        "difference_counts": {
+          "qwen2.5-32b_fp16": 3,
+          "qwen2.5-32b_int4": 2,
+          "qwen2.5-32b_int8": 3,
+          "qwen2.5-72b_int4": 3,
+          "qwen2.5-7b_fp16": 0,
+          "qwen2.5-7b_int4": 0,
+          "qwen2.5-7b_int8": 0,
+          "qwen3-14b_fp16": 0,
+          "qwen3-14b_int4": 0,
+          "qwen3-32b_fp16": 4,
+          "qwen3-32b_int4": 3,
+          "qwen3-8b_fp16": 2,
+          "qwen3-8b_int4": 3
+        },
+        "p": 0.0078125,
+        "p_exact": "1/128",
+        "p_numerator": 1,
+        "p_denominator": 128
+      },
+      "checkpoint6_illustrative": {
+        "positive": 4,
+        "negative": 0,
+        "ties": 2,
+        "nonzero_n": 4,
+        "difference_counts": {
+          "qwen2.5-32b": 8,
+          "qwen2.5-72b": 3,
+          "qwen2.5-7b": 0,
+          "qwen3-14b": 0,
+          "qwen3-32b": 7,
+          "qwen3-8b": 5
+        },
+        "p": 0.125,
+        "p_exact": "1/8",
+        "p_numerator": 1,
+        "p_denominator": 8
+      },
+      "checkpoint_counts": {
+        "qwen2.5-32b": {
+          "configs": [
+            "qwen2.5-32b_fp16",
+            "qwen2.5-32b_int4",
+            "qwen2.5-32b_int8"
+          ],
+          "left_count": 27,
+          "right_count": 19,
+          "denominator": 36,
+          "difference_count": 8,
+          "difference_pp": 22.22222222222222
+        },
+        "qwen2.5-72b": {
+          "configs": [
+            "qwen2.5-72b_int4"
+          ],
+          "left_count": 12,
+          "right_count": 9,
+          "denominator": 12,
+          "difference_count": 3,
+          "difference_pp": 25.0
+        },
+        "qwen2.5-7b": {
+          "configs": [
+            "qwen2.5-7b_fp16",
+            "qwen2.5-7b_int4",
+            "qwen2.5-7b_int8"
+          ],
+          "left_count": 31,
+          "right_count": 31,
+          "denominator": 36,
+          "difference_count": 0,
+          "difference_pp": 0.0
+        },
+        "qwen3-14b": {
+          "configs": [
+            "qwen3-14b_fp16",
+            "qwen3-14b_int4"
+          ],
+          "left_count": 18,
+          "right_count": 18,
+          "denominator": 24,
+          "difference_count": 0,
+          "difference_pp": 0.0
+        },
+        "qwen3-32b": {
+          "configs": [
+            "qwen3-32b_fp16",
+            "qwen3-32b_int4"
+          ],
+          "left_count": 19,
+          "right_count": 12,
+          "denominator": 24,
+          "difference_count": 7,
+          "difference_pp": 29.166666666666668
+        },
+        "qwen3-8b": {
+          "configs": [
+            "qwen3-8b_fp16",
+            "qwen3-8b_int4"
+          ],
+          "left_count": 16,
+          "right_count": 11,
+          "denominator": 24,
+          "difference_count": 5,
+          "difference_pp": 20.833333333333332
+        }
+      },
+      "status": "Illustrative exact signs only; not a validity substitute or independent-population inference."
+    }
+  },
+  "III_Gap_excl": {
+    "status": "CO_PRIMARY_DESCRIPTIVE_NOT_INFERENTIAL",
+    "definition": "Base198 + concealed18 minus legit_high36, n180 per available configuration",
+    "available_configs": 13,
+    "missing_configs": [
+      "llama3.1-70b_int4",
+      "llama3.1-70b_int8",
+      "llama3.1-8b_int4",
+      "llama3.1-8b_int8",
+      "qwen2.5-72b_int8"
+    ],
+    "missing_note": "Concealed18 unavailable; original refused traps not imputed",
+    "per_config": [
+      {
+        "config": "qwen2.5-32b_fp16",
+        "corrected216": {
+          "n": 216,
+          "unique_tasks": 216,
+          "intent_count": 12,
+          "impact_count": 55,
+          "gap_count": -43,
+          "intent_rate": 0.05555555555555555,
+          "impact_rate": 0.25462962962962965,
+          "gap_rate": -0.19907407407407407,
+          "intent_pct": 5.555555555555555,
+          "impact_pct": 25.462962962962962,
+          "gap_pp": -19.90740740740741
+        },
+        "excl_legit_high180": {
+          "n": 180,
+          "unique_tasks": 180,
+          "intent_count": 12,
+          "impact_count": 19,
+          "gap_count": -7,
+          "intent_rate": 0.06666666666666667,
+          "impact_rate": 0.10555555555555556,
+          "gap_rate": -0.03888888888888889,
+          "intent_pct": 6.666666666666667,
+          "impact_pct": 10.555555555555555,
+          "gap_pp": -3.888888888888889
+        }
+      },
+      {
+        "config": "qwen2.5-32b_int4",
+        "corrected216": {
+          "n": 216,
+          "unique_tasks": 216,
+          "intent_count": 5,
+          "impact_count": 49,
+          "gap_count": -44,
+          "intent_rate": 0.023148148148148147,
+          "impact_rate": 0.22685185185185186,
+          "gap_rate": -0.2037037037037037,
+          "intent_pct": 2.314814814814815,
+          "impact_pct": 22.685185185185187,
+          "gap_pp": -20.37037037037037
+        },
+        "excl_legit_high180": {
+          "n": 180,
+          "unique_tasks": 180,
+          "intent_count": 5,
+          "impact_count": 13,
+          "gap_count": -8,
+          "intent_rate": 0.027777777777777776,
+          "impact_rate": 0.07222222222222222,
+          "gap_rate": -0.044444444444444446,
+          "intent_pct": 2.7777777777777777,
+          "impact_pct": 7.222222222222222,
+          "gap_pp": -4.444444444444445
+        }
+      },
+      {
+        "config": "qwen2.5-32b_int8",
+        "corrected216": {
+          "n": 216,
+          "unique_tasks": 216,
+          "intent_count": 12,
+          "impact_count": 55,
+          "gap_count": -43,
+          "intent_rate": 0.05555555555555555,
+          "impact_rate": 0.25462962962962965,
+          "gap_rate": -0.19907407407407407,
+          "intent_pct": 5.555555555555555,
+          "impact_pct": 25.462962962962962,
+          "gap_pp": -19.90740740740741
+        },
+        "excl_legit_high180": {
+          "n": 180,
+          "unique_tasks": 180,
+          "intent_count": 12,
+          "impact_count": 19,
+          "gap_count": -7,
+          "intent_rate": 0.06666666666666667,
+          "impact_rate": 0.10555555555555556,
+          "gap_rate": -0.03888888888888889,
+          "intent_pct": 6.666666666666667,
+          "impact_pct": 10.555555555555555,
+          "gap_pp": -3.888888888888889
+        }
+      },
+      {
+        "config": "qwen2.5-72b_int4",
+        "corrected216": {
+          "n": 216,
+          "unique_tasks": 216,
+          "intent_count": 6,
+          "impact_count": 54,
+          "gap_count": -48,
+          "intent_rate": 0.027777777777777776,
+          "impact_rate": 0.25,
+          "gap_rate": -0.2222222222222222,
+          "intent_pct": 2.7777777777777777,
+          "impact_pct": 25.0,
+          "gap_pp": -22.22222222222222
+        },
+        "excl_legit_high180": {
+          "n": 180,
+          "unique_tasks": 180,
+          "intent_count": 6,
+          "impact_count": 18,
+          "gap_count": -12,
+          "intent_rate": 0.03333333333333333,
+          "impact_rate": 0.1,
+          "gap_rate": -0.06666666666666667,
+          "intent_pct": 3.3333333333333335,
+          "impact_pct": 10.0,
+          "gap_pp": -6.666666666666667
+        }
+      },
+      {
+        "config": "qwen2.5-7b_fp16",
+        "corrected216": {
+          "n": 216,
+          "unique_tasks": 216,
+          "intent_count": 37,
+          "impact_count": 71,
+          "gap_count": -34,
+          "intent_rate": 0.1712962962962963,
+          "impact_rate": 0.3287037037037037,
+          "gap_rate": -0.1574074074074074,
+          "intent_pct": 17.12962962962963,
+          "impact_pct": 32.870370370370374,
+          "gap_pp": -15.74074074074074
+        },
+        "excl_legit_high180": {
+          "n": 180,
+          "unique_tasks": 180,
+          "intent_count": 37,
+          "impact_count": 35,
+          "gap_count": 2,
+          "intent_rate": 0.20555555555555555,
+          "impact_rate": 0.19444444444444445,
+          "gap_rate": 0.011111111111111112,
+          "intent_pct": 20.555555555555557,
+          "impact_pct": 19.444444444444443,
+          "gap_pp": 1.1111111111111112
+        }
+      },
+      {
+        "config": "qwen2.5-7b_int4",
+        "corrected216": {
+          "n": 216,
+          "unique_tasks": 216,
+          "intent_count": 43,
+          "impact_count": 77,
+          "gap_count": -34,
+          "intent_rate": 0.19907407407407407,
+          "impact_rate": 0.35648148148148145,
+          "gap_rate": -0.1574074074074074,
+          "intent_pct": 19.90740740740741,
+          "impact_pct": 35.648148148148145,
+          "gap_pp": -15.74074074074074
+        },
+        "excl_legit_high180": {
+          "n": 180,
+          "unique_tasks": 180,
+          "intent_count": 43,
+          "impact_count": 41,
+          "gap_count": 2,
+          "intent_rate": 0.2388888888888889,
+          "impact_rate": 0.22777777777777777,
+          "gap_rate": 0.011111111111111112,
+          "intent_pct": 23.88888888888889,
+          "impact_pct": 22.77777777777778,
+          "gap_pp": 1.1111111111111112
+        }
+      },
+      {
+        "config": "qwen2.5-7b_int8",
+        "corrected216": {
+          "n": 216,
+          "unique_tasks": 216,
+          "intent_count": 37,
+          "impact_count": 71,
+          "gap_count": -34,
+          "intent_rate": 0.1712962962962963,
+          "impact_rate": 0.3287037037037037,
+          "gap_rate": -0.1574074074074074,
+          "intent_pct": 17.12962962962963,
+          "impact_pct": 32.870370370370374,
+          "gap_pp": -15.74074074074074
+        },
+        "excl_legit_high180": {
+          "n": 180,
+          "unique_tasks": 180,
+          "intent_count": 37,
+          "impact_count": 35,
+          "gap_count": 2,
+          "intent_rate": 0.20555555555555555,
+          "impact_rate": 0.19444444444444445,
+          "gap_rate": 0.011111111111111112,
+          "intent_pct": 20.555555555555557,
+          "impact_pct": 19.444444444444443,
+          "gap_pp": 1.1111111111111112
+        }
+      },
+      {
+        "config": "qwen3-14b_fp16",
+        "corrected216": {
+          "n": 216,
+          "unique_tasks": 216,
+          "intent_count": 54,
+          "impact_count": 90,
+          "gap_count": -36,
+          "intent_rate": 0.25,
+          "impact_rate": 0.4166666666666667,
+          "gap_rate": -0.16666666666666666,
+          "intent_pct": 25.0,
+          "impact_pct": 41.666666666666664,
+          "gap_pp": -16.666666666666668
+        },
+        "excl_legit_high180": {
+          "n": 180,
+          "unique_tasks": 180,
+          "intent_count": 54,
+          "impact_count": 54,
+          "gap_count": 0,
+          "intent_rate": 0.3,
+          "impact_rate": 0.3,
+          "gap_rate": 0.0,
+          "intent_pct": 30.0,
+          "impact_pct": 30.0,
+          "gap_pp": 0.0
+        }
+      },
+      {
+        "config": "qwen3-14b_int4",
+        "corrected216": {
+          "n": 216,
+          "unique_tasks": 216,
+          "intent_count": 55,
+          "impact_count": 90,
+          "gap_count": -35,
+          "intent_rate": 0.25462962962962965,
+          "impact_rate": 0.4166666666666667,
+          "gap_rate": -0.16203703703703703,
+          "intent_pct": 25.462962962962962,
+          "impact_pct": 41.666666666666664,
+          "gap_pp": -16.203703703703702
+        },
+        "excl_legit_high180": {
+          "n": 180,
+          "unique_tasks": 180,
+          "intent_count": 55,
+          "impact_count": 54,
+          "gap_count": 1,
+          "intent_rate": 0.3055555555555556,
+          "impact_rate": 0.3,
+          "gap_rate": 0.005555555555555556,
+          "intent_pct": 30.555555555555557,
+          "impact_pct": 30.0,
+          "gap_pp": 0.5555555555555556
+        }
+      },
+      {
+        "config": "qwen3-32b_fp16",
+        "corrected216": {
+          "n": 216,
+          "unique_tasks": 216,
+          "intent_count": 12,
+          "impact_count": 57,
+          "gap_count": -45,
+          "intent_rate": 0.05555555555555555,
+          "impact_rate": 0.2638888888888889,
+          "gap_rate": -0.20833333333333334,
+          "intent_pct": 5.555555555555555,
+          "impact_pct": 26.38888888888889,
+          "gap_pp": -20.833333333333332
+        },
+        "excl_legit_high180": {
+          "n": 180,
+          "unique_tasks": 180,
+          "intent_count": 12,
+          "impact_count": 21,
+          "gap_count": -9,
+          "intent_rate": 0.06666666666666667,
+          "impact_rate": 0.11666666666666667,
+          "gap_rate": -0.05,
+          "intent_pct": 6.666666666666667,
+          "impact_pct": 11.666666666666666,
+          "gap_pp": -5.0
+        }
+      },
+      {
+        "config": "qwen3-32b_int4",
+        "corrected216": {
+          "n": 216,
+          "unique_tasks": 216,
+          "intent_count": 24,
+          "impact_count": 60,
+          "gap_count": -36,
+          "intent_rate": 0.1111111111111111,
+          "impact_rate": 0.2777777777777778,
+          "gap_rate": -0.16666666666666666,
+          "intent_pct": 11.11111111111111,
+          "impact_pct": 27.77777777777778,
+          "gap_pp": -16.666666666666668
+        },
+        "excl_legit_high180": {
+          "n": 180,
+          "unique_tasks": 180,
+          "intent_count": 24,
+          "impact_count": 24,
+          "gap_count": 0,
+          "intent_rate": 0.13333333333333333,
+          "impact_rate": 0.13333333333333333,
+          "gap_rate": 0.0,
+          "intent_pct": 13.333333333333334,
+          "impact_pct": 13.333333333333334,
+          "gap_pp": 0.0
+        }
+      },
+      {
+        "config": "qwen3-8b_fp16",
+        "corrected216": {
+          "n": 216,
+          "unique_tasks": 216,
+          "intent_count": 34,
+          "impact_count": 69,
+          "gap_count": -35,
+          "intent_rate": 0.1574074074074074,
+          "impact_rate": 0.3194444444444444,
+          "gap_rate": -0.16203703703703703,
+          "intent_pct": 15.74074074074074,
+          "impact_pct": 31.944444444444443,
+          "gap_pp": -16.203703703703702
+        },
+        "excl_legit_high180": {
+          "n": 180,
+          "unique_tasks": 180,
+          "intent_count": 34,
+          "impact_count": 33,
+          "gap_count": 1,
+          "intent_rate": 0.18888888888888888,
+          "impact_rate": 0.18333333333333332,
+          "gap_rate": 0.005555555555555556,
+          "intent_pct": 18.88888888888889,
+          "impact_pct": 18.333333333333332,
+          "gap_pp": 0.5555555555555556
+        }
+      },
+      {
+        "config": "qwen3-8b_int4",
+        "corrected216": {
+          "n": 216,
+          "unique_tasks": 216,
+          "intent_count": 33,
+          "impact_count": 69,
+          "gap_count": -36,
+          "intent_rate": 0.1527777777777778,
+          "impact_rate": 0.3194444444444444,
+          "gap_rate": -0.16666666666666666,
+          "intent_pct": 15.277777777777779,
+          "impact_pct": 31.944444444444443,
+          "gap_pp": -16.666666666666668
+        },
+        "excl_legit_high180": {
+          "n": 180,
+          "unique_tasks": 180,
+          "intent_count": 33,
+          "impact_count": 33,
+          "gap_count": 0,
+          "intent_rate": 0.18333333333333332,
+          "impact_rate": 0.18333333333333332,
+          "gap_rate": 0.0,
+          "intent_pct": 18.333333333333332,
+          "impact_pct": 18.333333333333332,
+          "gap_pp": 0.0
+        }
+      }
+    ],
+    "pooled_available": {
+      "n": 2340,
+      "unique_tasks": 180,
+      "intent_count": 364,
+      "impact_count": 399,
+      "gap_count": -35,
+      "intent_rate": 0.15555555555555556,
+      "impact_rate": 0.17051282051282052,
+      "gap_rate": -0.014957264957264958,
+      "intent_pct": 15.555555555555555,
+      "impact_pct": 17.05128205128205,
+      "gap_pp": -1.4957264957264957
+    },
+    "note": "Co-primary descriptive label in this audit revision only, no historical prespecification or additional inferential endpoint claimed."
+  },
+  "limitations": [
+    "No GLMM refit. Old +2.519 archived as legacy16config, not confirmation on original12.",
+    "H1 Holm2 decision family is explicitly audit-revised now, not historically prespecified. Qwen3 remains separate exploratory.",
+    "McNemar conditions on discordant pairs and assumes independent task-level pairs. Shared synthetic templates and six domains mean exact arithmetic cannot establish that assumption. Finite corpus results do not generalize to new tasks, model populations, real finance or production.",
+    "Exact6^6 enumeration describes a discrete six-domain bootstrap distribution; coverage is approximate95%, exploratory/descriptive only, not an implicit legacy90% interval.",
+    "Normal90 differs from legacy nonattack144, which includes legit_high36 and pre-correction refused traps18. No corrected traps for all18 are imputed.",
+    "H2 withdrawn/nonidentified as empirical inference. True quantization/dtype not reconstructible; unequal pooled cell compositions. Legacy .084 arithmetic only.",
+    "Checkpoint6 sign sensitivities are illustrative, not validity substitutes. Shared tasks, related families/checkpoints and unequal serving counts remain dependence/weighting limits.",
+    "III-Gap_excl is co-primary descriptive only in this revision, not inferential or historical prespecification. Corrected concealed data available13, missing5.",
+    "Saved modal choices and deterministic mock scoring only. No network, GPU, real asset/model execution, serving validation, repeat-trace reconstruction or historical preregistration verification."
+  ],
+  "integrity": {
+    "semantic_before": "4373e44966138d67026d955306d2a48f26b20a343673299c8b4c7cb5bfdf3a6e",
+    "semantic_after": "4373e44966138d67026d955306d2a48f26b20a343673299c8b4c7cb5bfdf3a6e",
+    "all_data_results_files_unchanged": true,
+    "source_file_count": 84
+  }
+}

@@ -4,6 +4,7 @@ __pycache__/
 .env
 *.pem
 *.xlsx
+!supplements/S1_anonymous_reliability.xlsx
 *.docx
 *.pptx
 private-audit/

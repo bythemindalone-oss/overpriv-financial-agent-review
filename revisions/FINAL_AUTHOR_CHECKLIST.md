@@ -1,0 +1,10 @@
+# Final author checklist
+
+[blocked] Full manuscript edit: supply originalWordDOCX;amendmentpack is not the finalpaper.
+[blocked] ExactAIapplication/model/version,affectedfigures,and assistance-type: authordoesnotremember;discloseunknownandseekeditorialguidanceifrecordsremainunavailable.
+[blocked] Historicalrenderingfixcommit: notsupplied;currentderivativeisnotthatcommit.
+[blocked] GLMM12refit: dependenciesunavailable;auditedexactcomparisonsarenotafittedGLMMsubstitute.
+[blocked] Servingprecision,isolation,repeatedrawresponses,state snapshots: no originalevidence;claims narrowedaccordingly.
+[approval required] OldZenodofilevisibility/metadata,newcorrectedversionDOI,publicGitHubconversion,andjournal submission.
+
+Available: revisedstatisticaloutputs,cohort-separatedH3,finiteprimaryrates,source-hashpreservation,anonymousS1,S2unevaluateddesign,S3coverageandlimitations,proposedmanuscriptreplacementsandnewdata-derivedfigures.

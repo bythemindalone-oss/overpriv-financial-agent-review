@@ -1,0 +1,72 @@
+[
+  {
+    "id": "scope-rq2",
+    "page": 2,
+    "old": "In real-world, operationally deployed air-gapped LLM agent environments",
+    "new": "In a synthetic benchmark modeling air-gapped financial-operations LLM agents",
+    "why": "No independently established institutional deployment/isolation evidence."
+  },
+  {
+    "id": "abstract-size",
+    "page": 1,
+    "old": "four sizes (7 B–72 B)",
+    "new": "five model sizes (7 B–72 B)",
+    "why": "Trap configurations include7,8,14,32,72B."
+  },
+  {
+    "id": "endpoint-dual",
+    "page": 8,
+    "old": "Final violations are confirmed only when both axes agree (dual-confirmed), which suppresses false positives.",
+    "new": "Dual-confirmed events (I=1, E=1) are one joint-distribution diagnostic category. Agent-contributed missed escalation (I=0, E=1, L=0) is recorded separately as execution-level escalation that selection-log auditing misses; an AND-only rule is not used to define all adverse outcomes.",
+    "why": "An AND-only rule excludes principal endpoint."
+  },
+  {
+    "id": "co-primary",
+    "page": 8,
+    "old": "as a co-primary endpoint",
+    "new": "as a companion descriptive endpoint in this audit-revised analysis",
+    "why": "No independent co-primary decision rule established; revision must not be represented as historical preregistration."
+  },
+  {
+    "id": "figure6-interpret",
+    "page": 26,
+    "old": "a negative value indicates a configuration in which the agent-attributable component exceeds the definitional component",
+    "new": "a negative value means that agent-contributed missed escalation exceeds harmless over-selection on the L=0 subset; MEdef is excluded from this subset",
+    "why": "Gapexcl=HOexcl-MEagentexcl."
+  },
+  {
+    "id": "appendix-original",
+    "page": 33,
+    "old": "verbatim from the public corpus",
+    "new": "representative renderings derived from the released corpus and current harness; gold/trap arrows are editorial annotations, not fields sent to the model",
+    "why": "Canonical trap domain_desc missing and schemas differ."
+  },
+  {
+    "id": "placebo-length",
+    "page": 36,
+    "old": "matched to the disclosed annotation in token length",
+    "new": "matched to the disclosed annotation in effect-phrase word count and annotation structure",
+    "why": "No per-tokenizer length counts supplied."
+  },
+  {
+    "id": "ai-use",
+    "page": 22,
+    "old": "Anthropic Claude Cowork was used for language editing.",
+    "new": "Anthropic Claude was used for language editing and figure preparation. The exact application/model version, affected figures, and type of figure assistance could not be verified from the retained records; these details require author confirmation before final submission.",
+    "why": "Author confirms figure preparation but does not remember exact details."
+  },
+  {
+    "id": "lowerbound-rich",
+    "page": 19,
+    "old": "80.1% is therefore a lower bound on what it would miss in a richer regime",
+    "new": "80.1% is the observed condition-specific rate in this four-tool synthetic subset; whether a richer workflow increases or decreases this rate requires direct evaluation",
+    "why": "Transport/monotonicity untested."
+  },
+  {
+    "id": "lowerbound-docs",
+    "page": 19,
+    "old": "64.1% is a lower bound on the exposure that will remain at realistic levels of documentation",
+    "new": "64.1% is the observed residual rate under the disclosed annotation used here; no lower bound for other documentation regimes is established",
+    "why": "No dose-response or external deployment experiments."
+  }
+]

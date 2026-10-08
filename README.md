@@ -1,35 +1,27 @@
-# Measuring What Selection Logs Miss: artifact-evaluation preparation
+# Audit-revised evaluation package
 
-**PRIVATE PREPARATION. Not approved for public release or journal submission.**
+**PRIVATE REVISION. Human author approval and full-manuscript integration pending.**
 
-Curated evidence for the manuscript Measuring What Selection Logs Miss: A Deterministic Benchmark for Execution-Level Auditing of Air-Gapped Financial-Operations LLM Agents, by Hyung-Chul Lee and Bo-Young Kim. Original private development history remains unchanged. This new distribution history is not a claim that all historical work was manually authored.
+Original raw corpus/result evidence is preserved. Audit-revised analysis,graphics,and supplements are new dated outputs,not backdated original experiment evidence. The original private repository remains untouched.
 
-## Scope
-- 198 synthetic base tasks plus 18 trap tasks (216 total).
-- 18 base-stage configurations; 13 corrected trap-stage configurations under concealed, disclosed, and placebo conditions.
-- Four label sets exported as stable pseudonymous CSVs, preserving 792 tier/behavior votes. Files alone do not establish independence.
-- Core deterministic mock execution/scoring, no production systems or model weights.
-- Original result records preserved; four provenance files have documented host redaction.
+## Start here
+1. `python -X utf8 -I -B analysis/replay.py` checks finite saved-observation replay.
+2. `python -X utf8 -I -B analysis/reliability.py` checks anonymous paired labels.
+3. `python -X utf8 -I -B analysis/reanalysis.py` recomputes audit-revised statistics/cohorts.
+4. `revisions/statistics_revised.md` explains revisedH1,H2,H3 and dependence sensitivity.
+5. `revisions/replacement_passages.json` and targeted_replacements.json are manuscript edits awaiting the author’s DOCX.
+6. `supplements/MANIFEST.md` lists S1–S3 and new figures.
 
-## Offline evaluation
-Use Python 3.10+ from package root:
-1. `python -X utf8 analysis/reliability.py` recomputes annotation results.
-2. `python -X utf8 analysis/replay.py` replays selections and compares explicit paper expectations, without model calls.
+## Results and interpretation
+Concealed80.1%,disclosed64.1%,placebo78.8% are finite-benchmark rates on fourtools/twelve tasks per13 related configurations. No causal inference for verified precision or operational deployment is claimed. Exact tests and intervals carry documented task/cluster dependence limitations.
 
-The legacy `a20_fill_table6.py --validate` is NOT a real validation gate. Figure scripts use some paper-derived constants; successful redraw is not independent statistic reproduction. NumPy/SciPy/statsmodels/matplotlib were unavailable in this preparation environment; full inference and graphics reruns are not claimed.
+## Legacy analyses
+Original root a06/a07/a20 and drawing scripts are retained for provenance,not as the current manuscript analysis. Old GLMM+2.519 used16configurations,not a verified12configrefit. Legacy H2.084 and mislabeledH3interval are superseded by the new audit-revised report. Old --validate has no validation gate. Use new standard-library analysis outputs,not a successful old script exit as verification.
 
-## Reading guide
-- data/, overpriv/: corpus, taxonomy, mock execution, scoring.
-- results/runs/: original base-stage files, including faulty trap outcomes.
-- results/masked/, leaked_traps/, placebo/: concealed, disclosed, placebo.
-- annotation/: anonymous paired votes, consensus, reliability inputs/results.
-- figures/: supplied figures, not yet visually certified against PDF.
-- verification/: measured comparisons and unresolved limitations.
-- documentation/: redaction, correction/provenance caveats and manuscript-update checklist.
+## Raw vs derived inputs
+data/ and results/ preserve original evidence. revisions/rendering_inputs/ adds domain_desc for current prompt reconstruction only;it is not used to alter historical logs or hashes. Future experiments must use a new version and retain their own inputs/traces.
 
-## Public release gate
-Resolve discrepancies, obtain human-author approval, align manuscript URLs/AI disclosures, complete license/privacy review, and freeze an archived version. No new DOI is claimed.
+## Revision and approval limits
+Only PDF was supplied. Full formatted manuscript editing requires the DOCX,which the user indicated can be supplied. AI figure-use specifics remain unconfirmed and are explicitly noted. Existing Zenodo v1.2.0 is already public;its files have not been edited/restricted/deleted. No newDOI,publicGitHubconversion,reviewerinvitation,or journal submission performed.
 
-Code MIT; synthetic data CC-BY-4.0. Existing notices retained. Package preparation was AI-assisted at the author’s request; final responsibility and approval remain with human authors.
-
-Saved a06/a07 inferential outputs are historical comparisons only; inference has not been rerun here. Figure scripts need matplotlib and a08/trap_outcomes.csv.
+Code MIT;synthetic data CC-BY-4.0. Existing notices preserved. Raw source identity map remains outside this package.
