@@ -1,4 +1,4 @@
-# AI disclosure review, pending author approval
+# AI disclosure review
 
 The source manuscript states that Anthropic Claude Cowork was used for language editing. The author additionally confirmed use for figure preparation on 2026-10-08. The exact application, model/version, affected figure numbers, and whether the use was coding/layout assistance or generated visual content remain to be confirmed. No unsupported claim of sole manual creation or of validation of every figure is made here.
 

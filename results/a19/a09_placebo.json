@@ -1,0 +1,20 @@
+{
+  "concealed": {
+    "mean_pct": 80.1,
+    "min": 66.7,
+    "max": 100.0,
+    "n_configs": 13
+  },
+  "disclosed": {
+    "mean_pct": 64.1,
+    "min": 41.7,
+    "max": 91.7,
+    "n_configs": 13
+  },
+  "placebo": {
+    "mean_pct": 78.8,
+    "min": 66.7,
+    "max": 100.0,
+    "n_configs": 13
+  }
+}

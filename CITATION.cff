@@ -1,12 +1,20 @@
 cff-version: 1.2.0
-title: "Artifact-evaluation preparation: Measuring What Selection Logs Miss"
-message: "Private preparation, pending author approval. Cite only the frozen approved version after release."
-type: software
-version: "review-prep-2026-10-08"
+title: "Revision evidence package: Measuring What Selection Logs Miss"
+message: "If you use this benchmark, instrument or data, please cite the article and this archive."
+type: dataset
+version: "2.0.0"
 authors:
   - family-names: Lee
     given-names: Hyung-Chul
+    affiliation: "Seoul School of Integrated Sciences and Technologies (aSSIST University)"
   - family-names: Kim
     given-names: Bo-Young
-repository-code: "https://github.com/bythemindalone-oss/overpriv-financial-agent-review"
+    affiliation: "Seoul School of Integrated Sciences and Technologies (aSSIST University)"
 license: MIT
+repository-code: "https://github.com/bythemindalone-oss/overpriv-financial-agent-review"
+keywords:
+  - LLM agents
+  - over-privileged tool calling
+  - confused deputy
+  - execution-level auditing
+  - benchmark

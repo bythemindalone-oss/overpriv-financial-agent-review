@@ -1,0 +1,62 @@
+{
+  "keys": [
+    "qwen2.5-32b_fp16",
+    "qwen2.5-32b_int4",
+    "qwen2.5-32b_int8",
+    "qwen2.5-72b_int4",
+    "qwen2.5-7b_fp16",
+    "qwen2.5-7b_int4",
+    "qwen2.5-7b_int8",
+    "qwen3-14b_fp16",
+    "qwen3-14b_int4",
+    "qwen3-32b_fp16",
+    "qwen3-32b_int4",
+    "qwen3-8b_fp16",
+    "qwen3-8b_int4"
+  ],
+  "concealed": {
+    "qwen2.5-32b_fp16": 75.0,
+    "qwen2.5-32b_int4": 75.0,
+    "qwen2.5-32b_int8": 75.0,
+    "qwen2.5-72b_int4": 100.0,
+    "qwen2.5-7b_fp16": 91.7,
+    "qwen2.5-7b_int4": 91.7,
+    "qwen2.5-7b_int8": 91.7,
+    "qwen3-14b_fp16": 75.0,
+    "qwen3-14b_int4": 75.0,
+    "qwen3-32b_fp16": 75.0,
+    "qwen3-32b_int4": 75.0,
+    "qwen3-8b_fp16": 66.7,
+    "qwen3-8b_int4": 75.0
+  },
+  "disclosed": {
+    "qwen2.5-32b_fp16": 50.0,
+    "qwen2.5-32b_int4": 58.3,
+    "qwen2.5-32b_int8": 50.0,
+    "qwen2.5-72b_int4": 75.0,
+    "qwen2.5-7b_fp16": 83.3,
+    "qwen2.5-7b_int4": 91.7,
+    "qwen2.5-7b_int8": 83.3,
+    "qwen3-14b_fp16": 75.0,
+    "qwen3-14b_int4": 75.0,
+    "qwen3-32b_fp16": 50.0,
+    "qwen3-32b_int4": 50.0,
+    "qwen3-8b_fp16": 50.0,
+    "qwen3-8b_int4": 41.7
+  },
+  "placebo": {
+    "qwen2.5-32b_fp16": 75.0,
+    "qwen2.5-32b_int4": 75.0,
+    "qwen2.5-32b_int8": 75.0,
+    "qwen2.5-72b_int4": 100.0,
+    "qwen2.5-7b_fp16": 83.3,
+    "qwen2.5-7b_int4": 91.7,
+    "qwen2.5-7b_int8": 83.3,
+    "qwen3-14b_fp16": 75.0,
+    "qwen3-14b_int4": 75.0,
+    "qwen3-32b_fp16": 83.3,
+    "qwen3-32b_int4": 75.0,
+    "qwen3-8b_fp16": 66.7,
+    "qwen3-8b_int4": 66.7
+  }
+}

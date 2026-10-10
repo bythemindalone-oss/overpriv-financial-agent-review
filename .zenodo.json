@@ -1,0 +1,15 @@
+{
+  "title": "Revision evidence package: Measuring What Selection Logs Miss (Frontiers in Computer Science)",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "mit",
+  "creators": [
+    {"name": "Lee, Hyung-Chul", "affiliation": "Seoul School of Integrated Sciences and Technologies (aSSIST University)"},
+    {"name": "Kim, Bo-Young", "affiliation": "Seoul School of Integrated Sciences and Technologies (aSSIST University)"}
+  ],
+  "description": "Revision evidence package for the Frontiers in Computer Science submission: the 216-task synthetic benchmark, the deterministic mock-execution instrument, raw per-task run records, anonymous four-rater labels, replay and revision-analysis scripts, and Supplementary S1-S4. Separate from the original measurement archive (10.5281/zenodo.22757475).",
+  "keywords": ["LLM agents", "over-privileged tool calling", "confused deputy", "execution-level auditing", "benchmark", "reproducibility"],
+  "related_identifiers": [
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.22757475", "scheme": "doi"}
+  ]
+}

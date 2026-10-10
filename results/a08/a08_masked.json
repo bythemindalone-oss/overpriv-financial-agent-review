@@ -1,0 +1,38 @@
+{
+  "n_masked_configs": 13,
+  "n_leaked_configs": 13,
+  "masked": {
+    "trap_catch_pct": [
+      67.5,
+      50.0,
+      83.3
+    ],
+    "over_refusal_pct": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ME_agent_pct": [
+      53.4,
+      44.4,
+      66.7
+    ]
+  },
+  "leaked": {
+    "trap_catch_pct": [
+      50.0,
+      27.8,
+      72.2
+    ],
+    "over_refusal_pct": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ME_agent_pct": [
+      42.7,
+      27.8,
+      61.1
+    ]
+  }
+}

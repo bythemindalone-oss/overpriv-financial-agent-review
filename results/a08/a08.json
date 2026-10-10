@@ -1,0 +1,16 @@
+{
+  "n_trap_tasks": 18,
+  "n_configs": 18,
+  "F1_trap_in_menu": 18,
+  "F1_declared_eq_gold": 12,
+  "F2_description_leaked": 18,
+  "F3_total_decisions": 324,
+  "F3_refusals": 324,
+  "F3_over_refusals": 324,
+  "F3_trap_selected": 0,
+  "F3_refusal_rate": 1.0,
+  "verdict_zero_catch_is_artifact": true,
+  "selection_distribution": {
+    "null": 324
+  }
+}
